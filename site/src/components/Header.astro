@@ -1,0 +1,23 @@
+---
+import LogoMark from './LogoMark.astro';
+
+const path = Astro.url.pathname;
+const isOn = (route: string) => (route === '/' ? path === '/' : path === route);
+
+const links = [
+  { href: '/', label: 'Home' },
+  { href: '/services', label: 'Services' },
+  { href: '/work', label: 'Work' },
+  { href: '/about', label: 'About' },
+  { href: '/contact', label: 'Contact' },
+];
+---
+<header><div class="wrap"><nav>
+  <a class="logo" href="/"><span class="mark" aria-hidden="true"><LogoMark /></span>LucrumTech</a>
+  <div class="navlinks">
+    {links.map((l) => (
+      <a href={l.href} class={isOn(l.href) ? 'on' : undefined} aria-current={isOn(l.href) ? 'page' : undefined}>{l.label}</a>
+    ))}
+    <a class={`navcrisis${isOn('/interim') ? ' on' : ''}`} href="/interim" aria-current={isOn('/interim') ? 'page' : undefined}>Interim</a>
+  </div>
+</nav></div></header>
