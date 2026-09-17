@@ -1,0 +1,107 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import privacy from '../../data/privacy.json';
+
+type Lang = 'en' | 'es' | 'de' | 'fr';
+const LANGS: Lang[] = ['en', 'es', 'de', 'fr'];
+
+export function getStaticPaths() {
+  return [
+    { params: { lang: undefined }, props: { lang: 'en' } },
+    { params: { lang: 'es' }, props: { lang: 'es' } },
+    { params: { lang: 'de' }, props: { lang: 'de' } },
+    { params: { lang: 'fr' }, props: { lang: 'fr' } },
+  ];
+}
+
+const { lang } = Astro.props as { lang: Lang };
+const p = privacy[lang];
+
+const pathFor = (l: Lang) => (l === 'en' ? '/privacy' : `/privacy/${l}`);
+const alternates = [
+  ...LANGS.map((l) => ({ lang: l, path: pathFor(l) })),
+  { lang: 'x-default', path: '/privacy' },
+];
+
+const META: Record<Lang, string> = {
+  en: 'How LucrumTech collects, uses and protects your personal data, the cookies we set, and how to withdraw your consent.',
+  es: 'Cómo LucrumTech recopila, usa y protege tus datos personales, las cookies que usamos y cómo retirar tu consentimiento.',
+  de: 'Wie LucrumTech Ihre personenbezogenen Daten erhebt, verwendet und schützt, welche Cookies wir setzen und wie Sie Ihre Einwilligung widerrufen.',
+  fr: 'Comment LucrumTech collecte, utilise et protège vos données personnelles, les cookies utilisés et comment retirer votre consentement.',
+};
+---
+<Layout title={`${p.title} — LucrumTech`} description={META[lang]} lang={lang} alternates={alternates}>
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{p.title}</p>
+      <h1>{p.title}</h1>
+      <p class="sub" style="margin-top:14px">{p.updated}</p>
+
+      <nav class="langrow" aria-label="Language">
+        {LANGS.map((l) => (
+          <a href={pathFor(l)} class={l === lang ? 'on' : undefined} hreflang={l} lang={l} aria-current={l === lang ? 'page' : undefined}>
+            {privacy[l].label}
+          </a>
+        ))}
+      </nav>
+
+      <p class="lede" style="margin-top:26px">{p.intro}</p>
+
+      <div class="legal">
+        {p.sections.map((s, i) => (
+          <section class="legal-section">
+            <h2>{s.heading}</h2>
+            {s.body && <p>{s.body}</p>}
+
+            {s.table && (
+              <div class="tablewrap">
+                <table>
+                  <thead>
+                    <tr>{p.cookieTable.head.map((h) => <th>{h}</th>)}</tr>
+                  </thead>
+                  <tbody>
+                    {p.cookieTable.rows.map((row) => (
+                      <tr>{row.map((cell) => <td>{cell}</td>)}</tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
+
+            {/* Withdrawal is always the section before Contact; its copy promises this button. */}
+            {i === p.sections.length - 2 && (
+              <p style="margin-top:16px">
+                <button class="btn btn-quiet" type="button" id="cc-reopen">{p.withdrawBtn}</button>
+              </p>
+            )}
+          </section>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .langrow{display:flex; gap:18px; flex-wrap:wrap; margin-top:22px; padding-top:18px; border-top:1px solid var(--line-soft)}
+  .langrow a{font-size:14.5px; color:var(--t3); text-decoration:none; padding-bottom:2px; border-bottom:1px solid transparent}
+  .langrow a:hover{color:var(--t1)}
+  .langrow a.on{color:var(--t1); border-bottom-color:var(--accent); font-weight:600}
+
+  .legal{margin-top:10px}
+  .legal-section{padding:0; border:0; margin-top:30px}
+  .legal-section h2{font-size:19px; letter-spacing:0; margin-bottom:10px}
+  .legal-section p{font-size:16px; max-width:74ch; margin:0}
+
+  .tablewrap{overflow-x:auto; margin-top:16px; border:1px solid var(--line)}
+  table{border-collapse:collapse; width:100%; font-size:14.5px; min-width:640px}
+  th,td{text-align:left; padding:11px 14px; border-bottom:1px solid var(--line-soft); vertical-align:top}
+  th{font-size:12px; letter-spacing:.1em; text-transform:uppercase; color:var(--t3); font-weight:600; background:var(--s1)}
+  td{color:var(--t2)}
+  tbody tr:last-child td{border-bottom:0}
+</style>
+
+<script is:inline>
+  document.getElementById('cc-reopen')?.addEventListener('click', () => {
+    if (window.ltOpenConsent) window.ltOpenConsent();
+  });
+</script>

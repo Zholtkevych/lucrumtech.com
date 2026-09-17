@@ -1,0 +1,411 @@
+{
+  "en": {
+    "label": "English",
+    "title": "Privacy Policy",
+    "updated": "Last updated: June 2025",
+    "intro": "LucrumTech (\"we\", \"us\", \"our\") is committed to protecting your personal data. This Privacy Policy explains what data we collect, why we collect it, and your rights under the General Data Protection Regulation (GDPR) and the ePrivacy Directive.",
+    "back": "← Back to website",
+    "withdrawBtn": "🍪 Manage Cookie Preferences",
+    "sections": [
+      {
+        "heading": "1. Who we are",
+        "body": "LucrumTech is an AI-first product and engineering company headquartered in Berlin, Germany, operating within the European Union. Contact: hello@lucrumtech.com",
+        "table": false
+      },
+      {
+        "heading": "2. What data we collect",
+        "body": "We collect data only when you explicitly consent to it. This may include: browsing behaviour (pages visited, session duration, referral source) collected via Google Analytics 4 — only if you accept Analytics cookies; and preferences such as your chosen language and colour theme, stored locally in your browser.",
+        "table": false
+      },
+      {
+        "heading": "3. Legal basis for processing",
+        "body": "We process your data based on your freely given, specific, and informed consent (Article 6(1)(a) GDPR). You may withdraw this consent at any time. Strictly necessary data (e.g. session cookies required for the site to function) is processed under our legitimate interest in operating a secure and functional website.",
+        "table": false
+      },
+      {
+        "heading": "4. Google Analytics 4",
+        "body": "If you accept Analytics cookies, we use Google Analytics 4 (GA4) to understand how visitors interact with our website. GA4 collects anonymised data including pages visited, session duration, device type, and general geographic location (country/city level). No personally identifiable information is collected. Data is processed by Google LLC under a Data Processing Agreement compliant with GDPR. Google may transfer data to the United States under Standard Contractual Clauses. Retention period: 14 months. You can opt out of Google Analytics across all websites at: tools.google.com/dlpage/gaoptout",
+        "table": false
+      },
+      {
+        "heading": "5. Cookies",
+        "body": "We use cookies and similar local storage technologies. See the table below for details. Your preferences are stored in your browser's localStorage under the key \"lt_cookie_consent\". No cookies are set before you provide consent.",
+        "table": false
+      },
+      {
+        "heading": "6. Data sharing",
+        "body": "We do not sell, rent, or trade your personal data. We share data only with Google LLC (Analytics provider) when you have consented to analytics cookies. No other third parties receive your data from this website.",
+        "table": false
+      },
+      {
+        "heading": "7. Data retention",
+        "body": "Analytics data is retained for 14 months in Google Analytics, after which it is automatically deleted. Preference data (language, theme) is stored locally in your browser and is never sent to our servers. You can clear this data at any time by clearing your browser's local storage.",
+        "table": false
+      },
+      {
+        "heading": "8. Your rights",
+        "body": "Under the GDPR you have the right to: access the personal data we hold about you; request correction of inaccurate data; request deletion of your data (\"right to be forgotten\"); withdraw consent at any time without affecting the lawfulness of prior processing; lodge a complaint with your local supervisory authority. To exercise any right, contact us at hello@lucrumtech.com.",
+        "table": false
+      },
+      {
+        "heading": "9. Children's privacy",
+        "body": "Our website is not directed at children under the age of 16. We do not knowingly collect personal data from children. If you believe a child has provided us with personal data, please contact us immediately.",
+        "table": false
+      },
+      {
+        "heading": "10. Changes to this policy",
+        "body": "We may update this Privacy Policy from time to time. We will notify you of significant changes by updating the \"Last updated\" date at the top of this page. Continued use of the website after changes constitutes acceptance of the updated policy.",
+        "table": false
+      },
+      {
+        "heading": "Cookies we use",
+        "body": null,
+        "table": true
+      },
+      {
+        "heading": "Withdraw or change your consent",
+        "body": "You can update your cookie preferences at any time by clicking the button below. This will reopen the cookie consent panel.",
+        "table": false
+      },
+      {
+        "heading": "Contact",
+        "body": "For any privacy-related questions or to exercise your rights, contact us at hello@lucrumtech.com. We will respond within 30 days.",
+        "table": false
+      }
+    ],
+    "cookieTable": {
+      "head": [
+        "Cookie",
+        "Type",
+        "Purpose",
+        "Duration"
+      ],
+      "rows": [
+        [
+          "lt_cookie_consent",
+          "Necessary",
+          "Stores your cookie preferences so the consent modal does not appear on every visit.",
+          "Persistent (localStorage)"
+        ],
+        [
+          "lt_lang",
+          "Preferences",
+          "Remembers your selected language.",
+          "Session (sessionStorage)"
+        ],
+        [
+          "lt_theme",
+          "Preferences",
+          "Remembers your selected colour theme (dark/light).",
+          "Session (sessionStorage)"
+        ],
+        [
+          "_ga, _ga_*",
+          "Analytics",
+          "Google Analytics 4 — tracks unique visitors and session behaviour. Set only with your consent.",
+          "13 months"
+        ]
+      ]
+    },
+    "consent": {
+      "title": "Your Privacy, Your Choice",
+      "subtitle": "We use cookies to enhance your experience, analyse site traffic, and personalise content. You control exactly what we collect.",
+      "policyLink": "Privacy Policy →",
+      "customize": "Customize",
+      "reject": "Reject All",
+      "accept": "Accept All",
+      "footerBrand": "Cookie settings · LucrumTech",
+      "footerGdpr": "GDPR · ePrivacy",
+      "necessaryLabel": "Strictly Necessary",
+      "analyticsLabel": "Analytics"
+    }
+  },
+  "es": {
+    "label": "Español",
+    "title": "Política de privacidad",
+    "updated": "Última actualización: junio de 2025",
+    "intro": "LucrumTech se compromete a proteger tus datos personales. Esta política explica qué datos recopilamos, por qué y cuáles son tus derechos según el RGPD.",
+    "back": "← Volver al sitio",
+    "withdrawBtn": "🍪 Gestionar cookies",
+    "sections": [
+      {
+        "heading": "1. Quiénes somos",
+        "body": "LucrumTech es una empresa de desarrollo de productos con IA con sede en Berlín, Alemania. Contacto: hello@lucrumtech.com",
+        "table": false
+      },
+      {
+        "heading": "2. Datos recopilados",
+        "body": "Solo recopilamos datos con tu consentimiento explícito: comportamiento de navegación a través de Google Analytics 4 (si aceptas las cookies analíticas) y preferencias de idioma/tema almacenadas localmente.",
+        "table": false
+      },
+      {
+        "heading": "3. Base legal",
+        "body": "Procesamos tus datos con base en tu consentimiento (Art. 6(1)(a) RGPD). Puedes retirarlo en cualquier momento.",
+        "table": false
+      },
+      {
+        "heading": "4. Google Analytics 4",
+        "body": "Con tu consentimiento, GA4 recopila datos anonimizados: páginas visitadas, duración de sesión, tipo de dispositivo, ubicación aproximativa. No se recopilan datos personales identificables. Retención: 14 meses.",
+        "table": false
+      },
+      {
+        "heading": "5. Tus derechos",
+        "body": "Tienes derecho a acceder, rectificar, eliminar tus datos y retirar tu consentimiento. Contacto: hello@lucrumtech.com",
+        "table": false
+      },
+      {
+        "heading": "Cookies que usamos",
+        "body": null,
+        "table": true
+      },
+      {
+        "heading": "Retirar o cambiar tu consentimiento",
+        "body": "Puedes actualizar tus preferencias de cookies en cualquier momento haciendo clic en el botón de abajo.",
+        "table": false
+      },
+      {
+        "heading": "Contacto",
+        "body": "Para consultas sobre privacidad: hello@lucrumtech.com",
+        "table": false
+      }
+    ],
+    "cookieTable": {
+      "head": [
+        "Cookie",
+        "Type",
+        "Purpose",
+        "Duration"
+      ],
+      "rows": [
+        [
+          "lt_cookie_consent",
+          "Necesaria",
+          "Guarda tus preferencias de cookies.",
+          "Persistente (localStorage)"
+        ],
+        [
+          "lt_lang",
+          "Preferencias",
+          "Recuerda tu idioma.",
+          "Sesión"
+        ],
+        [
+          "lt_theme",
+          "Preferencias",
+          "Recuerda tu tema.",
+          "Sesión"
+        ],
+        [
+          "_ga, _ga_*",
+          "Analítica",
+          "Google Analytics 4 — solo con consentimiento.",
+          "13 meses"
+        ]
+      ]
+    },
+    "consent": {
+      "title": "Tu privacidad, tu elección",
+      "subtitle": "Usamos cookies para mejorar tu experiencia y analizar el tráfico del sitio. Tú controlas exactamente qué recopilamos.",
+      "policyLink": "Política de privacidad →",
+      "customize": "Personalizar",
+      "reject": "Rechazar todo",
+      "accept": "Aceptar todo",
+      "footerBrand": "Configuración de cookies · LucrumTech",
+      "footerGdpr": "GDPR · ePrivacy",
+      "necessaryLabel": "Estrictamente necesarias",
+      "analyticsLabel": "Analítica"
+    }
+  },
+  "de": {
+    "label": "Deutsch",
+    "title": "Datenschutzrichtlinie",
+    "updated": "Zuletzt aktualisiert: Juni 2025",
+    "intro": "LucrumTech verpflichtet sich zum Schutz Ihrer personenbezogenen Daten. Diese Richtlinie erklärt, welche Daten wir erheben, warum und welche Rechte Sie gemäß DSGVO haben.",
+    "back": "← Zurück zur Website",
+    "withdrawBtn": "🍪 Cookies verwalten",
+    "sections": [
+      {
+        "heading": "1. Wer wir sind",
+        "body": "LucrumTech ist ein KI-Produktentwicklungsunternehmen mit Sitz in Berlin, Deutschland. Kontakt: hello@lucrumtech.com",
+        "table": false
+      },
+      {
+        "heading": "2. Erhobene Daten",
+        "body": "Wir erheben Daten nur mit Ihrer ausdrücklichen Zustimmung: Surfverhalten via Google Analytics 4 (wenn Sie Analyse-Cookies akzeptieren) sowie Sprach- und Themeneinstellungen, die lokal gespeichert werden.",
+        "table": false
+      },
+      {
+        "heading": "3. Rechtsgrundlage",
+        "body": "Wir verarbeiten Ihre Daten auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können diese jederzeit widerrufen.",
+        "table": false
+      },
+      {
+        "heading": "4. Google Analytics 4",
+        "body": "Bei Akzeptanz von Analyse-Cookies erhebt GA4 anonymisierte Daten: besuchte Seiten, Sitzungsdauer, Gerätetyp, ungefährer Standort. Keine personenbezogenen Daten. Aufbewahrungsdauer: 14 Monate.",
+        "table": false
+      },
+      {
+        "heading": "5. Ihre Rechte",
+        "body": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Widerruf Ihrer Einwilligung. Kontakt: hello@lucrumtech.com",
+        "table": false
+      },
+      {
+        "heading": "Verwendete Cookies",
+        "body": null,
+        "table": true
+      },
+      {
+        "heading": "Einwilligung widerrufen oder ändern",
+        "body": "Sie können Ihre Cookie-Einstellungen jederzeit durch Klick auf den Button unten aktualisieren.",
+        "table": false
+      },
+      {
+        "heading": "Kontakt",
+        "body": "Für datenschutzbezogene Fragen: hello@lucrumtech.com",
+        "table": false
+      }
+    ],
+    "cookieTable": {
+      "head": [
+        "Cookie",
+        "Type",
+        "Purpose",
+        "Duration"
+      ],
+      "rows": [
+        [
+          "lt_cookie_consent",
+          "Notwendig",
+          "Speichert Ihre Cookie-Einstellungen.",
+          "Persistent (localStorage)"
+        ],
+        [
+          "lt_lang",
+          "Einstellungen",
+          "Speichert Ihre Sprachauswahl.",
+          "Sitzung"
+        ],
+        [
+          "lt_theme",
+          "Einstellungen",
+          "Speichert Ihr Theme.",
+          "Sitzung"
+        ],
+        [
+          "_ga, _ga_*",
+          "Analyse",
+          "Google Analytics 4 — nur mit Einwilligung.",
+          "13 Monate"
+        ]
+      ]
+    },
+    "consent": {
+      "title": "Ihre Privatsphäre, Ihre Wahl",
+      "subtitle": "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern und den Website-Verkehr zu analysieren. Sie bestimmen, was wir erfassen.",
+      "policyLink": "Datenschutzrichtlinie →",
+      "customize": "Anpassen",
+      "reject": "Alle ablehnen",
+      "accept": "Alle akzeptieren",
+      "footerBrand": "Cookie-Einstellungen · LucrumTech",
+      "footerGdpr": "GDPR · ePrivacy",
+      "necessaryLabel": "Unbedingt erforderlich",
+      "analyticsLabel": "Analyse"
+    }
+  },
+  "fr": {
+    "label": "Français",
+    "title": "Politique de confidentialité",
+    "updated": "Dernière mise à jour : juin 2025",
+    "intro": "LucrumTech s'engage à protéger vos données personnelles. Cette politique explique les données que nous collectons, pourquoi nous les collectons, et vos droits en vertu du RGPD.",
+    "back": "← Retour au site",
+    "withdrawBtn": "🍪 Gérer les cookies",
+    "sections": [
+      {
+        "heading": "1. Qui sommes-nous",
+        "body": "LucrumTech est une société de développement de produits IA basée à Berlin, Allemagne. Contact : hello@lucrumtech.com",
+        "table": false
+      },
+      {
+        "heading": "2. Données collectées",
+        "body": "Nous ne collectons des données qu'avec votre consentement explicite : comportement de navigation via Google Analytics 4 (si vous acceptez les cookies analytiques), et préférences de langue/thème stockées localement.",
+        "table": false
+      },
+      {
+        "heading": "3. Base légale",
+        "body": "Nous traitons vos données sur la base de votre consentement (Art. 6(1)(a) RGPD). Vous pouvez retirer ce consentement à tout moment.",
+        "table": false
+      },
+      {
+        "heading": "4. Google Analytics 4",
+        "body": "Si vous acceptez les cookies analytiques, GA4 collecte des données anonymisées : pages visitées, durée de session, type d'appareil, localisation approximative. Aucune donnée personnelle identifiable n'est collectée. Conservation : 14 mois.",
+        "table": false
+      },
+      {
+        "heading": "5. Vos droits",
+        "body": "Vous avez le droit d'accéder à vos données, de les rectifier, de les supprimer, et de retirer votre consentement. Contactez-nous à hello@lucrumtech.com.",
+        "table": false
+      },
+      {
+        "heading": "Cookies utilisés",
+        "body": null,
+        "table": true
+      },
+      {
+        "heading": "Retirer ou modifier votre consentement",
+        "body": "Vous pouvez mettre à jour vos préférences de cookies à tout moment en cliquant sur le bouton ci-dessous.",
+        "table": false
+      },
+      {
+        "heading": "Contact",
+        "body": "Pour toute question relative à la confidentialité : hello@lucrumtech.com",
+        "table": false
+      }
+    ],
+    "cookieTable": {
+      "head": [
+        "Cookie",
+        "Type",
+        "Purpose",
+        "Duration"
+      ],
+      "rows": [
+        [
+          "lt_cookie_consent",
+          "Nécessaire",
+          "Stocke vos préférences de cookies.",
+          "Persistant (localStorage)"
+        ],
+        [
+          "lt_lang",
+          "Préférences",
+          "Mémorise votre langue.",
+          "Session"
+        ],
+        [
+          "lt_theme",
+          "Préférences",
+          "Mémorise votre thème.",
+          "Session"
+        ],
+        [
+          "_ga, _ga_*",
+          "Analytique",
+          "Google Analytics 4 — uniquement avec consentement.",
+          "13 mois"
+        ]
+      ]
+    },
+    "consent": {
+      "title": "Votre confidentialité, votre choix",
+      "subtitle": "Nous utilisons des cookies pour améliorer votre expérience et analyser le trafic. Vous contrôlez exactement ce que nous collectons.",
+      "policyLink": "Politique de confidentialité →",
+      "customize": "Personnaliser",
+      "reject": "Tout refuser",
+      "accept": "Tout accepter",
+      "footerBrand": "Paramètres cookies · LucrumTech",
+      "footerGdpr": "GDPR · ePrivacy",
+      "necessaryLabel": "Strictement nécessaires",
+      "analyticsLabel": "Analytique"
+    }
+  }
+}

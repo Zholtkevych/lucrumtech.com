@@ -10,7 +10,7 @@ import Layout from '../layouts/Layout.astro';
       <p class="eyebrow">Contact</p>
       <h1>Tell us what you're building.</h1>
       <p class="lede" style="margin-top:24px">Thirty minutes. We'll ask what you're solving, who it's for, and what's blocking it — and tell you honestly how we'd approach it. No deck.</p>
-      <form class="form" id="contact-form" method="POST" action="/api/contact" novalidate>
+      <form class="form" id="contact-form" method="POST" action="/api/website/send-email" novalidate>
         <label for="f-name">Name</label>
         <input id="f-name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
         <label for="f-email">Email</label>
@@ -18,8 +18,8 @@ import Layout from '../layouts/Layout.astro';
         <label for="f-msg">Message</label>
         <textarea id="f-msg" name="message" rows="5" placeholder="What are you building, or what's broken?" required></textarea>
         <p class="hp-field" aria-hidden="true">
-          <label for="f-company">Company</label>
-          <input id="f-company" name="company" type="text" tabindex="-1" autocomplete="off">
+          <label for="f-ref">Reference</label>
+          <input id="f-ref" name="reference" type="text" tabindex="-1" autocomplete="off">
         </p>
         <p class="err" id="f-err">Something went wrong sending that — try again, or email us directly.</p>
         <button class="btn" id="f-send" type="submit">Book a strategy call</button>
@@ -34,15 +34,6 @@ import Layout from '../layouts/Layout.astro';
     const form = document.getElementById('contact-form') as HTMLFormElement;
     const err = document.getElementById('f-err') as HTMLParagraphElement;
     const ok = document.getElementById('f-ok') as HTMLParagraphElement;
-
-    // No-JS fallback: the backend redirects here with ?sent=1 / ?error=1
-    // after a plain form POST. Surface that, then clean the URL.
-    const params = new URLSearchParams(location.search);
-    if (params.has('sent') || params.has('error')) {
-      if (params.get('sent') === '1') ok.style.display = 'block';
-      if (params.get('error') === '1') err.style.display = 'block';
-      history.replaceState(null, '', location.pathname);
-    }
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
@@ -59,20 +50,24 @@ import Layout from '../layouts/Layout.astro';
         return;
       }
 
+      // Honeypot: real visitors never fill this. Pretend success, send nothing.
+      if ((form.elements.namedItem('reference') as HTMLInputElement).value.trim() !== '') {
+        ok.style.display = 'block';
+        form.reset();
+        return;
+      }
+
       const sendBtn = document.getElementById('f-send') as HTMLButtonElement;
       sendBtn.disabled = true;
 
       try {
-        const res = await fetch(form.action, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-          body: JSON.stringify({
-            name,
-            email,
-            message,
-            company: (form.elements.namedItem('company') as HTMLInputElement).value,
-          }),
-        });
+        // The email-api expects multipart/form-data (FastAPI Form fields).
+        const body = new FormData();
+        body.append('name', name);
+        body.append('email', email);
+        body.append('message', message);
+
+        const res = await fetch(form.action, { method: 'POST', body });
 
         if (!res.ok) throw new Error('send failed');
 

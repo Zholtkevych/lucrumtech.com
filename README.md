@@ -1,65 +1,87 @@
 # LucrumTech website
 
-- `site/` — the public site. Astro, static output. Routes are files under `site/src/pages/`:
-  `/` `/services` `/work` `/about` `/contact` `/interim` `/organisation`.
-- `server/` — the contact-form backend. Small Express service, sends mail via SMTP, nothing else.
-- `deploy/` — example Nginx config and systemd unit for the VPS.
-- `lucrumtech-clickable.html` — the original approved design prototype. Kept for reference; not part of the build.
+Astro static site for lucrumtech.com. No CMS — every page is a file you edit directly.
+
+- `site/` — the site. Routes are files under `site/src/pages/`:
+  `/` `/services` `/work` `/about` `/contact` `/interim` `/organisation`
+  `/privacy` `/privacy/es` `/privacy/de` `/privacy/fr`
+- `deploy/nginx-lucrumtech.conf` — the live Nginx server block.
+- `lucrumtech-clickable.html` — the original approved design prototype, kept for reference.
 
 ## Editing content
 
-Each page is a plain `.astro` file — HTML with a bit of templating, no CMS. Open the file for
-the route you want to change and edit the copy directly. Shared chrome (header, footer, fonts,
-colour tokens) lives in `site/src/layouts/Layout.astro` and `site/src/styles/global.css`.
+Open the `.astro` file for the route and edit the copy. Shared chrome (header, footer, fonts,
+colour tokens) is in `site/src/layouts/Layout.astro` and `site/src/styles/global.css`.
+
+Privacy policy text is data, not markup: `site/src/data/privacy.json`, keyed by language. It
+was extracted verbatim from the previous site. **The translations are abridged** — English has
+10 numbered sections, Spanish/German/French have 5 (they omit Cookies, Data sharing, Data
+retention, Children's privacy, and Changes to this policy). Worth completing, and it's legal
+text, so it should be written or reviewed by someone qualified rather than machine-translated.
 
 ## Local development
 
 ```
-cd site && npm install && npm run dev      # site at http://localhost:4321
-cd server && npm install && npm start      # backend at http://localhost:4310
+cd site && npm install && npm run dev      # http://localhost:4321
 ```
 
-Requests to `/api/contact` on the Astro dev server won't reach the backend on their own — that
-proxying only happens via the Nginx config in production. To test the form locally end to end,
-either run the backend on the same port your dev proxy expects, or just `curl` the backend
-directly at `http://localhost:4310/api/contact`.
+The contact form posts to `/api/website/send-email`, which only exists behind Nginx in
+production, so submissions fail locally. Validation and the consent banner work fine.
 
 ## Building
 
 ```
-cd site && npm run build      # outputs static HTML/CSS/JS to site/dist/
+cd site && npm run build      # -> site/dist/
 ```
 
-`site/astro.config.mjs` has a `SITE_URL` constant used for canonical links and the sitemap —
-confirm it matches your real domain before the first deploy.
+`site/astro.config.mjs` holds `SITE_URL`, which drives canonical URLs, `hreflang` and the
+sitemap. `build.format: 'file'` is deliberate: it emits `services.html` rather than
+`services/index.html` so each URL maps to one file and Nginx never 301s to add a slash.
 
-## Deploying to the VPS
+## Deploying
 
-1. Copy `site/dist/` to the webroot Nginx will serve (the example config uses
-   `/var/www/lucrumtech.com/dist`).
-2. Copy `server/` (minus `node_modules`) to the VPS, e.g. `/var/www/lucrumtech.com/server`, then
-   on the VPS: `npm install --omit=dev`.
-3. Copy `server/.env.example` to `server/.env` on the VPS and fill in real SMTP credentials —
-   never commit `.env`.
-4. Install the systemd unit: copy `deploy/lucrumtech-contact.service` to
-   `/etc/systemd/system/`, then `systemctl daemon-reload && systemctl enable --now
-   lucrumtech-contact`.
-5. Add the Nginx server block from `deploy/nginx.conf.example` (adjust paths/domain), then
-   `nginx -t && systemctl reload nginx`.
+The server is an OVH VPS at 57.129.63.250 (`ubuntu@`) that also hosts **formanova.solutions**,
+**spainrelocationhub.com**, **SCaAD**, a Mailcow mail stack, Jenkins, Elasticsearch and
+PostgreSQL. Be surgical: only ever touch `sites-available/lucrumtech`, and always
+`sudo nginx -t` before reloading, or you take down other production sites.
 
-After that, redeploying a content change is just: rebuild `site/`, re-copy `dist/` to the
-webroot, reload Nginx if you changed the config (you usually haven't). The backend only needs
-restarting if you change `server/` code or `.env`.
+```
+cd site && npm run build
+rsync -az --delete site/dist/ ubuntu@57.129.63.250:/tmp/lucrumtech-deploy/
+ssh ubuntu@57.129.63.250 'sudo rsync -a --delete /tmp/lucrumtech-deploy/ /var/www/lucrumtech/ \
+  && sudo chown -R www-data:www-data /var/www/lucrumtech && sudo nginx -t && sudo systemctl reload nginx'
+```
+
+Archives of the previous site live in `/var/www/_archive/` on the server.
 
 ## Contact form
 
-`POST /api/contact` accepts `{ name, email, message }` (JSON or form-encoded), validates them,
-and emails the submission to `MAIL_TO` (defaults to hello@lucrumtech.com) via the SMTP
-credentials in `.env`. It has a honeypot field (`company`, hidden in the UI) and a basic
-per-IP rate limit (5 submissions / 10 minutes) — no captcha, since this isn't public-internet
-scale traffic.
+`POST /api/website/send-email` is **not** part of this repo. It's `email-api.service`, a small
+FastAPI app at `/home/ubuntu/email-api` on the server, listening on `127.0.0.1:8001` and
+proxied by the Nginx block above. It accepts `multipart/form-data` (`name`, `email`,
+`message`, plus optional `company`/`topic`), sends via `mail.formanova.solutions:587` as
+`hello@lucrumtech.com`, and delivers to alex.zholtkevych@ and veronika.frontova@lucrumtech.com.
 
-## Logo / favicon assets
+The form's hidden `reference` field is a honeypot — bots that fill it get a fake success and
+nothing is sent. It's deliberately *not* called `company`, because that's a real field on the
+API.
 
-The nav mark and all favicon files are generated from `site/public/brand/logo-mark.svg`. To
-regenerate the PNG/ICO sizes after changing that source file: `cd site && npm run gen:icons`.
+## Analytics and consent
+
+Google Analytics `G-D6B36D4JXM`, carried over from the old site, wired through GA4 Consent
+Mode in `site/src/components/Analytics.astro`. Nothing loads until the visitor consents:
+`analytics_storage` defaults to `denied` and the gtag script is only injected on accept.
+
+`site/src/components/CookieConsent.astro` is the banner, in all four languages. It reuses the
+old site's `lt_cookie_consent` localStorage key, so anyone who already accepted or rejected
+carries their choice over and isn't re-prompted. The privacy page's "manage cookies" button
+reopens it so consent can be withdrawn.
+
+## Known gaps
+
+- No custom 404 page — unknown paths get Nginx's default. The old site never 404'd (the SPA
+  returned the homepage for everything), so this is new.
+- ES/DE/FR privacy translations are abridged (see above).
+- The restored policy says LucrumTech is "headquartered in Berlin, Germany"; the new site copy
+  says "distributed across the EU and Canada". One of the two is out of date.
+- Site is English-only; the old one had full ES/DE/FR. Only the privacy policy is translated.

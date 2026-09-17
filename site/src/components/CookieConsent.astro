@@ -1,0 +1,109 @@
+---
+import privacy from '../data/privacy.json';
+
+interface Props {
+  lang?: 'en' | 'es' | 'de' | 'fr';
+}
+const { lang = 'en' } = Astro.props;
+const c = privacy[lang].consent;
+const policyHref = lang === 'en' ? '/privacy' : `/privacy/${lang}`;
+---
+<div class="cc" id="cc" hidden>
+  <div class="cc-box" role="dialog" aria-modal="false" aria-labelledby="cc-title">
+    <h2 class="cc-title" id="cc-title">{c.title}</h2>
+    <p class="cc-sub">{c.subtitle}</p>
+    <p class="cc-link"><a href={policyHref}>{c.policyLink}</a></p>
+
+    <div class="cc-prefs" id="cc-prefs" hidden>
+      <label class="cc-row">
+        <input type="checkbox" checked disabled />
+        <span>{c.necessaryLabel}</span>
+      </label>
+      <label class="cc-row">
+        <input type="checkbox" id="cc-analytics" />
+        <span>{c.analyticsLabel}</span>
+      </label>
+    </div>
+
+    <div class="cc-actions">
+      <button class="cc-btn cc-ghost" id="cc-customize" type="button">{c.customize}</button>
+      <button class="cc-btn cc-outline" id="cc-reject" type="button">{c.reject}</button>
+      <button class="cc-btn cc-primary" id="cc-accept" type="button">{c.accept}</button>
+    </div>
+
+    <p class="cc-foot"><span>{c.footerBrand}</span><span>{c.footerGdpr}</span></p>
+  </div>
+</div>
+
+<style>
+  .cc{position:fixed; left:0; right:0; bottom:0; z-index:60; padding:16px; display:flex; justify-content:center}
+  .cc[hidden]{display:none}
+  .cc-box{background:#FFFFFF; border:1px solid #E3E3E0; box-shadow:0 -2px 24px rgba(26,29,33,.10); padding:22px 24px; max-width:1080px; width:100%}
+  .cc-title{font-size:17px; font-weight:600; color:#1A1D21; margin:0 0 6px; line-height:1.25}
+  .cc-sub{font-size:14.5px; color:#4E545C; margin:0 0 8px; max-width:74ch; line-height:1.6}
+  .cc-link{margin:0 0 4px}
+  .cc-link a{font-size:14px; color:#A8322A; font-weight:600; text-decoration:underline; text-underline-offset:3px}
+  .cc-prefs{margin:14px 0 4px; border-top:1px solid #ECECE9; padding-top:14px; display:flex; flex-direction:column; gap:10px}
+  .cc-prefs[hidden]{display:none}
+  .cc-row{display:flex; align-items:center; gap:10px; font-size:14.5px; color:#4E545C}
+  .cc-row input{width:16px; height:16px; accent-color:#A8322A}
+  .cc-actions{display:flex; gap:10px; flex-wrap:wrap; margin-top:16px}
+  .cc-btn{font-family:inherit; font-size:14.5px; font-weight:600; padding:11px 20px; border:0; cursor:pointer; background:none}
+  .cc-ghost{color:#4E545C; text-decoration:underline; text-underline-offset:3px; padding-left:0}
+  .cc-ghost:hover{color:#1A1D21}
+  .cc-outline{border:1px solid #E3E3E0; color:#4E545C; font-weight:400}
+  .cc-outline:hover{border-color:#7A8089; color:#1A1D21}
+  .cc-primary{background:#A8322A; color:#fff}
+  .cc-primary:hover{background:#8C2822}
+  .cc-foot{display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap; margin:16px 0 0; padding-top:12px; border-top:1px solid #ECECE9; font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:#7A8089; font-weight:600}
+  @media (max-width:640px){
+    .cc{padding:0}
+    .cc-box{padding:18px 16px; border-left:0; border-right:0; border-bottom:0}
+    .cc-actions .cc-btn{flex:1 1 auto}
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    const KEY = 'lt_cookie_consent';
+    const el = document.getElementById('cc');
+    if (!el) return;
+
+    function read() {
+      try { return JSON.parse(localStorage.getItem(KEY) || 'null'); } catch { return null; }
+    }
+    function save(analytics) {
+      try {
+        localStorage.setItem(KEY, JSON.stringify({ analytics, marketing: false, preferences: true, ts: Date.now() }));
+      } catch {}
+      window.gtag('consent', 'update', {
+        analytics_storage: analytics ? 'granted' : 'denied',
+        ad_storage: 'denied',
+        ad_user_data: 'denied',
+        ad_personalization: 'denied',
+      });
+      if (analytics) window.ltLoadGA();
+      el.hidden = true;
+    }
+
+    if (!read()) el.hidden = false;
+
+    document.getElementById('cc-customize').addEventListener('click', () => {
+      const p = document.getElementById('cc-prefs');
+      p.hidden = !p.hidden;
+    });
+    document.getElementById('cc-accept').addEventListener('click', () => save(true));
+    document.getElementById('cc-reject').addEventListener('click', () => save(false));
+
+    // Lets the privacy page reopen this to withdraw or change consent.
+    window.ltOpenConsent = function () {
+      const saved = read();
+      document.getElementById('cc-analytics').checked = !!(saved && saved.analytics);
+      document.getElementById('cc-prefs').hidden = false;
+      el.hidden = false;
+    };
+    document.getElementById('cc-analytics').addEventListener('change', function () {
+      save(this.checked);
+    });
+  })();
+</script>

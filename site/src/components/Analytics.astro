@@ -1,0 +1,39 @@
+---
+const GA_ID = 'G-D6B36D4JXM';
+---
+<script is:inline define:vars={{ GA_ID }}>
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = function () { window.dataLayer.push(arguments); };
+
+  // Consent Mode: deny everything until the visitor chooses. Nothing is set before then.
+  gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    wait_for_update: 500,
+  });
+
+  window.LT_CONSENT_KEY = 'lt_cookie_consent';
+  window.LT_GA_ID = GA_ID;
+
+  window.ltLoadGA = function () {
+    if (document.getElementById('gtag-script')) return;
+    const s = document.createElement('script');
+    s.id = 'gtag-script';
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    document.head.appendChild(s);
+    gtag('js', new Date());
+    gtag('config', GA_ID);
+  };
+
+  // Carry over a choice made previously, including on the old site.
+  try {
+    const saved = JSON.parse(localStorage.getItem('lt_cookie_consent') || 'null');
+    if (saved && saved.analytics) {
+      gtag('consent', 'update', { analytics_storage: 'granted' });
+      window.ltLoadGA();
+    }
+  } catch {}
+</script>
