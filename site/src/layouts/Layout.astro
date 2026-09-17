@@ -16,7 +16,12 @@ interface Props {
 }
 
 const { title, description, dark = false, lang = 'en', alternates } = Astro.props;
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+// build.format:'file' makes Astro.url.pathname carry the .html extension at build
+// time (/privacy.html), but the URLs we actually serve are extensionless. Canonical
+// has to match what visitors and crawlers hit, or /privacy and /privacy.html compete.
+const cleanPath = Astro.url.pathname.replace(/index\.html$/, '').replace(/\.html$/, '') || '/';
+const canonicalURL = new URL(cleanPath, Astro.site);
 ---
 <!DOCTYPE html>
 <html lang={lang} data-page={dark ? 'crisis' : undefined}>
