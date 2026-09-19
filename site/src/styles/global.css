@@ -39,7 +39,9 @@ nav{display:flex; align-items:center; gap:24px; height:64px}
 .navcrisis.on{border-bottom-color:#A8322A !important}
 
 .navtoggle{display:none; margin-left:auto; background:none; border:0; padding:10px 0 10px 10px; cursor:pointer; flex-direction:column; gap:5px; align-items:flex-end}
-.navtoggle span{display:block; width:22px; height:2px; background:#1A1D21; transition:transform .18s ease, opacity .18s ease}
+/* Brand red, matching the primary button — stays legible on white and survives
+   browser "force dark mode", which leaves a near-black bar invisible. */
+.navtoggle span{display:block; width:22px; height:2px; background:#A8322A; transition:transform .18s ease, opacity .18s ease}
 .navtoggle.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
 .navtoggle.open span:nth-child(2){opacity:0}
 .navtoggle.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
