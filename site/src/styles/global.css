@@ -38,6 +38,12 @@ nav{display:flex; align-items:center; gap:24px; height:64px}
 .navcrisis{margin-left:6px; padding-left:22px; border-left:1px solid #E3E3E0; color:#A8322A !important; font-weight:600}
 .navcrisis.on{border-bottom-color:#A8322A !important}
 
+.navtoggle{display:none; margin-left:auto; background:none; border:0; padding:10px 0 10px 10px; cursor:pointer; flex-direction:column; gap:5px; align-items:flex-end}
+.navtoggle span{display:block; width:22px; height:2px; background:#1A1D21; transition:transform .18s ease, opacity .18s ease}
+.navtoggle.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.navtoggle.open span:nth-child(2){opacity:0}
+.navtoggle.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
 .btn{display:inline-block; background:var(--btn-bg); color:var(--btn-fg); padding:14px 28px; font-weight:600; font-size:16px; text-decoration:none; border:0; cursor:pointer; font-family:inherit}
 .btn:hover{background:var(--btn-hover)}
 .btn-quiet{background:none; color:var(--t2); border:1px solid var(--line); padding:13px 24px; font-weight:400}
@@ -114,4 +120,27 @@ footer{padding:40px 0; color:var(--t3); font-size:14px}
   .workitem .row{grid-template-columns:1fr; gap:2px}
   .navlinks{gap:14px}
   .navlinks a{font-size:14px}
+}
+
+/* Six links stop fitting on one row at 560px. Rather than let them wrap out of
+   the fixed-height bar (which clipped the first row off-screen), collapse them
+   into a panel below the header. */
+@media (max-width:640px){
+  .navtoggle{display:flex}
+  .navlinks{
+    display:none; position:absolute; top:100%; left:0; right:0;
+    flex-direction:column; align-items:stretch; gap:0;
+    background:#FFFFFF; border-bottom:1px solid #E3E3E0;
+    padding:4px 28px 14px; margin-left:0;
+    max-height:calc(100vh - 64px); overflow-y:auto;
+    box-shadow:0 12px 24px rgba(26,29,33,.07);
+  }
+  .navlinks.open{display:flex}
+  .navlinks a{
+    font-size:16px; padding:13px 0; border-bottom:1px solid #ECECE9;
+    border-left:0; margin-left:0;
+  }
+  .navlinks a:last-child{border-bottom:0}
+  .navlinks a.on{border-bottom-color:#ECECE9; color:#1A1D21; font-weight:600}
+  .navcrisis{padding-left:0; border-left:0; margin-left:0}
 }

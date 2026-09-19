@@ -1,7 +1,8 @@
 ---
 import LogoMark from './LogoMark.astro';
+import { cleanPath } from '../lib/path';
 
-const path = Astro.url.pathname;
+const path = cleanPath(Astro.url.pathname);
 const isOn = (route: string) => (route === '/' ? path === '/' : path === route);
 
 const links = [
@@ -14,10 +15,47 @@ const links = [
 ---
 <header><div class="wrap"><nav>
   <a class="logo" href="/"><span class="mark" aria-hidden="true"><LogoMark /></span>LucrumTech</a>
-  <div class="navlinks">
+  <button class="navtoggle" id="navtoggle" type="button" aria-expanded="false" aria-controls="navlinks" aria-label="Menu">
+    <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+  </button>
+  <div class="navlinks" id="navlinks">
     {links.map((l) => (
       <a href={l.href} class={isOn(l.href) ? 'on' : undefined} aria-current={isOn(l.href) ? 'page' : undefined}>{l.label}</a>
     ))}
     <a class={`navcrisis${isOn('/interim') ? ' on' : ''}`} href="/interim" aria-current={isOn('/interim') ? 'page' : undefined}>Interim</a>
   </div>
 </nav></div></header>
+
+<noscript>
+  <style>
+    /* Without JS the toggle can't open the panel, so fall back to a wrapping
+       nav that grows the header instead of hiding links behind a dead button. */
+    @media (max-width:640px){
+      .navtoggle{display:none !important}
+      #navlinks{display:flex !important; position:static !important; flex-direction:row !important;
+        flex-wrap:wrap; padding:0 0 12px !important; border:0 !important; box-shadow:none !important}
+      #navlinks a{border-bottom:0 !important; padding:4px 0 !important; width:auto !important; margin-right:16px}
+      nav{height:auto !important; min-height:64px; flex-wrap:wrap; padding:10px 0}
+      .navcrisis{margin-left:0 !important; padding-left:0 !important; border-left:0 !important}
+    }
+  </style>
+</noscript>
+
+<script is:inline>
+  (function () {
+    const btn = document.getElementById('navtoggle');
+    const panel = document.getElementById('navlinks');
+    if (!btn || !panel) return;
+
+    const setOpen = (open) => {
+      panel.classList.toggle('open', open);
+      btn.classList.toggle('open', open);
+      btn.setAttribute('aria-expanded', String(open));
+    };
+
+    btn.addEventListener('click', () => setOpen(!panel.classList.contains('open')));
+    panel.addEventListener('click', (e) => { if (e.target.closest('a')) setOpen(false); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setOpen(false); });
+    window.addEventListener('resize', () => { if (window.innerWidth > 640) setOpen(false); });
+  })();
+</script>

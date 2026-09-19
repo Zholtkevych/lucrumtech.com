@@ -3,6 +3,7 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Analytics from '../components/Analytics.astro';
 import CookieConsent from '../components/CookieConsent.astro';
+import { cleanPath } from '../lib/path';
 import '../styles/global.css';
 
 type Lang = 'en' | 'es' | 'de' | 'fr';
@@ -17,11 +18,9 @@ interface Props {
 
 const { title, description, dark = false, lang = 'en', alternates } = Astro.props;
 
-// build.format:'file' makes Astro.url.pathname carry the .html extension at build
-// time (/privacy.html), but the URLs we actually serve are extensionless. Canonical
-// has to match what visitors and crawlers hit, or /privacy and /privacy.html compete.
-const cleanPath = Astro.url.pathname.replace(/index\.html$/, '').replace(/\.html$/, '') || '/';
-const canonicalURL = new URL(cleanPath, Astro.site);
+// Canonical has to match the URL visitors and crawlers actually hit, or
+// /privacy and /privacy.html compete as duplicates.
+const canonicalURL = new URL(cleanPath(Astro.url.pathname), Astro.site);
 ---
 <!DOCTYPE html>
 <html lang={lang} data-page={dark ? 'crisis' : undefined}>
