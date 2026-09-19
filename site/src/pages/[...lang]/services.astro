@@ -1,0 +1,48 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { localeParams, alternatesFor, localePath, type Locale } from '../../i18n/config';
+
+export function getStaticPaths() {
+  return localeParams();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const c = (await import(`../../content/${locale}/services.json`)).default;
+---
+<Layout title={c.title} description={c.description} lang={locale} basePath="/services" alternates={alternatesFor('/services')}>
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.eyebrow}</p>
+      <h1>{c.h1}</h1>
+      <p class="lede" style="margin-top:24px">{c.lede}</p>
+      <div class="grid2">
+        {c.blocks.map((b) => (
+          <div class="blk">
+            <h3>{b.h3}</h3>
+            <p>{b.p}</p>
+            <ul>{b.items.map((i) => <li>{i}</li>)}</ul>
+          </div>
+        ))}
+      </div>
+      <p class="sub" style="margin-top:34px">{c.note}</p>
+    </div>
+  </section>
+
+  <section class="tint">
+    <div class="wrap">
+      <p class="eyebrow">{c.pricing.eyebrow}</p>
+      <h2>{c.pricing.h2}</h2>
+      <div class="grid2">
+        {c.pricing.blocks.map((b) => (
+          <div class="blk">
+            <h3>{b.h3}</h3>
+            <p>{b.p}</p>
+            <ul>{b.items.map((i) => <li>{i}</li>)}</ul>
+          </div>
+        ))}
+      </div>
+      <p class="sub" style="margin-top:26px">{c.pricing.note}</p>
+      <div class="btnrow"><a class="btn" href={localePath(locale, '/contact')}>{c.pricing.cta}</a></div>
+    </div>
+  </section>
+</Layout>

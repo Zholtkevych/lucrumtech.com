@@ -1,0 +1,68 @@
+{
+  "title": "LucrumTech — Produktteams, die für das Ergebnis geradestehen",
+  "description": "LucrumTech bringt ein Produkt von der Idee zum Umsatz — Strategie, Architektur, Engineering und eine Person, die dafür geradesteht, dass es funktioniert.",
+  "hero": {
+    "h1": "Produktteams, die für das Ergebnis geradestehen.",
+    "h1Muted": "Kein weiterer Dienstleister, der Code liefert.",
+    "lede": "LucrumTech bringt ein Produkt von der Idee zum Umsatz — Strategie, Architektur, Engineering und eine Person, die dafür geradesteht, dass es funktioniert.",
+    "sub": "Verteilt über die EU und Kanada. Ein verantwortliches Team, von der Idee bis zum Umsatz.",
+    "cta": "Strategiegespräch buchen",
+    "stats": [
+      { "value": "6", "label": "ausgelieferte Produkte" },
+      { "value": "20+", "label": "Jahre Senior-Engineering" },
+      { "value": "24 Std.", "label": "Antwortzeit" }
+    ]
+  },
+  "panel": {
+    "q": "Kaputt, festgefahren oder auf dem Weg zum Enterprise-Kunden?",
+    "h3": "Manche Übergänge schafft ein Team nicht allein.",
+    "body": "Interim Leadership — Produkt, Delivery, Organisation, People. Zwei Wochen Diagnose, Festpreis, dann entscheiden Sie.",
+    "cta": "Sprechen Sie uns heute an",
+    "sub": "Wir können innerhalb von 72 Stunden starten."
+  },
+  "problem": {
+    "eyebrow": "Das Problem",
+    "h2": "Die meisten Technologieprojekte scheitern nicht an der Idee.",
+    "body": "Outsourcing-Dienstleister liefern Code. Niemand verantwortet, ob das Produkt funktioniert, ob die Architektur der Skalierung standhält oder ob es überhaupt jemand haben will. Am Ende steuern Sie den Dienstleister, statt das Geschäft aufzubauen.",
+    "strong": "Product Ownership ist die fehlende Rolle. Genau diese Rolle übernehmen wir."
+  },
+  "how": {
+    "eyebrow": "So läuft es ab",
+    "h2": "Nach zwei Wochen wissen Sie, ob wir die Richtigen sind.",
+    "steps": [
+      { "term": "Woche 1 — Bestandsaufnahme", "body": "Wir sehen uns an, was Sie haben, und sagen Ihnen ehrlich, was wir tun würden. Wenn es sich nicht lohnt, gebaut zu werden, sagen wir das." },
+      { "term": "Monat 1 — Fundament", "body": "Produktdefinition, Architektur, Roadmap. Alle Dokumente gehören Ihnen — unabhängig davon, ob Sie mit uns weitermachen." },
+      { "term": "Ab Monat 2 — Umsetzung", "body": "Senior Engineers, die liefern. Durchgehend eine verantwortliche Person." }
+    ],
+    "note": "Zwei Arten der Zusammenarbeit: Leadership-Beratung auf Stundenbasis oder ein Festpreispaket über drei bis sechs Monate, das Audit, Strategie und Umsetzung abdeckt — inklusive Delivery-Team. Wir sagen Ihnen, was Ihre Situation braucht."
+  },
+  "proof": {
+    "eyebrow": "Belege",
+    "h2": "Sechs ausgelieferte Produkte. Jedes davon noch in Produktion.",
+    "cases": [
+      { "tag": "Versicherung / KI", "name": "InHelper", "body": "Die Fallbearbeitung lief über manuelle Dokumentenbearbeitung und dauerte Tage. Wir haben eine KI-Plattform gebaut, die Schaden-PDFs ausliest, Anrufe transkribiert, strukturierte Daten extrahiert und die Berichte erzeugt. Die Bearbeitung sank von Tagen auf Stunden." },
+      { "tag": "Industrieautomatisierung", "name": "AMOS", "body": "Jede Umrüstung der Automatisierung war langsam und teuer, also experimentierte niemand. Wir haben eine Betriebsebene über einem Cloud-IoT-Backbone gebaut, die Automatisierungs-Workflows aus der Ferne auf laufenden Maschinen ausrollt und überwacht." }
+    ],
+    "cta": "Alle sechs Projekte ansehen →"
+  },
+  "team": {
+    "eyebrow": "Mit wem Sie arbeiten",
+    "h2": "Product Ownership ist keine Firma. Es ist ein Mensch.",
+    "people": [
+      { "name": "Alex Zholtkevych", "role": "— Produkt, Delivery, Engineering", "bio": "Über 20 Jahre in Big Tech, Telekommunikation, AdTech, FinTech, Versicherung und HealthTech. MSc Informatik. Über 25 ausgelieferte Produkte, von der Architektur bis zur Auslieferung." },
+      { "name": "Alina Ihnatenko", "role": "— Organisation, Führung, People", "bio": "Chief People Officer. Über 15 Jahre, davon über 11 in der Technologiebranche. Über 350 Mitarbeitende in Organisationen aufgebaut und skaliert, End-to-End-Umbauten in drei Monaten geliefert." },
+      { "name": "Veronika Frontova", "role": "— Recruiting", "bio": "Full-Cycle-Recruiting für technische und nicht-technische Rollen, von der Suche über das Onboarding bis zu den ersten 90 Tagen. Kanada, Ukraine und EU." }
+    ],
+    "note": "Dahinter: ein Delivery-Team aus sechs Engineers in der EU und Kanada — Full-Stack, Cloud, industrielle Systeme. Von uns aufgebaut und ausgebildet, von uns geführt, uns gegenüber verantwortlich."
+  },
+  "own": {
+    "eyebrow": "Wir übernehmen Verantwortung",
+    "h2": "Das Produkt, das gebaut werden muss. Die Umsetzung, die stockt. Die Organisation, die nicht mithält.",
+    "lede": "Immer dieselbe Antwort: ein verantwortliches Team, vor Ort, bis es funktioniert.",
+    "orgBefore": "Wenn die Organisation selbst der Engpass ist — Struktur, Führung, Verantwortung — dann ist das ",
+    "orgLink": "die andere Hälfte dessen, was wir tun",
+    "orgAfter": ".",
+    "cta": "Strategiegespräch buchen",
+    "meta": "hello@lucrumtech.com · Antwort innerhalb von 24 Stunden"
+  }
+}

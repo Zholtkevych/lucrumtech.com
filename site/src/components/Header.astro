@@ -1,28 +1,50 @@
 ---
 import LogoMark from './LogoMark.astro';
 import { cleanPath } from '../lib/path';
+import { LOCALES, LOCALE_LABELS, DEFAULT_LOCALE, localePath, type Locale } from '../i18n/config';
+import { UI } from '../i18n/ui';
 
+interface Props {
+  locale?: Locale;
+  /** Locale-independent path of this page, e.g. '/services'. Drives the switcher. */
+  basePath?: string;
+}
+const { locale = DEFAULT_LOCALE, basePath = '/' } = Astro.props;
+
+const t = UI[locale];
 const path = cleanPath(Astro.url.pathname);
-const isOn = (route: string) => (route === '/' ? path === '/' : path === route);
+const isOn = (route: string) => path === localePath(locale, route);
 
 const links = [
-  { href: '/', label: 'Home' },
-  { href: '/services', label: 'Services' },
-  { href: '/work', label: 'Work' },
-  { href: '/about', label: 'About' },
-  { href: '/contact', label: 'Contact' },
+  { route: '/', label: t.nav.home },
+  { route: '/services', label: t.nav.services },
+  { route: '/work', label: t.nav.work },
+  { route: '/about', label: t.nav.about },
+  { route: '/contact', label: t.nav.contact },
 ];
 ---
 <header><div class="wrap"><nav>
-  <a class="logo" href="/"><span class="mark" aria-hidden="true"><LogoMark /></span>LucrumTech</a>
-  <button class="navtoggle" id="navtoggle" type="button" aria-expanded="false" aria-controls="navlinks" aria-label="Menu">
+  <a class="logo" href={localePath(locale, '/')}><span class="mark" aria-hidden="true"><LogoMark /></span>LucrumTech</a>
+  <button class="navtoggle" id="navtoggle" type="button" aria-expanded="false" aria-controls="navlinks" aria-label={t.menu}>
     <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
   </button>
   <div class="navlinks" id="navlinks">
     {links.map((l) => (
-      <a href={l.href} class={isOn(l.href) ? 'on' : undefined} aria-current={isOn(l.href) ? 'page' : undefined}>{l.label}</a>
+      <a href={localePath(locale, l.route)} class={isOn(l.route) ? 'on' : undefined} aria-current={isOn(l.route) ? 'page' : undefined}>{l.label}</a>
     ))}
-    <a class={`navcrisis${isOn('/interim') ? ' on' : ''}`} href="/interim" aria-current={isOn('/interim') ? 'page' : undefined}>Interim</a>
+    <a class={`navcrisis${isOn('/interim') ? ' on' : ''}`} href={localePath(locale, '/interim')} aria-current={isOn('/interim') ? 'page' : undefined}>{t.nav.interim}</a>
+
+    <div class="navlang" role="group" aria-label={t.language}>
+      {LOCALES.map((l) => (
+        <a
+          href={localePath(l, basePath)}
+          class={l === locale ? 'on' : undefined}
+          hreflang={l}
+          lang={l}
+          aria-current={l === locale ? 'true' : undefined}
+        >{l.toUpperCase()}</a>
+      ))}
+    </div>
   </div>
 </nav></div></header>
 
@@ -37,6 +59,7 @@ const links = [
       #navlinks a{border-bottom:0 !important; padding:4px 0 !important; width:auto !important; margin-right:16px}
       nav{height:auto !important; min-height:64px; flex-wrap:wrap; padding:10px 0}
       .navcrisis{margin-left:0 !important; padding-left:0 !important; border-left:0 !important}
+      .navlang{margin-left:0 !important; padding-left:0 !important; border-left:0 !important; border-top:0 !important}
     }
   </style>
 </noscript>

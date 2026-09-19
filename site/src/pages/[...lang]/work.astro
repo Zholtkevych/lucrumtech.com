@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { localeParams, alternatesFor, localePath, type Locale } from '../../i18n/config';
+
+export function getStaticPaths() {
+  return localeParams();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const c = (await import(`../../content/${locale}/work.json`)).default;
+---
+<Layout title={c.title} description={c.description} lang={locale} basePath="/work" alternates={alternatesFor('/work')}>
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.eyebrow}</p>
+      <h1>{c.h1}</h1>
+      <p class="lede" style="margin-top:22px">{c.lede}</p>
+
+      {c.items.map((it) => (
+        <div class="workitem">
+          <span class="tag">{it.tag}</span><h3>{it.name}</h3>
+          {it.problem && <div class="row"><b>{c.labels.problem}</b><p>{it.problem}</p></div>}
+          {it.owned && <div class="row"><b>{c.labels.owned}</b><p>{it.owned}</p></div>}
+          {it.changed && <div class="row"><b>{c.labels.changed}</b><p>{it.changed}</p></div>}
+          {it.whatItIs && <div class="row"><b>{c.labels.whatItIs}</b><p>{it.whatItIs}</p></div>}
+        </div>
+      ))}
+
+      <div class="btnrow"><a class="btn" href={localePath(locale, '/contact')}>{c.cta}</a></div>
+    </div>
+  </section>
+</Layout>

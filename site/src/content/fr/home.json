@@ -1,0 +1,68 @@
+{
+  "title": "LucrumTech — Des équipes produit qui répondent du résultat",
+  "description": "LucrumTech mène un produit de l’idée au chiffre d’affaires : stratégie, architecture, ingénierie, et une personne qui répond de son bon fonctionnement.",
+  "hero": {
+    "h1": "Des équipes produit qui répondent du résultat.",
+    "h1Muted": "Pas un prestataire de plus qui livre du code.",
+    "lede": "LucrumTech mène un produit de l’idée au chiffre d’affaires : stratégie, architecture, ingénierie, et une personne qui répond de son bon fonctionnement.",
+    "sub": "Répartis entre l’UE et le Canada. Une seule équipe responsable, de l’idée au chiffre d’affaires.",
+    "cta": "Réserver un appel stratégique",
+    "stats": [
+      { "value": "6", "label": "produits livrés" },
+      { "value": "20+", "label": "ans d’ingénierie senior" },
+      { "value": "24 h", "label": "délai de réponse" }
+    ]
+  },
+  "panel": {
+    "q": "En panne, à l’arrêt ou en passage à l’enterprise ?",
+    "h3": "Certaines transitions, une équipe ne peut pas les mener seule.",
+    "body": "Direction de transition — produit, delivery, organisation, ressources humaines. Diagnostic de deux semaines, forfait fixe, puis vous décidez.",
+    "cta": "Parlons-en dès aujourd’hui",
+    "sub": "Nous pouvons démarrer sous 72 heures."
+  },
+  "problem": {
+    "eyebrow": "Le problème",
+    "h2": "La plupart des projets technologiques n’échouent pas sur l’idée.",
+    "body": "Les prestataires d’externalisation livrent du code. Personne ne répond du fait que le produit fonctionne, que l’architecture tienne la charge, ou que quelqu’un en veuille. Vous finissez par piloter le prestataire au lieu de construire l’entreprise.",
+    "strong": "La propriété du produit est le rôle manquant. C’est ce rôle que nous assumons."
+  },
+  "how": {
+    "eyebrow": "Comment ça marche",
+    "h2": "Au bout de deux semaines, vous saurez si nous sommes les bons.",
+    "steps": [
+      { "term": "Semaine 1 — État des lieux", "body": "Nous examinons l’existant et vous disons honnêtement ce que nous ferions. Si cela ne vaut pas la peine d’être construit, nous le disons." },
+      { "term": "Mois 1 — Fondations", "body": "Définition produit, architecture, feuille de route. Tous les documents vous appartiennent, que vous poursuiviez avec nous ou non." },
+      { "term": "À partir du mois 2 — Construction", "body": "Des ingénieurs seniors qui livrent. Une personne responsable d’un bout à l’autre." }
+    ],
+    "note": "Deux façons de travailler : du conseil de direction facturé à l’heure, ou un forfait couvrant l’audit, la stratégie et l’exécution sur trois à six mois — équipe de delivery incluse. Nous vous dirons ce dont votre situation a besoin."
+  },
+  "proof": {
+    "eyebrow": "Preuves",
+    "h2": "Six produits livrés. Tous encore en production.",
+    "cases": [
+      { "tag": "Assurance / IA", "name": "InHelper", "body": "Le traitement des dossiers reposait sur la manipulation manuelle de documents et prenait des jours. Nous avons construit une plateforme d’IA qui analyse les PDF de sinistres, transcrit les appels, extrait des données structurées et génère les rapports. Le traitement est passé de jours à heures." },
+      { "tag": "Automatisation industrielle", "name": "AMOS", "body": "Chaque changement d’automatisation était lent et coûteux, si bien que personne n’expérimentait. Nous avons construit une couche d’exploitation au-dessus d’une infrastructure IoT cloud, qui déploie et supervise à distance des flux d’automatisation sur des machines en production." }
+    ],
+    "cta": "Voir les six projets →"
+  },
+  "team": {
+    "eyebrow": "Avec qui vous travaillez",
+    "h2": "La propriété du produit n’est pas une entreprise. C’est une personne.",
+    "people": [
+      { "name": "Alex Zholtkevych", "role": "— produit, delivery, ingénierie", "bio": "Plus de 20 ans dans la Big Tech, les télécoms, l’AdTech, la FinTech, l’assurance et la HealthTech. Master en informatique. Plus de 25 produits livrés, de l’architecture à la mise en production." },
+      { "name": "Alina Ihnatenko", "role": "— organisation, leadership, ressources humaines", "bio": "Chief People Officer. Plus de 15 ans, dont plus de 11 dans la technologie. Plus de 350 personnes recrutées et équipes mises à l’échelle, avec des refontes complètes livrées en trois mois." },
+      { "name": "Veronika Frontova", "role": "— recrutement", "bio": "Recrutement de bout en bout sur des profils techniques et non techniques, du sourcing à l’intégration et aux 90 premiers jours. Canada, Ukraine et UE." }
+    ],
+    "note": "Derrière eux : une équipe de six ingénieurs en UE et au Canada — full-stack, cloud, systèmes industriels. Constituée et formée par nous, dirigée par nous, responsable devant nous."
+  },
+  "own": {
+    "eyebrow": "Nous en assumons la responsabilité",
+    "h2": "Le produit qu’il faut construire. La livraison qui s’est enlisée. L’organisation qui ne suit plus.",
+    "lede": "Toujours la même réponse : une équipe responsable, présente, jusqu’à ce que ça marche.",
+    "orgBefore": "Si c’est l’organisation elle-même qui bloque — structure, leadership, responsabilité — c’est ",
+    "orgLink": "l’autre moitié de ce que nous faisons",
+    "orgAfter": ".",
+    "cta": "Réserver un appel stratégique",
+    "meta": "hello@lucrumtech.com · Réponse sous 24 heures"
+  }
+}

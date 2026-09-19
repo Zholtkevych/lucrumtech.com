@@ -1,0 +1,48 @@
+{
+  "title": "Servicios — LucrumTech",
+  "description": "Estrategia, ingeniería, IA y liderazgo técnico en un único equipo responsable: no cuatro proveedores con cuatro contratos y nadie que responda por el resultado.",
+  "eyebrow": "Servicios",
+  "h1": "Todo lo necesario para hacerse cargo de un producto, en un solo equipo responsable.",
+  "lede": "Estrategia, ingeniería, IA y liderazgo técnico. No cuatro proveedores con cuatro contratos y nadie que responda por el resultado.",
+  "blocks": [
+    {
+      "h3": "Estrategia de producto",
+      "p": "Definimos qué construir antes de escribir una sola línea de código.",
+      "items": ["Validación de mercado y definición del problema", "Hoja de ruta y secuencia de lanzamientos", "Diseño de la arquitectura del sistema", "Selección tecnológica, con las decisiones documentadas"]
+    },
+    {
+      "h3": "Ingeniería",
+      "p": "Un equipo de entrega que hemos formado y entrenado nosotros mismos, dirigido por gente que ya ha lanzado productos.",
+      "items": ["Desarrollo de producto full-stack", "Infraestructura cloud e ingeniería de plataforma", "Plataformas empresariales e integraciones", "Software industrial y embebido, IoT"]
+    },
+    {
+      "h3": "Transformación con IA",
+      "p": "IA donde aporta valor real: construida para producción, no para demos.",
+      "items": ["Procesamiento inteligente de documentos a gran volumen", "Automatización de flujos con capas de decisión por IA", "Analítica predictiva sobre datos operativos", "Copilotos integrados en el propio flujo de trabajo", "Optimización con IA de procesos que ya tienes"]
+    },
+    {
+      "h3": "Liderazgo técnico",
+      "p": "Liderazgo tecnológico de nivel ejecutivo sin el coste de una posición a tiempo completo.",
+      "items": ["CTO fraccional", "Gestión de producto y responsabilidad de entrega", "Decisiones de arquitectura y due diligence técnica", "Evaluación de proveedores y equipos"]
+    }
+  ],
+  "note": "Mayor experiencia: fabricación y automatización industrial, seguros y FinTech, HealthTech. También hemos lanzado en SaaS, AdTech, telecomunicaciones, IoT y sistemas embebidos.",
+  "pricing": {
+    "eyebrow": "Cómo facturamos",
+    "h2": "Dos formas de trabajar. Te diremos cuál necesitas.",
+    "blocks": [
+      {
+        "h3": "Asesoría de liderazgo",
+        "p": "Tiempo directo con los tres: producto y entrega, organización, contratación. Para una duda concreta, una decisión sobre la que necesitas una segunda opinión o una revisión breve. Facturado por horas, sin compromiso ni mínimo.",
+        "items": ["Revisiones de arquitectura y tecnología", "Decisiones de producto y hoja de ruta", "Evaluación de proveedores o equipos"]
+      },
+      {
+        "h3": "Paquete — de tres a seis meses",
+        "p": "Para el trabajo que hay que asumir, no asesorar. Un precio que cubre la auditoría, el plan y la ejecución, con liderazgo y equipo de entrega incluidos, sin facturación por horas.",
+        "items": ["Auditoría completa de lo que existe hoy", "Estrategia, arquitectura y plan organizativo", "Ejecución: construir, reestructurar, contratar", "Nuestro equipo de entrega incluido en el precio", "Un único equipo responsable de principio a fin"]
+      }
+    ],
+    "note": "La mayoría de los proyectos empiezan con una revisión breve de pago. Al terminarla, ambos sabremos si el paquete es la opción adecuada.",
+    "cta": "Reserva una llamada estratégica"
+  }
+}

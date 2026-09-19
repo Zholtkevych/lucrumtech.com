@@ -1,0 +1,39 @@
+{
+  "title": "Organisation — LucrumTech",
+  "description": "Nous construisons l’organisation derrière l’entreprise : structure, leadership, personnes et modèle opérationnel. Pour les sociétés en création et celles qui ont dépassé leur structure.",
+  "eyebrow": "Organisation",
+  "h1": "La technologie construit le produit.",
+  "h1Muted": "C’est l’organisation qui lui permet de tenir à l’échelle.",
+  "lede": "Nous construisons l’organisation derrière l’entreprise : structure, leadership, personnes et modèle opérationnel. Pour les sociétés en cours de création, et pour celles qui ont dépassé la structure qui fonctionnait autrefois.",
+  "cta": "Réserver un échange",
+  "argument": {
+    "eyebrow": "Le raisonnement",
+    "h2": "Pas une équipe plus grande. Pas plus de processus. Le bon système pour l’étape suivante.",
+    "body": "Un excellent produit demande plus qu’une excellente technologie. Il demande le bon leadership, les bonnes compétences, les bonnes personnes, le bon modèle opérationnel.",
+    "body2": "Le travail peut commencer avant qu’il y ait une organisation, quand il n’y a qu’une idée. Ou lorsqu’une entreprise a dépassé la structure qui l’a menée jusqu’ici. Dans les deux cas, l’objectif est le même : construire l’organisation qui convient à l’entreprise que vous créez."
+  },
+  "model": {
+    "eyebrow": "Du modèle économique à l’organisation",
+    "h2": "La vraie question est rarement « qui devons-nous recruter ? »",
+    "body": "C’est plutôt : de quelle organisation cette entreprise a-t-elle besoin pour fonctionner, croître et créer de la valeur ?",
+    "chain": "Modèle économique → compétences → organisation → leadership → équipe → modèle opérationnel → lancement → mise à l’échelle",
+    "blocks": [
+      { "h3": "Stratégie et conception organisationnelle", "p": "Stratégie RH, conception organisationnelle, planification des effectifs, architecture de leadership, gestion de la performance, culture." },
+      { "h3": "Création et mise à l’échelle d’entreprise", "p": "Architecture organisationnelle, conception des équipes, compétences critiques, équipe dirigeante, stratégie de recrutement, interne ou externalisé, modèle de croissance." },
+      { "h3": "Transformation et restructuration", "p": "Audit organisationnel, refonte, modèle opérationnel, rôles et responsabilités, transitions de direction, reconstruction d’équipe." },
+      { "h3": "Executive search et recrutements critiques", "p": "Postes de C-level, VP et responsables de département — de la recherche et l’évaluation jusqu’à la sélection, l’offre et l’intégration à 90 jours." }
+    ]
+  },
+  "hiring": {
+    "eyebrow": "Recrutement",
+    "h2": "Une recrue qui part au troisième mois n’a jamais été une recrue.",
+    "body": "Le recrutement suit un processus défini — du cadrage à l’intégration et au suivi de la période d’essai, tracé dans un ATS avec des délais de réponse convenus à chaque étape. Pas de boîte noire, pas de candidat laissé sans nouvelles pendant trois semaines.",
+    "body2": "La plupart des entretiens vérifient si quelqu’un sait faire le travail. Nous évaluons trois choses : la compétence, l’adéquation avec la façon dont l’équipe travaille réellement, et si la personne aura encore envie d’être là dans deux ans. Ce que l’entretien révèle façonne ensuite l’intégration — les 90 premiers jours sont construits autour de cette personne précise, pas d’un modèle type."
+  },
+  "track": {
+    "eyebrow": "Antécédents",
+    "h2": "Plus de 15 ans. Plus de 350 personnes recrutées et équipes mises à l’échelle.",
+    "body": "Plus de 11 ans dans la technologie. Refontes organisationnelles complètes livrées en trois mois. Dans l’informatique, l’externalisation et la délégation de personnel, les produits technologiques, la FinTech, les médias, les entreprises internationales, les groupes, les structures de holding et les filiales.",
+    "cta": "Réserver un échange"
+  }
+}

@@ -1,36 +1,29 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import privacy from '../../data/privacy.json';
-
-type Lang = 'en' | 'es' | 'de' | 'fr';
-const LANGS: Lang[] = ['en', 'es', 'de', 'fr'];
+import { localeParams, alternatesFor, LOCALES, localePath, type Locale } from '../../i18n/config';
 
 export function getStaticPaths() {
-  return [
-    { params: { lang: undefined }, props: { lang: 'en' } },
-    { params: { lang: 'es' }, props: { lang: 'es' } },
-    { params: { lang: 'de' }, props: { lang: 'de' } },
-    { params: { lang: 'fr' }, props: { lang: 'fr' } },
-  ];
+  return localeParams();
 }
 
-const { lang } = Astro.props as { lang: Lang };
-const p = privacy[lang];
+const { locale } = Astro.props as { locale: Locale };
+const p = privacy[locale];
 
-const pathFor = (l: Lang) => (l === 'en' ? '/privacy' : `/privacy/${l}`);
-const alternates = [
-  ...LANGS.map((l) => ({ lang: l, path: pathFor(l) })),
-  { lang: 'x-default', path: '/privacy' },
-];
-
-const META: Record<Lang, string> = {
+const META: Record<Locale, string> = {
   en: 'How LucrumTech collects, uses and protects your personal data, the cookies we set, and how to withdraw your consent.',
   es: 'Cómo LucrumTech recopila, usa y protege tus datos personales, las cookies que usamos y cómo retirar tu consentimiento.',
   de: 'Wie LucrumTech Ihre personenbezogenen Daten erhebt, verwendet und schützt, welche Cookies wir setzen und wie Sie Ihre Einwilligung widerrufen.',
   fr: 'Comment LucrumTech collecte, utilise et protège vos données personnelles, les cookies utilisés et comment retirer votre consentement.',
 };
 ---
-<Layout title={`${p.title} — LucrumTech`} description={META[lang]} lang={lang} alternates={alternates}>
+<Layout
+  title={`${p.title} — LucrumTech`}
+  description={META[locale]}
+  lang={locale}
+  basePath="/privacy"
+  alternates={alternatesFor('/privacy')}
+>
   <section>
     <div class="wrap">
       <p class="eyebrow">{p.title}</p>
@@ -38,8 +31,8 @@ const META: Record<Lang, string> = {
       <p class="sub" style="margin-top:14px">{p.updated}</p>
 
       <nav class="langrow" aria-label="Language">
-        {LANGS.map((l) => (
-          <a href={pathFor(l)} class={l === lang ? 'on' : undefined} hreflang={l} lang={l} aria-current={l === lang ? 'page' : undefined}>
+        {LOCALES.map((l) => (
+          <a href={localePath(l, '/privacy')} class={l === locale ? 'on' : undefined} hreflang={l} lang={l} aria-current={l === locale ? 'page' : undefined}>
             {privacy[l].label}
           </a>
         ))}

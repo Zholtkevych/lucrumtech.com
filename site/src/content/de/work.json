@@ -1,0 +1,49 @@
+{
+  "title": "Referenzen — LucrumTech",
+  "description": "Sechs ausgelieferte Produkte, jedes davon noch in Produktion — KI-Plattformen, Industrieautomatisierung, Enterprise-Systeme und digitale Produkte.",
+  "eyebrow": "Referenzen",
+  "h1": "Sechs ausgelieferte Produkte. Jedes davon noch in Produktion.",
+  "lede": "KI-Plattformen, Industrieautomatisierung, Enterprise-Systeme und digitale Produkte.",
+  "labels": { "problem": "Das Problem", "owned": "Was wir verantwortet haben", "changed": "Was sich geändert hat", "whatItIs": "Worum es geht" },
+  "items": [
+    {
+      "tag": "Versicherung / KI",
+      "name": "InHelper",
+      "problem": "Die Bearbeitung von Versicherungsfällen hing an manueller Dokumentenbearbeitung und manueller Berichterstellung. Ein einzelner Fall dauerte Tage, und die Last lag bei Menschen, die eigentlich Schäden prüfen sollten.",
+      "owned": "Die gesamte Plattform — von der Architektur bis zur Auslieferung. PDF-Auswertung, Anruftranskription, Extraktion strukturierter Daten und automatische Berichterstellung in einem Workflow.",
+      "changed": "Die Bearbeitung sank von Tagen auf Stunden. Die Berichtsgenauigkeit stieg, der Verwaltungsaufwand sank."
+    },
+    {
+      "tag": "Industrieautomatisierung",
+      "name": "AMOS",
+      "problem": "Die Automatisierung einer Produktionslinie zu ändern war langsam und teuer, sodass der Hersteller faktisch nicht experimentieren konnte. Jede Anpassung verursachte Umrüstkosten, die Iteration unwirtschaftlich machten.",
+      "owned": "Eine Betriebsebene für Automatisierung über einem Cloud-IoT-Backbone. Engineering-Teams rollen Workflow-Änderungen aus der Ferne auf laufende Produktionssysteme aus, passen die Logik an realer Anlagentechnik an und überwachen die Ausführungszyklen im Betrieb.",
+      "changed": "Schnellere Rollouts, weniger Stillstand, bessere Sicht auf den Betrieb. Experimente, die zu teuer gewesen waren, wurden zur Routine."
+    },
+    {
+      "tag": "Fertigung",
+      "name": "Order-to-Execution",
+      "problem": "Produktionsaufträge wurden von Hand in Spezialmaschinen eingetippt. Die manuelle Eingabe führte zu Verzögerungen und wiederkehrenden Fehlern in der Fertigung.",
+      "owned": "Ein Windows-basiertes Automatisierungssystem, das freigegebene Aufträge übernimmt und Produktkonfigurationen, Maßvorgaben und Maschinenparameter direkt in maschinenfertige Anweisungen übersetzt.",
+      "changed": "Die manuelle Eingabe durch Bedienpersonal entfiel im Auftragsweg, Fehler gingen zurück und die Produktionsabläufe wurden schneller."
+    },
+    {
+      "tag": "IoT / Analytics",
+      "name": "Machine Monitoring",
+      "problem": "Die meisten Maschinen in der Halle waren an kein Netzwerk angebunden. Alarme, Warnungen oder Durchsatz waren nur direkt an der Anlage einsehbar.",
+      "owned": "Ein Überwachungssystem, das mit IoT-Kameras die Bildschirmausgabe der Maschinen direkt ausliest — ohne Nachrüstung, ohne Maschinenintegration — und Alarme sowie Betriebskennzahlen in strukturierte Analysen überführt.",
+      "changed": "Störungen werden früher erkannt, Stillstandzeiten sanken, und der Betrieb hat Sicht auf Anlagen, die zuvor unsichtbar waren."
+    },
+    {
+      "tag": "AdTech / KI",
+      "name": "WhatIf",
+      "whatItIs": "Eine KI-Analyseplattform für Installationswerbung — Analyse der Kampagnenleistung, Erkennung von Verhaltensmustern, Conversion-Analytics und automatisierte Empfehlungen."
+    },
+    {
+      "tag": "Kommunikation",
+      "name": "nuMessage",
+      "whatItIs": "Eine sichere Kommunikationsplattform — verschlüsselte Nachrichten und Sprache auf einer Privacy-first-Architektur."
+    }
+  ],
+  "cta": "Sie bauen etwas Ähnliches? Gespräch vereinbaren"
+}

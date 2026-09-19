@@ -1,0 +1,49 @@
+{
+  "title": "Work — LucrumTech",
+  "description": "Six products shipped, every one still in production — AI platforms, industrial automation, enterprise systems and digital products.",
+  "eyebrow": "Work",
+  "h1": "Six products shipped. Every one still in production.",
+  "lede": "AI platforms, industrial automation, enterprise systems and digital products.",
+  "labels": { "problem": "The problem", "owned": "What we owned", "changed": "What changed", "whatItIs": "What it is" },
+  "items": [
+    {
+      "tag": "Insurance / AI",
+      "name": "InHelper",
+      "problem": "Insurance case processing depended on manual document handling and manual reporting. A single case took days, and the load fell on people who should have been assessing claims.",
+      "owned": "The full platform — architecture through delivery. PDF parsing, call transcription, structured data extraction and automated report generation in one workflow.",
+      "changed": "Processing dropped from days to hours. Reporting accuracy improved and administrative workload fell."
+    },
+    {
+      "tag": "Industrial automation",
+      "name": "AMOS",
+      "problem": "Changing automation on a production line was slow and expensive, so the manufacturer effectively couldn't experiment. Every adjustment carried a changeover cost that made iteration uneconomic.",
+      "owned": "An automation operating layer over a cloud IoT backbone. Engineering teams deploy workflow changes to live production systems remotely, adjust logic against real equipment, and monitor execution cycles as they run.",
+      "changed": "Faster deployment, less downtime, better operational visibility. Experimentation that had been too costly became routine."
+    },
+    {
+      "tag": "Manufacturing",
+      "name": "Order-to-Execution",
+      "problem": "Production orders were typed into specialised equipment by hand. Manual entry meant delays and recurring errors on the factory floor.",
+      "owned": "A Windows-based automation system that takes validated orders and translates product configurations, sizing specifications and machine parameters directly into machine-ready instructions.",
+      "changed": "Manual operator input was eliminated from the order path, errors fell, and production workflows ran faster."
+    },
+    {
+      "tag": "IoT / analytics",
+      "name": "Machine Monitoring",
+      "problem": "Most machines on the floor weren't connected to any network. There was no way to see alerts, warnings or throughput without standing in front of the equipment.",
+      "owned": "A monitoring system using IoT cameras to read machine screen output directly — no retrofit, no machine integration — converting alerts and operational indicators into structured analytics.",
+      "changed": "Failures get caught earlier, downtime fell, and operations gained visibility into equipment that had been invisible."
+    },
+    {
+      "tag": "AdTech / AI",
+      "name": "WhatIf",
+      "whatItIs": "An AI analytics platform for installation advertising — campaign performance analysis, behaviour pattern recognition, conversion analytics and automated recommendations."
+    },
+    {
+      "tag": "Communications",
+      "name": "nuMessage",
+      "whatItIs": "A secure communication platform — encrypted messaging and voice on a privacy-first architecture."
+    }
+  ],
+  "cta": "Building something similar? Book a call"
+}

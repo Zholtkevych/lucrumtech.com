@@ -1,0 +1,63 @@
+{
+  "title": "Interim leadership — LucrumTech",
+  "description": "Interim leadership for three moments: when something has broken, when the company has stopped moving, and when it's scaling into enterprise. We can start within 72 hours.",
+  "hero": {
+    "h1": "Some transitions a team can't run on its own.",
+    "h1Muted": "We come in and own them.",
+    "lede": "Interim leadership for three moments: when something has broken, when the company has stopped moving, and when it's scaling into enterprise and the old way of working has stopped working.",
+    "lede2": "We find what's actually wrong and fix it. Not a deck. Not a recommendation. Ownership until it works.",
+    "strong": "We can start within 72 hours.",
+    "cta": "Talk to us today"
+  },
+  "diagnosis": {
+    "eyebrow": "The diagnosis principle",
+    "h2": "The visible problem is usually not the real problem.",
+    "body": "A hiring problem is often an organisational design problem. A performance problem is often a leadership problem. A retention problem is often a management problem. A delivery problem is often a decision-making problem.",
+    "body2": "Most interventions fail because they treat the symptom that is loudest rather than the cause that is upstream. We start by finding which one you actually have."
+  },
+  "symptoms": {
+    "eyebrow": "Three ways companies get here",
+    "h2": "You'll recognise one of these.",
+    "groups": [
+      {
+        "h3": "01 — Something has broken",
+        "items": ["Releases keep slipping and nobody can say what ships next", "The architecture won't take the load and the team is permanently firefighting", "Key people are leaving and you don't know why yet", "A management layer is the problem and nobody will say it out loud"]
+      },
+      {
+        "h3": "02 — The company has stopped moving",
+        "items": ["Everyone is busy and nothing material ships", "The same problems return every quarter in a different shape", "You doubled headcount and execution got worse, not better", "Every decision still routes back through you"]
+      },
+      {
+        "h3": "03 — Scaling into enterprise",
+        "items": ["Enterprise customers are asking for things you don't have — security reviews, SLAs, audit trails", "The way you worked at 20 people is breaking at 80", "Procurement, compliance and legal are in every deal now, and nobody owns that", "You need process without becoming the kind of company that is all process"]
+      }
+    ],
+    "closing": "If more than two of these are true at once, that isn't a set of problems. It's one problem you haven't found yet."
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "h2": "Two weeks. Fixed scope, fixed fee.",
+    "steps": [
+      { "term": "Days 1–3 — Access", "body": "We talk to everyone: leadership, managers, and the people actually doing the work. Separately, and in confidence." },
+      { "term": "Days 4–10 — Diagnosis", "body": "We map what is really happening against what you believe is happening. The gap between those two is usually the whole answer." },
+      { "term": "Days 11–14 — Findings", "body": "A written diagnosis: the root cause, what it is costing you, and what we would do about it. Including, when it's true, that you don't need us." },
+      { "term": "Then you decide", "body": "The diagnosis is yours either way. If you want us to execute it, we come in as interim leadership and own the fix until it holds." }
+    ],
+    "strong": "No retainer to start. No commitment past week two."
+  },
+  "build": {
+    "eyebrow": "We can also build the fix",
+    "h2": "Most crisis work ends with a report. Ours can end with the thing rebuilt.",
+    "body": "If the diagnosis finds a platform that won't hold, a product that needs rebuilding, or automation that should have existed two years ago, we have senior engineers who can do it — not a referral to another vendor. That is the difference between advisory and ownership."
+  },
+  "who": {
+    "eyebrow": "Who comes in",
+    "people": [
+      { "name": "Alex Zholtkevych", "role": "— product, delivery, engineering, executive", "bio": "20+ years across Big Tech, Telecom, AdTech, FinTech, Insurance and HealthTech. MSc Computer Science. 25+ products shipped. Called in when execution has stalled — the roadmap isn't real, the architecture won't hold, or leadership can't agree on what is being built." },
+      { "name": "Alina Ihnatenko", "role": "— organisation, leadership, people", "bio": "Chief People Officer. 15+ years, 11+ in technology. 350+ people built and scaled, end-to-end rebuilds in three months. Called in when a company grew faster than its structure: decisions stall, nobody owns anything, and the people who built it start leaving." },
+      { "name": "Veronika Frontova", "role": "— hiring", "bio": "Full-cycle recruiting across technical and non-technical roles, from sourcing through onboarding and the first 90 days. Called in when roles have been open for months, or the people being hired keep turning out to be the wrong ones." }
+    ],
+    "cta": "Talk to us today",
+    "meta": "hello@lucrumtech.com · We can start within 72 hours"
+  }
+}

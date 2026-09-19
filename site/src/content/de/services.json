@@ -1,0 +1,48 @@
+{
+  "title": "Leistungen — LucrumTech",
+  "description": "Strategie, Engineering, KI und technische Führung in einem verantwortlichen Team — nicht vier Dienstleister mit vier Verträgen und niemandem, der für das Ergebnis geradesteht.",
+  "eyebrow": "Leistungen",
+  "h1": "Alles, was es braucht, um ein Produkt zu verantworten — in einem Team.",
+  "lede": "Strategie, Engineering, KI und technische Führung. Nicht vier Dienstleister mit vier Verträgen und niemandem, der für das Ergebnis geradesteht.",
+  "blocks": [
+    {
+      "h3": "Produktstrategie",
+      "p": "Wir definieren, was gebaut wird, bevor die erste Zeile Code entsteht.",
+      "items": ["Marktvalidierung und Problemdefinition", "Roadmap und Release-Planung", "Systemarchitektur-Design", "Technologieauswahl mit dokumentierten Abwägungen"]
+    },
+    {
+      "h3": "Engineering",
+      "p": "Ein Delivery-Team, das wir selbst aufgebaut und ausgebildet haben, geführt von Menschen, die schon ausgeliefert haben.",
+      "items": ["Full-Stack-Produktentwicklung", "Cloud-Infrastruktur und Platform Engineering", "Enterprise-Plattformen und Integrationen", "Industrie- und Embedded-Software, IoT"]
+    },
+    {
+      "h3": "KI-Transformation",
+      "p": "KI dort, wo sie echten Mehrwert schafft — gebaut für den Produktivbetrieb, nicht für Demos.",
+      "items": ["Dokumentenverarbeitung in großem Volumen", "Workflow-Automatisierung mit KI-Entscheidungsebenen", "Predictive Analytics auf Betriebsdaten", "Copilots direkt im Arbeitsablauf", "KI-Optimierung bestehender Prozesse"]
+    },
+    {
+      "h3": "Technische Führung",
+      "p": "Technologieführung auf Executive-Niveau, ohne die Kosten einer Vollzeitstelle.",
+      "items": ["Fractional CTO", "Produktmanagement und Delivery-Verantwortung", "Architekturentscheidungen und technische Due Diligence", "Bewertung von Dienstleistern und Teams"]
+    }
+  ],
+  "note": "Größte Erfahrung: Fertigung und Industrieautomatisierung, Versicherung und FinTech, HealthTech. Ebenfalls ausgeliefert in SaaS, AdTech, Telekommunikation, IoT und Embedded Systems.",
+  "pricing": {
+    "eyebrow": "Unser Abrechnungsmodell",
+    "h2": "Zwei Arten der Zusammenarbeit. Wir sagen Ihnen, welche Sie brauchen.",
+    "blocks": [
+      {
+        "h3": "Leadership-Beratung",
+        "p": "Direkte Zeit mit uns dreien — Produkt und Delivery, Organisation, Recruiting. Für eine konkrete Frage, eine Entscheidung, zu der Sie eine zweite Meinung brauchen, oder einen kurzen Review. Stundenweise abgerechnet, ohne Bindung, ohne Mindestumfang.",
+        "items": ["Architektur- und Technologie-Reviews", "Produkt- und Roadmap-Entscheidungen", "Bewertung von Dienstleistern oder Teams"]
+      },
+      {
+        "h3": "Paket — drei bis sechs Monate",
+        "p": "Für Aufgaben, die Verantwortung brauchen statt Beratung. Ein Preis für Audit, Plan und Umsetzung — Leadership und Delivery-Team inklusive, nicht nach Stunden abgerechnet.",
+        "items": ["Vollständiges Audit des Bestands", "Strategie, Architektur und Organisationsplan", "Umsetzung — bauen, umbauen, einstellen", "Unser Delivery-Team im Preis enthalten", "Durchgehend ein verantwortliches Team"]
+      }
+    ],
+    "note": "Die meisten Engagements beginnen mit einem kostenpflichtigen Kurz-Review. Danach wissen wir beide, ob das Paket die richtige Wahl ist.",
+    "cta": "Strategiegespräch buchen"
+  }
+}

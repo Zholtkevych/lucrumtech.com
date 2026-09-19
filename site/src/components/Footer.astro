@@ -1,1 +1,11 @@
-<footer><div class="wrap footrow"><span>&copy; 2026 LucrumTech</span><span>Product ownership. From idea to revenue.</span></div></footer>
+---
+import { DEFAULT_LOCALE, type Locale } from '../i18n/config';
+import { UI } from '../i18n/ui';
+
+interface Props {
+  locale?: Locale;
+}
+const { locale = DEFAULT_LOCALE } = Astro.props;
+const t = UI[locale].footer;
+---
+<footer><div class="wrap footrow"><span>{t.copyright}</span><span>{t.tagline}</span></div></footer>

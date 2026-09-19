@@ -1,0 +1,49 @@
+{
+  "title": "Proyectos — LucrumTech",
+  "description": "Seis productos lanzados y todos siguen en producción: plataformas de IA, automatización industrial, sistemas empresariales y productos digitales.",
+  "eyebrow": "Proyectos",
+  "h1": "Seis productos lanzados. Todos siguen en producción.",
+  "lede": "Plataformas de IA, automatización industrial, sistemas empresariales y productos digitales.",
+  "labels": { "problem": "El problema", "owned": "De qué nos hicimos cargo", "changed": "Qué cambió", "whatItIs": "Qué es" },
+  "items": [
+    {
+      "tag": "Seguros / IA",
+      "name": "InHelper",
+      "problem": "La gestión de expedientes de seguros dependía del tratamiento manual de documentos y de informes hechos a mano. Un solo expediente tardaba días, y la carga recaía en personas que deberían estar evaluando siniestros.",
+      "owned": "La plataforma completa, de la arquitectura a la entrega. Análisis de PDF, transcripción de llamadas, extracción de datos estructurados y generación automática de informes en un único flujo.",
+      "changed": "El procesamiento pasó de días a horas. Mejoró la precisión de los informes y bajó la carga administrativa."
+    },
+    {
+      "tag": "Automatización industrial",
+      "name": "AMOS",
+      "problem": "Cambiar la automatización de una línea de producción era lento y caro, así que el fabricante no podía experimentar en la práctica. Cada ajuste implicaba un coste de cambio que hacía inviable iterar.",
+      "owned": "Una capa operativa de automatización sobre una infraestructura IoT en la nube. Los equipos de ingeniería despliegan cambios de flujo en sistemas de producción en marcha de forma remota, ajustan la lógica sobre equipos reales y supervisan los ciclos de ejecución mientras corren.",
+      "changed": "Despliegues más rápidos, menos paradas y mejor visibilidad operativa. Experimentar, que antes era demasiado caro, pasó a ser rutina."
+    },
+    {
+      "tag": "Fabricación",
+      "name": "Order-to-Execution",
+      "problem": "Las órdenes de producción se tecleaban a mano en equipos especializados. La introducción manual provocaba retrasos y errores recurrentes en planta.",
+      "owned": "Un sistema de automatización sobre Windows que toma las órdenes validadas y traduce configuraciones de producto, especificaciones de medidas y parámetros de máquina directamente en instrucciones listas para el equipo.",
+      "changed": "Se eliminó la entrada manual del operario en el flujo de pedidos, bajaron los errores y la producción se agilizó."
+    },
+    {
+      "tag": "IoT / analítica",
+      "name": "Machine Monitoring",
+      "problem": "La mayoría de las máquinas de la planta no estaban conectadas a ninguna red. No había forma de ver alertas, avisos o producción sin plantarse delante del equipo.",
+      "owned": "Un sistema de monitorización que usa cámaras IoT para leer directamente la pantalla de las máquinas —sin retrofit ni integración— y convierte alertas e indicadores operativos en analítica estructurada.",
+      "changed": "Los fallos se detectan antes, bajaron las paradas y operaciones ganó visibilidad sobre equipos que antes eran invisibles."
+    },
+    {
+      "tag": "AdTech / IA",
+      "name": "WhatIf",
+      "whatItIs": "Una plataforma de analítica con IA para publicidad de instalaciones: análisis del rendimiento de campañas, reconocimiento de patrones de comportamiento, analítica de conversión y recomendaciones automáticas."
+    },
+    {
+      "tag": "Comunicaciones",
+      "name": "nuMessage",
+      "whatItIs": "Una plataforma de comunicación segura: mensajería y voz cifradas sobre una arquitectura centrada en la privacidad."
+    }
+  ],
+  "cta": "¿Construyes algo parecido? Reserva una llamada"
+}

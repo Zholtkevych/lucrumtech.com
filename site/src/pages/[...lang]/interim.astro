@@ -1,0 +1,82 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { localeParams, alternatesFor, localePath, type Locale } from '../../i18n/config';
+
+export function getStaticPaths() {
+  return localeParams();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const c = (await import(`../../content/${locale}/interim.json`)).default;
+const contact = localePath(locale, '/contact');
+---
+<Layout dark title={c.title} description={c.description} lang={locale} basePath="/interim" alternates={alternatesFor('/interim')}>
+  <section>
+    <div class="wrap">
+      <h1>{c.hero.h1}<span class="muted">{c.hero.h1Muted}</span></h1>
+      <p class="lede" style="margin-top:26px">{c.hero.lede}</p>
+      <p class="lede">{c.hero.lede2}</p>
+      <p class="strong" style="font-size:19px">{c.hero.strong}</p>
+      <div class="btnrow"><a class="btn btn-crisis" href={contact}>{c.hero.cta}</a></div>
+    </div>
+  </section>
+
+  <section class="tint">
+    <div class="wrap">
+      <p class="eyebrow">{c.diagnosis.eyebrow}</p>
+      <h2>{c.diagnosis.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.diagnosis.body}</p>
+      <p class="lede">{c.diagnosis.body2}</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.symptoms.eyebrow}</p>
+      <h2>{c.symptoms.h2}</h2>
+      <div class="symptoms">
+        {c.symptoms.groups.map((g) => (
+          <>
+            <h3>{g.h3}</h3>
+            <ul>{g.items.map((i) => <li>{i}</li>)}</ul>
+          </>
+        ))}
+      </div>
+      <p class="lede strong" style="margin-top:28px">{c.symptoms.closing}</p>
+    </div>
+  </section>
+
+  <section class="tint">
+    <div class="wrap">
+      <p class="eyebrow">{c.how.eyebrow}</p>
+      <h2>{c.how.h2}</h2>
+      <div class="ladder">
+        {c.how.steps.map((s) => (
+          <div class="step"><b>{s.term}</b><p>{s.body}</p></div>
+        ))}
+      </div>
+      <p class="strong" style="margin-top:22px">{c.how.strong}</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.build.eyebrow}</p>
+      <h2>{c.build.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.build.body}</p>
+    </div>
+  </section>
+
+  <section class="tint">
+    <div class="wrap">
+      <p class="eyebrow">{c.who.eyebrow}</p>
+      <div style="margin-top:8px">
+        {c.who.people.map((p) => (
+          <div class="person"><div><h3>{p.name} <span>{p.role}</span></h3><p>{p.bio}</p></div></div>
+        ))}
+      </div>
+      <div class="btnrow"><a class="btn btn-crisis" href={contact}>{c.who.cta}</a></div>
+      <p class="meta">{c.who.meta}</p>
+    </div>
+  </section>
+</Layout>

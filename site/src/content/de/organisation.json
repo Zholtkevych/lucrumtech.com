@@ -1,0 +1,39 @@
+{
+  "title": "Organisation — LucrumTech",
+  "description": "Wir bauen die Organisation hinter dem Geschäft — Struktur, Führung, Menschen und Betriebsmodell — für Unternehmen im Aufbau und solche, die ihrer Struktur entwachsen sind.",
+  "eyebrow": "Organisation",
+  "h1": "Technologie baut das Produkt.",
+  "h1Muted": "Die Organisation sorgt dafür, dass es im Maßstab weiterläuft.",
+  "lede": "Wir bauen die Organisation hinter dem Geschäft — Struktur, Führung, Menschen und Betriebsmodell. Für Unternehmen, die gerade entstehen, und für Unternehmen, die der Struktur entwachsen sind, die einmal funktioniert hat.",
+  "cta": "Gespräch vereinbaren",
+  "argument": {
+    "eyebrow": "Der Grundgedanke",
+    "h2": "Kein größeres Team. Nicht mehr Prozess. Das richtige System für die nächste Stufe.",
+    "body": "Ein großartiges Produkt braucht mehr als großartige Technologie. Es braucht die richtige Führung, die richtigen Fähigkeiten, die richtigen Menschen, das richtige Betriebsmodell.",
+    "body2": "Die Arbeit kann beginnen, bevor es eine Organisation gibt, wenn nur eine Idee da ist. Oder wenn ein Unternehmen der Struktur entwachsen ist, die es bis hierher gebracht hat. In beiden Fällen ist das Ziel dasselbe: die richtige Organisation für das Geschäft aufbauen, das Sie schaffen."
+  },
+  "model": {
+    "eyebrow": "Vom Geschäftsmodell zur Organisation",
+    "h2": "Die eigentliche Frage ist selten „wen sollen wir einstellen?“",
+    "body": "Sondern: Welche Organisation braucht dieses Geschäft, damit es funktioniert, wächst und Wert schafft?",
+    "chain": "Geschäftsmodell → Fähigkeiten → Organisation → Führung → Team → Betriebsmodell → Launch → Skalierung",
+    "blocks": [
+      { "h3": "Organisationsstrategie und -design", "p": "People-Strategie, Organisationsdesign, Personalplanung, Führungsarchitektur, Performance Management, Kultur." },
+      { "h3": "Aufbau und Skalierung von Unternehmen", "p": "Organisationsarchitektur, Teamdesign, kritische Fähigkeiten, Führungsteam, Recruiting-Strategie, Eigenleistung vs. Outsourcing, Skalierungsmodell." },
+      { "h3": "Transformation und Restrukturierung", "p": "Organisations-Audit, Redesign, Betriebsmodell, Rollen und Verantwortlichkeiten, Führungswechsel, Team-Neuaufbau." },
+      { "h3": "Executive Search und Schlüsselpositionen", "p": "C-Level-, VP- und Head-of-Rollen — von Suche und Assessment über Auswahl und Angebot bis zur Integration in den ersten 90 Tagen." }
+    ]
+  },
+  "hiring": {
+    "eyebrow": "Recruiting",
+    "h2": "Eine Besetzung, die im dritten Monat geht, war nie eine Besetzung.",
+    "body": "Recruiting läuft nach einem definierten Prozess — vom Briefing über das Onboarding bis zur Begleitung durch die Probezeit, im ATS nachverfolgt, mit vereinbarten Reaktionszeiten in jeder Phase. Keine Blackbox, keine Kandidatinnen und Kandidaten, die drei Wochen lang nichts hören.",
+    "body2": "Die meisten Interviews prüfen, ob jemand die Arbeit erledigen kann. Wir prüfen drei Dinge: Fähigkeit, Passung zur tatsächlichen Arbeitsweise des Teams, und ob die Person in zwei Jahren noch hier sein möchte. Was das Interview zutage fördert, prägt dann das Onboarding — damit die ersten 90 Tage auf die konkrete Person zugeschnitten sind und nicht auf eine Vorlage."
+  },
+  "track": {
+    "eyebrow": "Erfahrung",
+    "h2": "Über 15 Jahre. Über 350 Mitarbeitende aufgebaut und skaliert.",
+    "body": "Über 11 Jahre in der Technologiebranche. End-to-End-Organisationsumbauten in drei Monaten geliefert. In IT, Outsourcing und Outstaffing, Technologieprodukten, FinTech, Medien, internationalen Unternehmen, Konzernen, Holdingstrukturen und Tochtergesellschaften.",
+    "cta": "Gespräch vereinbaren"
+  }
+}

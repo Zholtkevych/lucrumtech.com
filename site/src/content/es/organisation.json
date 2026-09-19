@@ -1,0 +1,39 @@
+{
+  "title": "Organización — LucrumTech",
+  "description": "Construimos la organización que sostiene el negocio: estructura, liderazgo, personas y modelo operativo. Para empresas que se están creando y para las que han superado su estructura.",
+  "eyebrow": "Organización",
+  "h1": "La tecnología construye el producto.",
+  "h1Muted": "La organización es lo que permite que siga funcionando a escala.",
+  "lede": "Construimos la organización que sostiene el negocio: estructura, liderazgo, personas y modelo operativo. Para empresas que se están creando y para empresas que han superado la estructura que un día funcionó.",
+  "cta": "Reserva una conversación",
+  "argument": {
+    "eyebrow": "El argumento",
+    "h2": "No un equipo más grande. No más procesos. El sistema adecuado para la siguiente etapa.",
+    "body": "Un gran producto necesita algo más que gran tecnología. Necesita el liderazgo adecuado, las capacidades adecuadas, las personas adecuadas y el modelo operativo adecuado.",
+    "body2": "El trabajo puede empezar antes de que exista una organización, cuando solo hay una idea. O cuando un negocio ha superado la estructura que lo trajo hasta aquí. En ambos casos el objetivo es el mismo: construir la organización adecuada para el negocio que estás creando."
+  },
+  "model": {
+    "eyebrow": "Del modelo de negocio a la organización",
+    "h2": "La pregunta de verdad rara vez es «¿a quién contratamos?»",
+    "body": "Es: ¿qué organización necesita este negocio para funcionar, crecer y generar valor?",
+    "chain": "Modelo de negocio → capacidades → organización → liderazgo → equipo → modelo operativo → lanzamiento → escala",
+    "blocks": [
+      { "h3": "Estrategia y diseño organizativo", "p": "Estrategia de personas, diseño organizativo, planificación de plantilla, arquitectura de liderazgo, gestión del desempeño, cultura." },
+      { "h3": "Creación y escalado de negocio", "p": "Arquitectura organizativa, diseño de equipos, capacidades críticas, equipo directivo, estrategia de contratación, interno frente a externo, modelo de escalado." },
+      { "h3": "Transformación y reestructuración", "p": "Auditoría organizativa, rediseño, modelo operativo, roles y responsabilidades, transiciones de liderazgo, reconstrucción de equipos." },
+      { "h3": "Executive search y contrataciones críticas", "p": "Posiciones de C-level, VP y responsables de área: desde la búsqueda y la evaluación hasta la selección, la oferta y la integración a 90 días." }
+    ]
+  },
+  "hiring": {
+    "eyebrow": "Contratación",
+    "h2": "Una incorporación que se va en el tercer mes nunca fue una incorporación.",
+    "body": "La contratación sigue un proceso definido: desde la toma de requisitos hasta la incorporación y el seguimiento del periodo de prueba, registrado en ATS y con tiempos de respuesta acordados en cada etapa. Sin cajas negras y sin candidatos que se quedan tres semanas sin noticias.",
+    "body2": "La mayoría de las entrevistas comprueban si alguien puede hacer el trabajo. Nosotros evaluamos tres cosas: capacidad, encaje con la forma real de trabajar del equipo, y si este es un sitio donde seguirá queriendo estar dentro de dos años. Lo que aflora en la entrevista da forma después a la incorporación, de modo que los primeros 90 días se diseñan para esa persona concreta y no según una plantilla."
+  },
+  "track": {
+    "eyebrow": "Trayectoria",
+    "h2": "Más de 15 años. Más de 350 personas incorporadas y equipos escalados.",
+    "body": "Más de 11 años en tecnología. Reconstrucciones organizativas integrales entregadas en tres meses. En TI, outsourcing y outstaffing, productos tecnológicos, FinTech, medios, negocios internacionales, corporaciones, estructuras holding y filiales.",
+    "cta": "Reserva una conversación"
+  }
+}

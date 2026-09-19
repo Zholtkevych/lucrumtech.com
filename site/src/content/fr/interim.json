@@ -1,0 +1,63 @@
+{
+  "title": "Management de transition — LucrumTech",
+  "description": "Management de transition pour trois moments : quand quelque chose a cassé, quand l’entreprise s’est arrêtée, et quand elle passe à l’enterprise. Nous pouvons démarrer sous 72 heures.",
+  "hero": {
+    "h1": "Certaines transitions, une équipe ne peut pas les mener seule.",
+    "h1Muted": "Nous entrons et nous les assumons.",
+    "lede": "Management de transition pour trois moments : quand quelque chose a cassé, quand l’entreprise s’est arrêtée, et quand elle passe à l’enterprise et que l’ancienne façon de travailler ne tient plus.",
+    "lede2": "Nous trouvons ce qui ne va vraiment pas et nous le corrigeons. Pas de slides. Pas de recommandation. La responsabilité jusqu’à ce que ça marche.",
+    "strong": "Nous pouvons démarrer sous 72 heures.",
+    "cta": "Parlons-en dès aujourd’hui"
+  },
+  "diagnosis": {
+    "eyebrow": "Le principe du diagnostic",
+    "h2": "Le problème visible n’est généralement pas le vrai problème.",
+    "body": "Un problème de recrutement est souvent un problème de conception organisationnelle. Un problème de performance est souvent un problème de leadership. Un problème de fidélisation est souvent un problème de management. Un problème de livraison est souvent un problème de prise de décision.",
+    "body2": "La plupart des interventions échouent parce qu’elles traitent le symptôme le plus bruyant plutôt que la cause en amont. Nous commençons par déterminer lequel vous avez réellement."
+  },
+  "symptoms": {
+    "eyebrow": "Trois façons d’en arriver là",
+    "h2": "Vous en reconnaîtrez une.",
+    "groups": [
+      {
+        "h3": "01 — Quelque chose a cassé",
+        "items": ["Les livraisons glissent sans cesse et personne ne sait dire ce qui sort ensuite", "L’architecture ne tient pas la charge et l’équipe éteint des incendies en permanence", "Des personnes clés partent et vous ne savez pas encore pourquoi", "Une strate de management est le problème et personne ne le dit à voix haute"]
+      },
+      {
+        "h3": "02 — L’entreprise s’est arrêtée",
+        "items": ["Tout le monde est occupé et rien d’important ne sort", "Les mêmes problèmes reviennent chaque trimestre sous une autre forme", "Vous avez doublé les effectifs et l’exécution s’est dégradée, pas améliorée", "Chaque décision continue de remonter jusqu’à vous"]
+      },
+      {
+        "h3": "03 — Passage à l’enterprise",
+        "items": ["Les clients grands comptes demandent ce que vous n’avez pas : revues de sécurité, SLA, pistes d’audit", "Ce qui marchait à 20 personnes casse à 80", "Achats, conformité et juridique sont désormais dans chaque affaire, et personne n’en a la charge", "Il vous faut du processus sans devenir une entreprise qui n’est plus que du processus"]
+      }
+    ],
+    "closing": "Si plus de deux de ces situations sont vraies en même temps, ce n’est pas un ensemble de problèmes. C’est un seul problème que vous n’avez pas encore trouvé."
+  },
+  "how": {
+    "eyebrow": "Comment ça marche",
+    "h2": "Deux semaines. Périmètre fixe, forfait fixe.",
+    "steps": [
+      { "term": "Jours 1–3 — Accès", "body": "Nous parlons à tout le monde : direction, managers et les personnes qui font réellement le travail. Séparément, et en confidence." },
+      { "term": "Jours 4–10 — Diagnostic", "body": "Nous confrontons ce qui se passe réellement à ce que vous croyez qu’il se passe. L’écart entre les deux constitue généralement toute la réponse." },
+      { "term": "Jours 11–14 — Conclusions", "body": "Un diagnostic écrit : la cause racine, ce qu’elle vous coûte et ce que nous ferions. Y compris, lorsque c’est le cas, que vous n’avez pas besoin de nous." },
+      { "term": "Ensuite, vous décidez", "body": "Le diagnostic vous appartient dans tous les cas. Si vous voulez que nous l’exécutions, nous entrons en management de transition et assumons la correction jusqu’à ce qu’elle tienne." }
+    ],
+    "strong": "Pas d’honoraires récurrents pour démarrer. Aucun engagement au-delà de la deuxième semaine."
+  },
+  "build": {
+    "eyebrow": "Nous pouvons aussi construire la solution",
+    "h2": "La plupart des missions de crise se terminent par un rapport. La nôtre peut se terminer par la chose reconstruite.",
+    "body": "Si le diagnostic révèle une plateforme qui ne tiendra pas, un produit à reconstruire ou une automatisation qui aurait dû exister il y a deux ans, nous avons des ingénieurs seniors capables de le faire — pas un renvoi vers un autre prestataire. C’est là toute la différence entre conseiller et assumer."
+  },
+  "who": {
+    "eyebrow": "Qui intervient",
+    "people": [
+      { "name": "Alex Zholtkevych", "role": "— produit, delivery, ingénierie, direction", "bio": "Plus de 20 ans dans la Big Tech, les télécoms, l’AdTech, la FinTech, l’assurance et la HealthTech. Master en informatique. Plus de 25 produits livrés. Appelé quand l’exécution s’est enlisée : la feuille de route n’est pas réelle, l’architecture ne tient pas, ou la direction ne s’accorde pas sur ce qui est construit." },
+      { "name": "Alina Ihnatenko", "role": "— organisation, leadership, ressources humaines", "bio": "Chief People Officer. Plus de 15 ans, dont plus de 11 dans la technologie. Plus de 350 personnes recrutées et équipes mises à l’échelle, refontes complètes en trois mois. Appelée quand une entreprise a grandi plus vite que sa structure : les décisions stagnent, personne n’est responsable de rien, et ceux qui l’ont construite commencent à partir." },
+      { "name": "Veronika Frontova", "role": "— recrutement", "bio": "Recrutement de bout en bout sur des profils techniques et non techniques, du sourcing à l’intégration et aux 90 premiers jours. Appelée quand des postes sont ouverts depuis des mois, ou que les personnes recrutées se révèlent systématiquement ne pas être les bonnes." }
+    ],
+    "cta": "Parlons-en dès aujourd’hui",
+    "meta": "hello@lucrumtech.com · Nous pouvons démarrer sous 72 heures"
+  }
+}

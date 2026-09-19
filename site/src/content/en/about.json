@@ -1,0 +1,26 @@
+{
+  "title": "About — LucrumTech",
+  "description": "LucrumTech is a product company that takes ownership. Lucrum is Latin for profit, gain — every decision should move the needle for your business.",
+  "eyebrow": "About",
+  "h1": "We don't celebrate shipping.",
+  "h1Muted": "We celebrate results.",
+  "lede": "LucrumTech is a product company that takes ownership. Lucrum is Latin — profit, gain. Every decision we make should move the needle for your business.",
+  "people": [
+    {
+      "name": "Alex Zholtkevych",
+      "role": "— product, delivery, engineering",
+      "bio": "20+ years across Big Tech, Telecom, AdTech, FinTech, Insurance and HealthTech. MSc Computer Science. 25+ products shipped."
+    },
+    {
+      "name": "Alina Ihnatenko",
+      "role": "— organisation, leadership, people",
+      "bio": "Chief People Officer, 15+ years, 350+ people built and scaled."
+    },
+    {
+      "name": "Veronika Frontova",
+      "role": "— hiring",
+      "bio": "Full-cycle recruiting across technical and non-technical roles. Canada, Ukraine and the EU since 2019."
+    }
+  ],
+  "note": "Behind them: a delivery team of six engineers across the EU and Canada. Overlapping hours with North America and Europe."
+}

@@ -1,0 +1,48 @@
+{
+  "title": "Services — LucrumTech",
+  "description": "Stratégie, ingénierie, IA et direction technique au sein d’une seule équipe responsable — pas quatre prestataires, quatre contrats et personne qui réponde du résultat.",
+  "eyebrow": "Services",
+  "h1": "Tout ce qu’il faut pour assumer un produit — dans une seule équipe responsable.",
+  "lede": "Stratégie, ingénierie, IA et direction technique. Pas quatre prestataires avec quatre contrats et personne qui réponde du résultat.",
+  "blocks": [
+    {
+      "h3": "Stratégie produit",
+      "p": "Nous définissons quoi construire avant d’écrire la moindre ligne de code.",
+      "items": ["Validation du marché et définition du problème", "Feuille de route et séquencement des versions", "Conception de l’architecture système", "Choix technologiques, avec les arbitrages écrits"]
+    },
+    {
+      "h3": "Ingénierie",
+      "p": "Une équipe de delivery que nous avons constituée et formée nous-mêmes, dirigée par des gens qui ont déjà livré.",
+      "items": ["Développement produit full-stack", "Infrastructure cloud et platform engineering", "Plateformes d’entreprise et intégrations", "Logiciel industriel et embarqué, IoT"]
+    },
+    {
+      "h3": "Transformation par l’IA",
+      "p": "De l’IA là où elle crée de la valeur réelle — conçue pour la production, pas pour la démo.",
+      "items": ["Traitement documentaire intelligent à grande échelle", "Automatisation des flux avec couches de décision IA", "Analyse prédictive sur les données d’exploitation", "Copilotes intégrés au flux de travail", "Optimisation par l’IA de processus déjà en place"]
+    },
+    {
+      "h3": "Direction technique",
+      "p": "Une direction technologique de niveau exécutif, sans le coût d’un poste à temps plein.",
+      "items": ["CTO à temps partagé", "Gestion de produit et responsabilité du delivery", "Décisions d’architecture et due diligence technique", "Évaluation des prestataires et des équipes"]
+    }
+  ],
+  "note": "Expérience la plus poussée : industrie et automatisation industrielle, assurance et FinTech, HealthTech. Également livré en SaaS, AdTech, télécoms, IoT et systèmes embarqués.",
+  "pricing": {
+    "eyebrow": "Notre facturation",
+    "h2": "Deux façons de travailler. Nous vous dirons celle qu’il vous faut.",
+    "blocks": [
+      {
+        "h3": "Conseil de direction",
+        "p": "Du temps direct avec nous trois — produit et delivery, organisation, recrutement. Pour une question précise, une décision sur laquelle vous voulez un second avis, ou une revue courte. Facturé à l’heure, sans engagement ni minimum.",
+        "items": ["Revues d’architecture et de technologie", "Décisions produit et feuille de route", "Évaluation de prestataires ou d’équipes"]
+      },
+      {
+        "h3": "Forfait — trois à six mois",
+        "p": "Pour ce qui demande d’être assumé plutôt que conseillé. Un prix unique couvrant l’audit, le plan et l’exécution — direction et équipe de delivery incluses, sans facturation horaire.",
+        "items": ["Audit complet de l’existant", "Stratégie, architecture et plan organisationnel", "Exécution — construire, restructurer, recruter", "Notre équipe de delivery comprise dans le prix", "Une seule équipe responsable du début à la fin"]
+      }
+    ],
+    "note": "La plupart des missions commencent par une revue courte et payante. À son issue, nous saurons tous les deux si le forfait est le bon choix.",
+    "cta": "Réserver un appel stratégique"
+  }
+}

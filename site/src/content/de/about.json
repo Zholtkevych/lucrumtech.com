@@ -1,0 +1,26 @@
+{
+  "title": "Über uns — LucrumTech",
+  "description": "LucrumTech ist ein Produktunternehmen, das Verantwortung übernimmt. Lucrum ist Latein – Gewinn, Ertrag. Jede Entscheidung soll Ihr Geschäft messbar voranbringen.",
+  "eyebrow": "Über uns",
+  "h1": "Wir feiern keine Releases.",
+  "h1Muted": "Wir feiern Ergebnisse.",
+  "lede": "LucrumTech ist ein Produktunternehmen, das Verantwortung übernimmt. Lucrum ist Latein – Gewinn, Ertrag. Jede Entscheidung, die wir treffen, soll Ihr Geschäft messbar voranbringen.",
+  "people": [
+    {
+      "name": "Alex Zholtkevych",
+      "role": "— Produkt, Delivery, Engineering",
+      "bio": "Über 20 Jahre in Big Tech, Telekommunikation, AdTech, FinTech, Versicherung und HealthTech. MSc Informatik. Über 25 ausgelieferte Produkte."
+    },
+    {
+      "name": "Alina Ihnatenko",
+      "role": "— Organisation, Führung, People",
+      "bio": "Chief People Officer, über 15 Jahre, über 350 Mitarbeitende aufgebaut und skaliert."
+    },
+    {
+      "name": "Veronika Frontova",
+      "role": "— Recruiting",
+      "bio": "Full-Cycle-Recruiting für technische und nicht-technische Rollen. Kanada, Ukraine und EU seit 2019."
+    }
+  ],
+  "note": "Dahinter: ein Delivery-Team aus sechs Engineers in der EU und Kanada. Überlappende Arbeitszeiten mit Nordamerika und Europa."
+}

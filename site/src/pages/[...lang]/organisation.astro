@@ -1,0 +1,63 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { localeParams, alternatesFor, localePath, type Locale } from '../../i18n/config';
+
+export function getStaticPaths() {
+  return localeParams();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const c = (await import(`../../content/${locale}/organisation.json`)).default;
+const contact = localePath(locale, '/contact');
+---
+<Layout title={c.title} description={c.description} lang={locale} basePath="/organisation" alternates={alternatesFor('/organisation')}>
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.eyebrow}</p>
+      <h1>{c.h1}<span class="muted">{c.h1Muted}</span></h1>
+      <p class="lede" style="margin-top:24px">{c.lede}</p>
+      <div class="btnrow"><a class="btn" href={contact}>{c.cta}</a></div>
+    </div>
+  </section>
+
+  <section class="tint">
+    <div class="wrap">
+      <p class="eyebrow">{c.argument.eyebrow}</p>
+      <h2>{c.argument.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.argument.body}</p>
+      <p class="lede">{c.argument.body2}</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.model.eyebrow}</p>
+      <h2>{c.model.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.model.body}</p>
+      <p class="strong">{c.model.chain}</p>
+      <div class="grid2">
+        {c.model.blocks.map((b) => (
+          <div class="blk"><h3>{b.h3}</h3><p>{b.p}</p></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="tint">
+    <div class="wrap">
+      <p class="eyebrow">{c.hiring.eyebrow}</p>
+      <h2>{c.hiring.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.hiring.body}</p>
+      <p class="lede">{c.hiring.body2}</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.track.eyebrow}</p>
+      <h2>{c.track.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.track.body}</p>
+      <div class="btnrow"><a class="btn" href={contact}>{c.track.cta}</a></div>
+    </div>
+  </section>
+</Layout>

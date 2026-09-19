@@ -1,0 +1,93 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { localeParams, alternatesFor, localePath, type Locale } from '../../i18n/config';
+
+export function getStaticPaths() {
+  return localeParams();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const c = (await import(`../../content/${locale}/home.json`)).default;
+const to = (p: string) => localePath(locale, p);
+---
+<Layout title={c.title} description={c.description} lang={locale} basePath="/" alternates={alternatesFor('/')}>
+  <div class="wrap"><div class="split">
+    <div>
+      <h1>{c.hero.h1}<span class="muted">{c.hero.h1Muted}</span></h1>
+      <p class="lede" style="margin-top:26px">{c.hero.lede}</p>
+      <p class="sub">{c.hero.sub}</p>
+      <p style="margin-top:30px"><a class="btn" href={to('/contact')}>{c.hero.cta}</a></p>
+      <div class="stats">
+        {c.hero.stats.map((s) => (
+          <div class="stat"><b>{s.value}</b><span>{s.label}</span></div>
+        ))}
+      </div>
+    </div>
+    <aside class="crisis-panel">
+      <p class="q">{c.panel.q}</p>
+      <h3>{c.panel.h3}</h3>
+      <p>{c.panel.body}</p>
+      <a class="btn btn-crisis" href={to('/interim')}>{c.panel.cta}</a>
+      <p class="sub">{c.panel.sub}</p>
+    </aside>
+  </div></div>
+
+  <section class="tint">
+    <div class="wrap">
+      <p class="eyebrow">{c.problem.eyebrow}</p>
+      <h2>{c.problem.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.problem.body}</p>
+      <p class="lede strong">{c.problem.strong}</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.how.eyebrow}</p>
+      <h2>{c.how.h2}</h2>
+      <div class="ladder">
+        {c.how.steps.map((s) => (
+          <div class="step"><b>{s.term}</b><p>{s.body}</p></div>
+        ))}
+      </div>
+      <p class="sub" style="margin-top:22px">{c.how.note}</p>
+    </div>
+  </section>
+
+  <section class="proof">
+    <div class="wrap">
+      <p class="eyebrow">{c.proof.eyebrow}</p>
+      <h2>{c.proof.h2}</h2>
+      <div class="cases">
+        {c.proof.cases.map((k) => (
+          <div class="case"><span class="tag">{k.tag}</span><h3>{k.name}</h3><p>{k.body}</p></div>
+        ))}
+      </div>
+      <p style="margin-top:28px"><a class="btn btn-quiet" href={to('/work')}>{c.proof.cta}</a></p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.team.eyebrow}</p>
+      <h2>{c.team.h2}</h2>
+      <div style="margin-top:28px">
+        {c.team.people.map((p) => (
+          <div class="person"><div><h3>{p.name} <span>{p.role}</span></h3><p>{p.bio}</p></div></div>
+        ))}
+      </div>
+      <p class="sub" style="margin-top:26px">{c.team.note}</p>
+    </div>
+  </section>
+
+  <section class="tint">
+    <div class="wrap">
+      <p class="eyebrow">{c.own.eyebrow}</p>
+      <h2>{c.own.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.own.lede}</p>
+      <p class="lede">{c.own.orgBefore}<a href={to('/organisation')} class="strong" style="cursor:pointer; text-decoration:underline; text-underline-offset:3px">{c.own.orgLink}</a>{c.own.orgAfter}</p>
+      <div class="btnrow"><a class="btn" href={to('/contact')}>{c.own.cta}</a></div>
+      <p class="meta">{c.own.meta}</p>
+    </div>
+  </section>
+</Layout>

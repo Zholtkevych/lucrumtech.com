@@ -1,0 +1,63 @@
+{
+  "title": "Liderazgo interino — LucrumTech",
+  "description": "Liderazgo interino para tres momentos: cuando algo se ha roto, cuando la empresa se ha parado y cuando escala hacia clientes enterprise. Podemos empezar en 72 horas.",
+  "hero": {
+    "h1": "Hay transiciones que un equipo no puede afrontar solo.",
+    "h1Muted": "Entramos y nos hacemos cargo.",
+    "lede": "Liderazgo interino para tres momentos: cuando algo se ha roto, cuando la empresa se ha parado, y cuando escala hacia clientes enterprise y la forma de trabajar de siempre ha dejado de servir.",
+    "lede2": "Encontramos qué falla de verdad y lo arreglamos. Sin presentaciones. Sin recomendaciones. Responsabilidad hasta que funcione.",
+    "strong": "Podemos empezar en 72 horas.",
+    "cta": "Habla con nosotros hoy"
+  },
+  "diagnosis": {
+    "eyebrow": "El principio del diagnóstico",
+    "h2": "El problema visible casi nunca es el problema real.",
+    "body": "Un problema de contratación suele ser un problema de diseño organizativo. Un problema de rendimiento suele ser un problema de liderazgo. Un problema de retención suele ser un problema de gestión. Un problema de entrega suele ser un problema de toma de decisiones.",
+    "body2": "La mayoría de las intervenciones fracasan porque tratan el síntoma más ruidoso en lugar de la causa que está más arriba. Empezamos por averiguar cuál tienes en realidad."
+  },
+  "symptoms": {
+    "eyebrow": "Tres formas de llegar hasta aquí",
+    "h2": "Reconocerás una de estas.",
+    "groups": [
+      {
+        "h3": "01 — Algo se ha roto",
+        "items": ["Las entregas se retrasan una y otra vez y nadie sabe decir qué sale después", "La arquitectura no aguanta la carga y el equipo vive apagando fuegos", "Se está yendo gente clave y todavía no sabes por qué", "Una capa de gestión es el problema y nadie lo dice en voz alta"]
+      },
+      {
+        "h3": "02 — La empresa se ha parado",
+        "items": ["Todo el mundo está ocupado y no sale nada relevante", "Los mismos problemas vuelven cada trimestre con otra forma", "Has duplicado la plantilla y la ejecución ha empeorado, no mejorado", "Todas las decisiones siguen pasando por ti"]
+      },
+      {
+        "h3": "03 — Escalando a enterprise",
+        "items": ["Los clientes enterprise piden cosas que no tienes: revisiones de seguridad, SLA, trazas de auditoría", "Lo que funcionaba con 20 personas se rompe con 80", "Compras, cumplimiento y legal están en todas las operaciones y nadie se hace cargo de eso", "Necesitas proceso sin convertirte en una empresa que solo es proceso"]
+      }
+    ],
+    "closing": "Si más de dos de estas son ciertas a la vez, no es un conjunto de problemas. Es un problema que todavía no has encontrado."
+  },
+  "how": {
+    "eyebrow": "Cómo funciona",
+    "h2": "Dos semanas. Alcance cerrado, precio cerrado.",
+    "steps": [
+      { "term": "Días 1–3 — Acceso", "body": "Hablamos con todos: dirección, mandos intermedios y las personas que realmente hacen el trabajo. Por separado y en confianza." },
+      { "term": "Días 4–10 — Diagnóstico", "body": "Contrastamos lo que ocurre de verdad con lo que crees que ocurre. La distancia entre ambas cosas suele ser toda la respuesta." },
+      { "term": "Días 11–14 — Conclusiones", "body": "Un diagnóstico por escrito: la causa raíz, lo que te está costando y qué haríamos al respecto. Incluido, cuando sea cierto, que no nos necesitas." },
+      { "term": "Después decides", "body": "El diagnóstico es tuyo en cualquier caso. Si quieres que lo ejecutemos, entramos como liderazgo interino y nos hacemos cargo de la solución hasta que se sostenga." }
+    ],
+    "strong": "Sin cuota inicial. Sin compromiso más allá de la segunda semana."
+  },
+  "build": {
+    "eyebrow": "También podemos construir la solución",
+    "h2": "La mayoría del trabajo de crisis acaba en un informe. El nuestro puede acabar con la cosa reconstruida.",
+    "body": "Si el diagnóstico encuentra una plataforma que no aguanta, un producto que hay que rehacer o una automatización que debería existir desde hace dos años, tenemos ingenieros sénior que pueden hacerlo, no una derivación a otro proveedor. Esa es la diferencia entre asesorar y hacerse cargo."
+  },
+  "who": {
+    "eyebrow": "Quién entra",
+    "people": [
+      { "name": "Alex Zholtkevych", "role": "— producto, entrega, ingeniería, dirección", "bio": "Más de 20 años en Big Tech, telecomunicaciones, AdTech, FinTech, seguros y HealthTech. Máster en Informática. Más de 25 productos lanzados. Entra cuando la ejecución se ha detenido: la hoja de ruta no es real, la arquitectura no aguanta o la dirección no se pone de acuerdo sobre qué se está construyendo." },
+      { "name": "Alina Ihnatenko", "role": "— organización, liderazgo, personas", "bio": "Chief People Officer. Más de 15 años, más de 11 en tecnología. Más de 350 personas incorporadas y equipos escalados, con reconstrucciones integrales en tres meses. Entra cuando una empresa ha crecido más rápido que su estructura: las decisiones se atascan, nadie se hace cargo de nada y quienes la construyeron empiezan a irse." },
+      { "name": "Veronika Frontova", "role": "— contratación", "bio": "Reclutamiento de ciclo completo en perfiles técnicos y no técnicos, desde la búsqueda hasta la incorporación y los primeros 90 días. Entra cuando hay vacantes abiertas desde hace meses o cuando las personas que se contratan resultan no ser las adecuadas." }
+    ],
+    "cta": "Habla con nosotros hoy",
+    "meta": "hello@lucrumtech.com · Podemos empezar en 72 horas"
+  }
+}

@@ -1,32 +1,39 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '../../layouts/Layout.astro';
+import { localeParams, alternatesFor, localePath, type Locale } from '../../i18n/config';
+import { UI } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  return localeParams();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const c = (await import(`../../content/${locale}/contact.json`)).default;
+const f = UI[locale].form;
 ---
-<Layout
-  title="Contact — LucrumTech"
-  description="Tell us what you're building. Thirty minutes — we'll ask what you're solving, who it's for, and what's blocking it, and tell you honestly how we'd approach it."
->
+<Layout title={c.title} description={c.description} lang={locale} basePath="/contact" alternates={alternatesFor('/contact')}>
   <section>
     <div class="wrap">
-      <p class="eyebrow">Contact</p>
-      <h1>Tell us what you're building.</h1>
-      <p class="lede" style="margin-top:24px">Thirty minutes. We'll ask what you're solving, who it's for, and what's blocking it — and tell you honestly how we'd approach it. No deck.</p>
+      <p class="eyebrow">{c.eyebrow}</p>
+      <h1>{c.h1}</h1>
+      <p class="lede" style="margin-top:24px">{c.lede}</p>
       <form class="form" id="contact-form" method="POST" action="/api/website/send-email" novalidate>
-        <label for="f-name">Name</label>
-        <input id="f-name" name="name" type="text" placeholder="Your name" autocomplete="name" required>
-        <label for="f-email">Email</label>
-        <input id="f-email" name="email" type="email" placeholder="you@company.com" autocomplete="email" required>
-        <label for="f-msg">Message</label>
-        <textarea id="f-msg" name="message" rows="5" placeholder="What are you building, or what's broken?" required></textarea>
+        <label for="f-name">{f.name}</label>
+        <input id="f-name" name="name" type="text" placeholder={f.namePlaceholder} autocomplete="name" required>
+        <label for="f-email">{f.email}</label>
+        <input id="f-email" name="email" type="email" placeholder={f.emailPlaceholder} autocomplete="email" required>
+        <label for="f-msg">{f.message}</label>
+        <textarea id="f-msg" name="message" rows="5" placeholder={f.messagePlaceholder} required></textarea>
         <p class="hp-field" aria-hidden="true">
           <label for="f-ref">Reference</label>
           <input id="f-ref" name="reference" type="text" tabindex="-1" autocomplete="off">
         </p>
-        <p class="err" id="f-err">Something went wrong sending that — try again, or email us directly.</p>
-        <button class="btn" id="f-send" type="submit">Book a strategy call</button>
-        <p class="ok" id="f-ok">Thanks — we'll reply within 24 hours.</p>
+        <p class="err" id="f-err" data-missing={f.missing} data-failed={f.failed}>{f.failed}</p>
+        <button class="btn" id="f-send" type="submit">{f.submit}</button>
+        <p class="ok" id="f-ok">{f.ok}</p>
       </form>
-      <p class="meta">hello@lucrumtech.com · Reply within 24 hours</p>
-      <p class="sub">In trouble right now? <a href="/interim" style="color:var(--crisis); font-weight:600; cursor:pointer">Talk to us today</a> — we can start within 72 hours.</p>
+      <p class="meta">{c.meta}</p>
+      <p class="sub">{c.urgentBefore}<a href={localePath(locale, '/interim')} style="color:var(--crisis); font-weight:600; cursor:pointer">{c.urgentLink}</a>{c.urgentAfter}</p>
     </div>
   </section>
 
@@ -34,6 +41,8 @@ import Layout from '../layouts/Layout.astro';
     const form = document.getElementById('contact-form') as HTMLFormElement;
     const err = document.getElementById('f-err') as HTMLParagraphElement;
     const ok = document.getElementById('f-ok') as HTMLParagraphElement;
+    const MISSING = err.dataset.missing!;
+    const FAILED = err.dataset.failed!;
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
@@ -45,7 +54,7 @@ import Layout from '../layouts/Layout.astro';
       const message = (form.elements.namedItem('message') as HTMLTextAreaElement).value.trim();
 
       if (!name || !email || !message) {
-        err.textContent = 'Add your name, email and a message.';
+        err.textContent = MISSING;
         err.style.display = 'block';
         return;
       }
@@ -74,7 +83,7 @@ import Layout from '../layouts/Layout.astro';
         ok.style.display = 'block';
         form.reset();
       } catch {
-        err.textContent = 'Something went wrong sending that — try again, or email us directly.';
+        err.textContent = FAILED;
         err.style.display = 'block';
       } finally {
         sendBtn.disabled = false;
