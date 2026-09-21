@@ -30,7 +30,7 @@ export const UI: Record<Locale, {
     },
   },
   es: {
-    nav: { home: 'Inicio', services: 'Servicios', ai: 'AI', work: 'Proyectos', about: 'Acerca de', contact: 'Contacto', interim: 'Interim' },
+    nav: { home: 'Inicio', services: 'Servicios', ai: 'IA', work: 'Proyectos', about: 'Acerca de', contact: 'Contacto', interim: 'Interim' },
     menu: 'Menú',
     language: 'Idioma',
     footer: { copyright: '© 2026 LucrumTech', tagline: 'Propiedad del producto. De la idea a los ingresos.' },
@@ -45,7 +45,7 @@ export const UI: Record<Locale, {
     },
   },
   de: {
-    nav: { home: 'Start', services: 'Leistungen', ai: 'AI', work: 'Referenzen', about: 'Über uns', contact: 'Kontakt', interim: 'Interim' },
+    nav: { home: 'Start', services: 'Leistungen', ai: 'KI', work: 'Referenzen', about: 'Über uns', contact: 'Kontakt', interim: 'Interim' },
     menu: 'Menü',
     language: 'Sprache',
     footer: { copyright: '© 2026 LucrumTech', tagline: 'Product Ownership. Von der Idee zum Umsatz.' },
@@ -60,7 +60,7 @@ export const UI: Record<Locale, {
     },
   },
   fr: {
-    nav: { home: 'Accueil', services: 'Services', ai: 'AI', work: 'Réalisations', about: 'À propos', contact: 'Contact', interim: 'Transition' },
+    nav: { home: 'Accueil', services: 'Services', ai: 'IA', work: 'Réalisations', about: 'À propos', contact: 'Contact', interim: 'Transition' },
     menu: 'Menu',
     language: 'Langue',
     footer: { copyright: '© 2026 LucrumTech', tagline: 'La propriété du produit. De l’idée au chiffre d’affaires.' },
