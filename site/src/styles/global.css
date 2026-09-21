@@ -125,8 +125,17 @@ footer{padding:40px 0; color:var(--t3); font-size:14px}
   .split{grid-template-columns:1fr; gap:32px; padding:52px 0}
   .step{grid-template-columns:1fr; gap:6px}
   .workitem .row{grid-template-columns:1fr; gap:2px}
-  .navlinks{gap:14px}
+}
+
+/* Seven links plus four language codes is a lot of horizontal content, and the
+   German and French labels are the longest. Tighten the nav well before the
+   layout breakpoint so it never spills out of the fixed-height bar. */
+@media (max-width:1024px){
+  .navlinks{gap:13px}
   .navlinks a{font-size:14px}
+  .navlang{margin-left:4px; padding-left:12px; gap:7px}
+  .navlang a{font-size:11.5px; letter-spacing:.05em}
+  .navcrisis{margin-left:2px; padding-left:12px}
 }
 
 /* Six links stop fitting on one row at 560px. Rather than let them wrap out of

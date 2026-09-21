@@ -4,7 +4,7 @@ import type { Locale } from './config';
 // Register: informal "tú" in Spanish, formal "Sie"/"vous" in German and French,
 // matching how the previous site addressed each audience.
 export const UI: Record<Locale, {
-  nav: { home: string; services: string; work: string; about: string; contact: string; interim: string };
+  nav: { home: string; services: string; ai: string; work: string; about: string; contact: string; interim: string };
   menu: string;
   language: string;
   footer: { copyright: string; tagline: string };
@@ -15,7 +15,7 @@ export const UI: Record<Locale, {
   };
 }> = {
   en: {
-    nav: { home: 'Home', services: 'Services', work: 'Work', about: 'About', contact: 'Contact', interim: 'Interim' },
+    nav: { home: 'Home', services: 'Services', ai: 'AI', work: 'Work', about: 'About', contact: 'Contact', interim: 'Interim' },
     menu: 'Menu',
     language: 'Language',
     footer: { copyright: '© 2026 LucrumTech', tagline: 'Product ownership. From idea to revenue.' },
@@ -30,7 +30,7 @@ export const UI: Record<Locale, {
     },
   },
   es: {
-    nav: { home: 'Inicio', services: 'Servicios', work: 'Proyectos', about: 'Acerca de', contact: 'Contacto', interim: 'Interim' },
+    nav: { home: 'Inicio', services: 'Servicios', ai: 'IA', work: 'Proyectos', about: 'Acerca de', contact: 'Contacto', interim: 'Interim' },
     menu: 'Menú',
     language: 'Idioma',
     footer: { copyright: '© 2026 LucrumTech', tagline: 'Propiedad del producto. De la idea a los ingresos.' },
@@ -45,7 +45,7 @@ export const UI: Record<Locale, {
     },
   },
   de: {
-    nav: { home: 'Start', services: 'Leistungen', work: 'Referenzen', about: 'Über uns', contact: 'Kontakt', interim: 'Interim' },
+    nav: { home: 'Start', services: 'Leistungen', ai: 'KI', work: 'Referenzen', about: 'Über uns', contact: 'Kontakt', interim: 'Interim' },
     menu: 'Menü',
     language: 'Sprache',
     footer: { copyright: '© 2026 LucrumTech', tagline: 'Product Ownership. Von der Idee zum Umsatz.' },
@@ -60,7 +60,7 @@ export const UI: Record<Locale, {
     },
   },
   fr: {
-    nav: { home: 'Accueil', services: 'Services', work: 'Réalisations', about: 'À propos', contact: 'Contact', interim: 'Transition' },
+    nav: { home: 'Accueil', services: 'Services', ai: 'IA', work: 'Réalisations', about: 'À propos', contact: 'Contact', interim: 'Transition' },
     menu: 'Menu',
     language: 'Langue',
     footer: { copyright: '© 2026 LucrumTech', tagline: 'La propriété du produit. De l’idée au chiffre d’affaires.' },
