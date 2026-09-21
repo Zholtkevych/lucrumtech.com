@@ -1,10 +1,15 @@
 {
   "title": "Referenzen — LucrumTech",
-  "description": "Sechs ausgelieferte Produkte, jedes davon noch in Produktion — KI-Plattformen, Industrieautomatisierung, Enterprise-Systeme und digitale Produkte.",
+  "description": "Sechs ausgelieferte Produkte, jedes von uns betreut — KI-Plattformen, Industrieautomatisierung, Enterprise-Systeme und digitale Produkte.",
   "eyebrow": "Referenzen",
-  "h1": "Sechs ausgelieferte Produkte. Jedes davon noch in Produktion.",
+  "h1": "Sechs ausgelieferte Produkte. Wir betreuen jedes davon.",
   "lede": "KI-Plattformen, Industrieautomatisierung, Enterprise-Systeme und digitale Produkte.",
-  "labels": { "problem": "Das Problem", "owned": "Was wir verantwortet haben", "changed": "Was sich geändert hat", "whatItIs": "Worum es geht" },
+  "labels": {
+    "problem": "Das Problem",
+    "owned": "Was wir verantwortet haben",
+    "changed": "Was sich geändert hat",
+    "whatItIs": "Worum es geht"
+  },
   "items": [
     {
       "tag": "Versicherung / KI",

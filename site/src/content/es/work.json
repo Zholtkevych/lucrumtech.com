@@ -1,10 +1,15 @@
 {
   "title": "Proyectos — LucrumTech",
-  "description": "Seis productos lanzados y todos siguen en producción: plataformas de IA, automatización industrial, sistemas empresariales y productos digitales.",
+  "description": "Seis productos lanzados y con soporte nuestro: plataformas de IA, automatización industrial, sistemas empresariales y productos digitales.",
   "eyebrow": "Proyectos",
-  "h1": "Seis productos lanzados. Todos siguen en producción.",
+  "h1": "Seis productos lanzados. Damos soporte a todos.",
   "lede": "Plataformas de IA, automatización industrial, sistemas empresariales y productos digitales.",
-  "labels": { "problem": "El problema", "owned": "De qué nos hicimos cargo", "changed": "Qué cambió", "whatItIs": "Qué es" },
+  "labels": {
+    "problem": "El problema",
+    "owned": "De qué nos hicimos cargo",
+    "changed": "Qué cambió",
+    "whatItIs": "Qué es"
+  },
   "items": [
     {
       "tag": "Seguros / IA",

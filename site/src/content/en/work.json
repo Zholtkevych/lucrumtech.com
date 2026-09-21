@@ -1,10 +1,15 @@
 {
   "title": "Work — LucrumTech",
-  "description": "Six products shipped, every one still in production — AI platforms, industrial automation, enterprise systems and digital products.",
+  "description": "Six products shipped and supported by us — AI platforms, industrial automation, enterprise systems and digital products.",
   "eyebrow": "Work",
-  "h1": "Six products shipped. Every one still in production.",
+  "h1": "Six products shipped. We support every one.",
   "lede": "AI platforms, industrial automation, enterprise systems and digital products.",
-  "labels": { "problem": "The problem", "owned": "What we owned", "changed": "What changed", "whatItIs": "What it is" },
+  "labels": {
+    "problem": "The problem",
+    "owned": "What we owned",
+    "changed": "What changed",
+    "whatItIs": "What it is"
+  },
   "items": [
     {
       "tag": "Insurance / AI",

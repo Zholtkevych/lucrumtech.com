@@ -1,10 +1,15 @@
 {
   "title": "Réalisations — LucrumTech",
-  "description": "Six produits livrés, tous encore en production — plateformes d’IA, automatisation industrielle, systèmes d’entreprise et produits numériques.",
+  "description": "Six produits livrés et maintenus par nos soins — plateformes d’IA, automatisation industrielle, systèmes d’entreprise et produits numériques.",
   "eyebrow": "Réalisations",
-  "h1": "Six produits livrés. Tous encore en production.",
+  "h1": "Six produits livrés. Nous assurons le support de chacun.",
   "lede": "Plateformes d’IA, automatisation industrielle, systèmes d’entreprise et produits numériques.",
-  "labels": { "problem": "Le problème", "owned": "Ce que nous avons assumé", "changed": "Ce qui a changé", "whatItIs": "De quoi il s’agit" },
+  "labels": {
+    "problem": "Le problème",
+    "owned": "Ce que nous avons assumé",
+    "changed": "Ce qui a changé",
+    "whatItIs": "De quoi il s’agit"
+  },
   "items": [
     {
       "tag": "Assurance / IA",
