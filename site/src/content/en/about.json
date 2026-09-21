@@ -1,10 +1,10 @@
 {
-  "title": "About — LucrumTech",
-  "description": "LucrumTech is a product company that takes ownership. Lucrum is Latin for profit, gain — every decision should move the needle for your business.",
+  "title": "About LucrumTech — product ownership from idea to revenue",
+  "description": "LucrumTech is a product company that takes ownership. Lucrum is Latin for profit, gain — every decision should show up in yours.",
   "eyebrow": "About",
   "h1": "We don't celebrate shipping.",
   "h1Muted": "We celebrate results.",
-  "lede": "LucrumTech is a product company that takes ownership. Lucrum is Latin — profit, gain. Every decision we make should move the needle for your business.",
+  "lede": "LucrumTech is a product company that takes ownership. Lucrum is Latin — profit, gain. Every decision we make should show up in yours.",
   "people": [
     {
       "name": "Alex Zholtkevych",
@@ -19,7 +19,7 @@
     {
       "name": "Veronika Frontova",
       "role": "— hiring",
-      "bio": "Full-cycle recruiting across technical and non-technical roles. Canada, Ukraine and the EU since 2019."
+      "bio": "Full-cycle recruiting across technical and non-technical roles. Canada, Ukraine and the EU."
     }
   ],
   "note": "Behind them: a delivery team of six engineers across the EU and Canada. Overlapping hours with North America and Europe."

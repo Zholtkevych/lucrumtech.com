@@ -1,6 +1,6 @@
 {
   "title": "LucrumTech — Equipos de producto que responden por el resultado",
-  "description": "LucrumTech lleva un producto de la idea a los ingresos: estrategia, arquitectura, ingeniería y una persona que responde por que funcione.",
+  "description": "Estrategia, arquitectura e ingeniería sénior en un único equipo responsable. Seis productos en IA, automatización industrial y sistemas empresariales.",
   "hero": {
     "h1": "Equipos de producto que responden por el resultado.",
     "h1Muted": "No otro proveedor que entrega código.",
@@ -70,7 +70,7 @@
       }
     ],
     "cta": "Ver los seis proyectos →",
-    "aiLine": "Dos de los seis son plataformas de IA, ambas en producción. ",
+    "aiLine": "Dos de los seis son plataformas de IA. ",
     "aiLink": "Cómo abordamos la IA →"
   },
   "team": {

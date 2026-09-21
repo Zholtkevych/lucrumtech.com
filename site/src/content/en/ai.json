@@ -51,7 +51,7 @@
   },
   "proof": {
     "eyebrow": "Proof",
-    "h2": "Days to hours. In production. Still running.",
+    "h2": "Days to hours. And we still support it.",
     "body": "Insurance case processing ran on manual document handling and took days. We built a platform that parses claim PDFs, transcribes calls, extracts structured data and generates the reports. Processing dropped from days to hours.",
     "cta": "See all six projects →"
   },

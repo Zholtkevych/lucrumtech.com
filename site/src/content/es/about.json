@@ -1,10 +1,10 @@
 {
-  "title": "Acerca de — LucrumTech",
-  "description": "LucrumTech es una empresa de producto que asume la responsabilidad. Lucrum es latín: beneficio, ganancia. Cada decisión debe generar un impacto real en tu negocio.",
+  "title": "Sobre LucrumTech — propiedad del producto, de la idea a los ingresos",
+  "description": "LucrumTech es una empresa de producto que asume la responsabilidad. Lucrum es latín: beneficio, ganancia; cada decisión debe reflejarse en el tuyo.",
   "eyebrow": "Acerca de",
   "h1": "No celebramos los lanzamientos.",
   "h1Muted": "Celebramos los resultados.",
-  "lede": "LucrumTech es una empresa de producto que asume la responsabilidad. Lucrum es latín: beneficio, ganancia. Cada decisión que tomamos debe generar un impacto real en tu negocio.",
+  "lede": "LucrumTech es una empresa de producto que asume la responsabilidad. Lucrum es latín: beneficio, ganancia. Cada decisión que tomamos debe reflejarse en el tuyo.",
   "people": [
     {
       "name": "Alex Zholtkevych",
@@ -19,7 +19,7 @@
     {
       "name": "Veronika Frontova",
       "role": "— contratación",
-      "bio": "Reclutamiento de ciclo completo en perfiles técnicos y no técnicos. Canadá, Ucrania y la UE desde 2019."
+      "bio": "Reclutamiento de ciclo completo en perfiles técnicos y no técnicos. Canadá, Ucrania y la UE."
     }
   ],
   "note": "Detrás de ellos: un equipo de entrega de seis ingenieros en la UE y Canadá. Horarios solapados con Norteamérica y Europa."

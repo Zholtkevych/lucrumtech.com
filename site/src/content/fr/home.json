@@ -1,6 +1,6 @@
 {
   "title": "LucrumTech — Des équipes produit qui répondent du résultat",
-  "description": "LucrumTech mène un produit de l’idée au chiffre d’affaires : stratégie, architecture, ingénierie, et une personne qui répond de son bon fonctionnement.",
+  "description": "Stratégie, architecture et ingénierie senior dans une seule équipe responsable. Six produits en IA, automatisation industrielle et systèmes d’entreprise.",
   "hero": {
     "h1": "Des équipes produit qui répondent du résultat.",
     "h1Muted": "Pas un prestataire de plus qui livre du code.",
@@ -70,7 +70,7 @@
       }
     ],
     "cta": "Voir les six projets →",
-    "aiLine": "Deux des six sont des plateformes d’IA, toutes deux en production. ",
+    "aiLine": "Deux des six sont des plateformes d’IA. ",
     "aiLink": "Notre approche de l’IA →"
   },
   "team": {

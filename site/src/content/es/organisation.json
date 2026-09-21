@@ -5,7 +5,7 @@
   "h1": "La tecnología construye el producto.",
   "h1Muted": "La organización es lo que permite que siga funcionando a escala.",
   "lede": "Construimos la organización que sostiene el negocio: estructura, liderazgo, personas y modelo operativo. Para empresas que se están creando y para empresas que han superado la estructura que un día funcionó.",
-  "cta": "Reserva una conversación",
+  "cta": "Reserva una llamada estratégica",
   "argument": {
     "eyebrow": "El argumento",
     "h2": "No un equipo más grande. No más procesos. El sistema adecuado para la siguiente etapa.",
@@ -18,10 +18,22 @@
     "body": "Es: ¿qué organización necesita este negocio para funcionar, crecer y generar valor?",
     "chain": "Modelo de negocio → capacidades → organización → liderazgo → equipo → modelo operativo → lanzamiento → escala",
     "blocks": [
-      { "h3": "Estrategia y diseño organizativo", "p": "Estrategia de personas, diseño organizativo, planificación de plantilla, arquitectura de liderazgo, gestión del desempeño, cultura." },
-      { "h3": "Creación y escalado de negocio", "p": "Arquitectura organizativa, diseño de equipos, capacidades críticas, equipo directivo, estrategia de contratación, interno frente a externo, modelo de escalado." },
-      { "h3": "Transformación y reestructuración", "p": "Auditoría organizativa, rediseño, modelo operativo, roles y responsabilidades, transiciones de liderazgo, reconstrucción de equipos." },
-      { "h3": "Executive search y contrataciones críticas", "p": "Posiciones de C-level, VP y responsables de área: desde la búsqueda y la evaluación hasta la selección, la oferta y la integración a 90 días." }
+      {
+        "h3": "Estrategia y diseño organizativo",
+        "p": "Estrategia de personas, diseño organizativo, planificación de plantilla, arquitectura de liderazgo, gestión del desempeño, cultura."
+      },
+      {
+        "h3": "Creación y escalado de negocio",
+        "p": "Arquitectura organizativa, diseño de equipos, capacidades críticas, equipo directivo, estrategia de contratación, interno frente a externo, modelo de escalado."
+      },
+      {
+        "h3": "Transformación y reestructuración",
+        "p": "Auditoría organizativa, rediseño, modelo operativo, roles y responsabilidades, transiciones de liderazgo, reconstrucción de equipos."
+      },
+      {
+        "h3": "Executive search y contrataciones críticas",
+        "p": "Posiciones de C-level, VP y responsables de área: desde la búsqueda y la evaluación hasta la selección, la oferta y la integración a 90 días."
+      }
     ]
   },
   "hiring": {
@@ -34,6 +46,6 @@
     "eyebrow": "Trayectoria",
     "h2": "Más de 15 años. Más de 350 personas incorporadas y equipos escalados.",
     "body": "Más de 11 años en tecnología. Reconstrucciones organizativas integrales entregadas en tres meses. En TI, outsourcing y outstaffing, productos tecnológicos, FinTech, medios, negocios internacionales, corporaciones, estructuras holding y filiales.",
-    "cta": "Reserva una conversación"
+    "cta": "Reserva una llamada estratégica"
   }
 }

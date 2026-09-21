@@ -1,6 +1,6 @@
 {
   "title": "LucrumTech — Produktteams, die für das Ergebnis geradestehen",
-  "description": "LucrumTech bringt ein Produkt von der Idee zum Umsatz — Strategie, Architektur, Engineering und eine Person, die dafür geradesteht, dass es funktioniert.",
+  "description": "Strategie, Architektur und Senior-Engineering in einem verantwortlichen Team. Sechs Produkte in KI, Industrieautomatisierung und Enterprise-Systemen.",
   "hero": {
     "h1": "Produktteams, die für das Ergebnis geradestehen.",
     "h1Muted": "Kein weiterer Dienstleister, der Code liefert.",
@@ -70,7 +70,7 @@
       }
     ],
     "cta": "Alle sechs Projekte ansehen →",
-    "aiLine": "Zwei der sechs sind KI-Plattformen, beide im Produktivbetrieb. ",
+    "aiLine": "Zwei der sechs sind KI-Plattformen. ",
     "aiLink": "Wie wir an KI herangehen →"
   },
   "team": {

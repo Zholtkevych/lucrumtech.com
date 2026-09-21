@@ -51,7 +51,7 @@
   },
   "proof": {
     "eyebrow": "Prueba",
-    "h2": "De días a horas. En producción. Sigue funcionando.",
+    "h2": "De días a horas. Y seguimos dándole soporte.",
     "body": "La gestión de expedientes de seguros dependía del tratamiento manual de documentos y tardaba días. Construimos una plataforma que analiza los PDF de siniestros, transcribe llamadas, extrae datos estructurados y genera los informes. El procesamiento pasó de días a horas.",
     "cta": "Ver los seis proyectos →"
   },

@@ -5,7 +5,7 @@
   "h1": "Technology builds the product.",
   "h1Muted": "Organisation is what lets it keep running at scale.",
   "lede": "We build the organisation behind the business — structure, leadership, people and operating model. For companies being built, and for companies that have outgrown the structure that once worked.",
-  "cta": "Book a conversation",
+  "cta": "Book a strategy call",
   "argument": {
     "eyebrow": "The argument",
     "h2": "Not a bigger team. Not more process. The right system for the next stage.",
@@ -18,10 +18,22 @@
     "body": "It's: what organisation does this business need in order to work, grow and create value?",
     "chain": "Business model → capabilities → organisation → leadership → team → operating model → launch → scale",
     "blocks": [
-      { "h3": "Organisational strategy and design", "p": "People strategy, organisational design, workforce planning, leadership architecture, performance management, culture." },
-      { "h3": "Business building and scaling", "p": "Organisational architecture, team design, critical capabilities, leadership team, hiring strategy, in-house vs outsource, scaling model." },
-      { "h3": "Transformation and restructuring", "p": "Organisational audit, redesign, operating model, roles and accountability, leadership transitions, team rebuild." },
-      { "h3": "Executive search and critical hiring", "p": "C-level, VP and head-level roles — from search and assessment through selection, offer and 90-day integration." }
+      {
+        "h3": "Organisational strategy and design",
+        "p": "People strategy, organisational design, workforce planning, leadership architecture, performance management, culture."
+      },
+      {
+        "h3": "Business building and scaling",
+        "p": "Organisational architecture, team design, critical capabilities, leadership team, hiring strategy, in-house vs outsource, scaling model."
+      },
+      {
+        "h3": "Transformation and restructuring",
+        "p": "Organisational audit, redesign, operating model, roles and accountability, leadership transitions, team rebuild."
+      },
+      {
+        "h3": "Executive search and critical hiring",
+        "p": "C-level, VP and head-level roles — from search and assessment through selection, offer and 90-day integration."
+      }
     ]
   },
   "hiring": {
@@ -34,6 +46,6 @@
     "eyebrow": "Track record",
     "h2": "15+ years. 350+ people built and scaled.",
     "body": "11+ years in technology. End-to-end organisational rebuilds delivered in three months. Across IT, outsourcing and outstaffing, technology products, FinTech, media, international businesses, corporations, holding structures and subsidiaries.",
-    "cta": "Book a conversation"
+    "cta": "Book a strategy call"
   }
 }
