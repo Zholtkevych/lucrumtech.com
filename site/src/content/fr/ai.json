@@ -1,0 +1,65 @@
+{
+  "title": "Automatisation, transformation et optimisation par l’IA — LucrumTech",
+  "description": "La plupart des projets d’IA ne dépassent jamais le pilote. Nous intégrons automatisation, transformation et optimisation par l’IA dans vos systèmes existants — et nous en répondons en production.",
+  "eyebrow": "IA",
+  "h1": "De l’IA qui arrive en production.",
+  "h1Muted": "La plupart n’y arrive jamais.",
+  "lede": "La plupart des projets d’IA meurent entre la démo et le déploiement. On construit quelque chose d’impressionnant, tout le monde s’accorde à dire que c’est l’avenir, et un an plus tard rien ne tourne dans l’entreprise. La technologie était rarement le problème.",
+  "lede2": "Nous intégrons l’IA dans les systèmes que vous exploitez déjà, et nous en restons responsables une fois en service. La même réponse que pour tout ce que nous faisons : une équipe qui assume, jusqu’à ce que ça marche.",
+  "cta": "Réserver un appel stratégique",
+  "gap": {
+    "eyebrow": "Pourquoi les pilotes s’enlisent",
+    "h2": "Une démo prouve que ça peut marcher. La production prouve que ça marche.",
+    "body": "Un pilote tourne avec des données propres, une équipe volontaire et aucune échéance. La production n’offre rien de tout cela. Le modèle rencontre de vrais documents, de vrais cas limites et de vraies personnes qui ont déjà un travail — et quelque part en chemin, le projet cesse d’être la responsabilité de qui que ce soit.",
+    "strong": "Cet écart n’est pas un problème de technologie. C’est un problème de responsabilité."
+  },
+  "build": {
+    "eyebrow": "Ce que nous construisons",
+    "h2": "Trois choses, toutes déjà livrées.",
+    "blocks": [
+      {
+        "h3": "Automatisation par l’IA",
+        "p": "Les étapes manuelles d’un flux : lire des documents, en extraire les données, les déplacer entre systèmes.",
+        "items": [
+          "Analyse de documents et extraction de données à grande échelle",
+          "Transcription d’appels et de réunions en enregistrements structurés",
+          "Génération de rapports à partir d’entrées non structurées",
+          "Routage et tri au sein des flux existants"
+        ]
+      },
+      {
+        "h3": "Transformation par l’IA",
+        "p": "Changer le fonctionnement d’un processus, pas seulement accélérer la version actuelle.",
+        "items": [
+          "Couches de décision au sein des flux opérationnels",
+          "Copilotes intégrés là où le travail se fait réellement",
+          "Analyse prédictive sur les données d’exploitation",
+          "Reconstruire un processus autour de ce que l’IA rend possible"
+        ]
+      },
+      {
+        "h3": "Optimisation par l’IA",
+        "p": "Des processus que vous exploitez déjà, améliorés de façon mesurable.",
+        "items": [
+          "Réglage des coûts et de la latence des systèmes d’IA existants",
+          "Mesure de la précision et harnais d’évaluation",
+          "Remplacer des règles fragiles par des modèles quand c’est rentable",
+          "Mener à terme un pilote resté en plan"
+        ]
+      }
+    ]
+  },
+  "proof": {
+    "eyebrow": "Preuve",
+    "h2": "De jours à heures. En production. Toujours en service.",
+    "body": "Le traitement des dossiers d’assurance reposait sur la manipulation manuelle de documents et prenait des jours. Nous avons construit une plateforme qui analyse les PDF de sinistres, transcrit les appels, extrait des données structurées et génère les rapports. Le traitement est passé de jours à heures.",
+    "cta": "Voir les six projets →"
+  },
+  "scope": {
+    "eyebrow": "Périmètre",
+    "h2": "Nous vous dirons quand l’IA n’est pas la réponse.",
+    "body": "Beaucoup de problèmes étiquetés « IA » se révèlent être des problèmes de données, de processus ou de reporting, où un modèle ajouterait surtout du coût et de l’incertitude. Si c’est ce que nous constatons, nous le dirons — comme nous le ferions pour tout produit que nous ne jugeons pas digne d’être construit.",
+    "cta": "Réserver un appel stratégique",
+    "meta": "hello@lucrumtech.com · Réponse sous 24 heures"
+  }
+}

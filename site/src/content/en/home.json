@@ -8,9 +8,18 @@
     "sub": "Distributed across the EU and Canada. One accountable team, idea to revenue.",
     "cta": "Book a strategy call",
     "stats": [
-      { "value": "6", "label": "products shipped" },
-      { "value": "20+", "label": "years senior engineering" },
-      { "value": "24h", "label": "reply time" }
+      {
+        "value": "6",
+        "label": "products shipped"
+      },
+      {
+        "value": "20+",
+        "label": "years senior engineering"
+      },
+      {
+        "value": "24h",
+        "label": "reply time"
+      }
     ]
   },
   "panel": {
@@ -30,9 +39,18 @@
     "eyebrow": "How it works",
     "h2": "Two weeks in, you'll know if we're right.",
     "steps": [
-      { "term": "Week 1 — Teardown", "body": "We go through what you have and tell you honestly what we'd do. If it isn't worth building, we say so." },
-      { "term": "Month 1 — Foundation", "body": "Product definition, architecture, roadmap. You own every document, whether or not you continue with us." },
-      { "term": "Month 2 onward — Build", "body": "Senior engineers, shipping. One person accountable throughout." }
+      {
+        "term": "Week 1 — Teardown",
+        "body": "We go through what you have and tell you honestly what we'd do. If it isn't worth building, we say so."
+      },
+      {
+        "term": "Month 1 — Foundation",
+        "body": "Product definition, architecture, roadmap. You own every document, whether or not you continue with us."
+      },
+      {
+        "term": "Month 2 onward — Build",
+        "body": "Senior engineers, shipping. One person accountable throughout."
+      }
     ],
     "note": "Two ways to work: leadership advisory billed hourly, or a fixed-price package covering audit, strategy and execution over three to six months — delivery team included. We'll tell you which one your situation needs."
   },
@@ -40,18 +58,40 @@
     "eyebrow": "Proof",
     "h2": "Six products shipped. Every one still in production.",
     "cases": [
-      { "tag": "Insurance / AI", "name": "InHelper", "body": "Case processing ran on manual document handling and took days. We built an AI platform that parses claim PDFs, transcribes calls, extracts structured data and generates the reports. Processing dropped from days to hours." },
-      { "tag": "Industrial automation", "name": "AMOS", "body": "Every automation changeover was slow and expensive, so nobody experimented. We built an operating layer over a cloud IoT backbone that deploys and monitors automation workflows on live machines remotely." }
+      {
+        "tag": "Insurance / AI",
+        "name": "InHelper",
+        "body": "Case processing ran on manual document handling and took days. We built an AI platform that parses claim PDFs, transcribes calls, extracts structured data and generates the reports. Processing dropped from days to hours."
+      },
+      {
+        "tag": "Industrial automation",
+        "name": "AMOS",
+        "body": "Every automation changeover was slow and expensive, so nobody experimented. We built an operating layer over a cloud IoT backbone that deploys and monitors automation workflows on live machines remotely."
+      }
     ],
-    "cta": "See all six projects →"
+    "cta": "See all six projects →",
+    "aiLine": "Two of the six are AI platforms, both in production. ",
+    "aiLink": "How we approach AI →"
   },
   "team": {
     "eyebrow": "Who you work with",
     "h2": "Product ownership isn't a company. It's a person.",
     "people": [
-      { "name": "Alex Zholtkevych", "role": "— product, delivery, engineering", "bio": "20+ years across Big Tech, Telecom, AdTech, FinTech, Insurance and HealthTech. MSc Computer Science. 25+ products shipped, from architecture through delivery." },
-      { "name": "Alina Ihnatenko", "role": "— organisation, leadership, people", "bio": "Chief People Officer. 15+ years, 11+ in technology. 350+ people across organisations built and scaled, and end-to-end rebuilds delivered in three months." },
-      { "name": "Veronika Frontova", "role": "— hiring", "bio": "Full-cycle recruiting across technical and non-technical roles, from sourcing through onboarding and the first 90 days. Canada, Ukraine and the EU." }
+      {
+        "name": "Alex Zholtkevych",
+        "role": "— product, delivery, engineering",
+        "bio": "20+ years across Big Tech, Telecom, AdTech, FinTech, Insurance and HealthTech. MSc Computer Science. 25+ products shipped, from architecture through delivery."
+      },
+      {
+        "name": "Alina Ihnatenko",
+        "role": "— organisation, leadership, people",
+        "bio": "Chief People Officer. 15+ years, 11+ in technology. 350+ people across organisations built and scaled, and end-to-end rebuilds delivered in three months."
+      },
+      {
+        "name": "Veronika Frontova",
+        "role": "— hiring",
+        "bio": "Full-cycle recruiting across technical and non-technical roles, from sourcing through onboarding and the first 90 days. Canada, Ukraine and the EU."
+      }
     ],
     "note": "Behind them: a delivery team of six engineers across the EU and Canada — full-stack, cloud, industrial systems. Built and trained by us, led by us, accountable to us."
   },

@@ -8,22 +8,37 @@
     {
       "h3": "Product strategy",
       "p": "We define what to build before a single line of code is written.",
-      "items": ["Market validation and problem definition", "Roadmap and release sequencing", "System architecture design", "Technology selection, trade-offs written down"]
+      "items": [
+        "Market validation and problem definition",
+        "Roadmap and release sequencing",
+        "System architecture design",
+        "Technology selection, trade-offs written down"
+      ]
     },
     {
       "h3": "Engineering",
       "p": "A delivery team we built and trained ourselves, led by people who have shipped before.",
-      "items": ["Full-stack product development", "Cloud infrastructure and platform engineering", "Enterprise platforms and integrations", "Industrial and embedded software, IoT"]
+      "items": [
+        "Full-stack product development",
+        "Cloud infrastructure and platform engineering",
+        "Enterprise platforms and integrations",
+        "Industrial and embedded software, IoT"
+      ]
     },
     {
-      "h3": "AI transformation",
-      "p": "AI where it creates real value — built for production, not demos.",
-      "items": ["Document intelligence at volume", "Workflow automation with AI decision layers", "Predictive analytics on operational data", "Copilots embedded inside the workflow", "AI optimisation of processes you already run"]
+      "h3": "AI",
+      "p": "Automation, transformation and optimisation — built for production, not demos. We also take stalled pilots the rest of the way.",
+      "link": "How we approach AI →"
     },
     {
       "h3": "Technical leadership",
       "p": "Executive-level technology leadership without the full-time overhead.",
-      "items": ["Fractional CTO", "Product management and delivery ownership", "Architectural decisions and technical due diligence", "Vendor and team assessment"]
+      "items": [
+        "Fractional CTO",
+        "Product management and delivery ownership",
+        "Architectural decisions and technical due diligence",
+        "Vendor and team assessment"
+      ]
     }
   ],
   "note": "Deepest experience: manufacturing and industrial automation, insurance and FinTech, HealthTech. Also shipped in SaaS, AdTech, Telecom, IoT and embedded systems.",
@@ -34,12 +49,22 @@
       {
         "h3": "Leadership advisory",
         "p": "Direct time with the three of us — product and delivery, organisation, hiring. For a specific question, a decision you need a second opinion on, or a short review. Billed hourly, no commitment, no minimum.",
-        "items": ["Architecture and technology reviews", "Product and roadmap decisions", "Vendor or team assessment"]
+        "items": [
+          "Architecture and technology reviews",
+          "Product and roadmap decisions",
+          "Vendor or team assessment"
+        ]
       },
       {
         "h3": "Package — three to six months",
         "p": "For work that needs owning rather than advising. One price covering the audit, the plan and the execution — leadership and delivery team included, not billed by the hour.",
-        "items": ["Full audit of what exists today", "Strategy, architecture and organisational plan", "Execution — build, restructure, hire", "Our delivery team included in the price", "One accountable team throughout"]
+        "items": [
+          "Full audit of what exists today",
+          "Strategy, architecture and organisational plan",
+          "Execution — build, restructure, hire",
+          "Our delivery team included in the price",
+          "One accountable team throughout"
+        ]
       }
     ],
     "note": "Most engagements start with a paid short review. By the end of it we'll both know whether the package is the right call.",

@@ -1,0 +1,65 @@
+{
+  "title": "KI-Automatisierung, -Transformation und -Optimierung — LucrumTech",
+  "description": "Die meisten KI-Projekte kommen nie über den Piloten hinaus. Wir bauen KI-Automatisierung, -Transformation und -Optimierung in Ihre bestehenden Systeme — und verantworten sie im Produktivbetrieb.",
+  "eyebrow": "KI",
+  "h1": "KI, die es in den Produktivbetrieb schafft.",
+  "h1Muted": "Die meiste schafft es nie.",
+  "lede": "Die meisten KI-Projekte sterben zwischen Demo und Einführung. Etwas Beeindruckendes wird gebaut, alle sind sich einig, dass es die Zukunft ist, und ein Jahr später läuft nichts davon im Geschäft. An der Technologie lag es selten.",
+  "lede2": "Wir bauen KI in die Systeme ein, die Sie bereits betreiben, und bleiben dafür verantwortlich, wenn sie live ist. Dieselbe Antwort wie bei allem, was wir tun: ein Team, das die Sache verantwortet, bis sie funktioniert.",
+  "cta": "Strategiegespräch buchen",
+  "gap": {
+    "eyebrow": "Warum Piloten stecken bleiben",
+    "h2": "Eine Demo zeigt, dass es funktionieren kann. Der Produktivbetrieb zeigt, dass es funktioniert.",
+    "body": "Ein Pilot läuft mit sauberen Daten, einem willigen Team und ohne Termindruck. Im Produktivbetrieb gibt es nichts davon. Das Modell trifft auf echte Dokumente, echte Sonderfälle und echte Menschen, die schon einen Job haben — und irgendwo dazwischen hört das Projekt auf, jemandes Verantwortung zu sein.",
+    "strong": "Diese Lücke ist kein Technologieproblem. Es ist ein Verantwortungsproblem."
+  },
+  "build": {
+    "eyebrow": "Was wir bauen",
+    "h2": "Drei Dinge, jedes davon schon ausgeliefert.",
+    "blocks": [
+      {
+        "h3": "KI-Automatisierung",
+        "p": "Die manuellen Schritte in einem Ablauf: Dokumente lesen, Daten extrahieren, sie zwischen Systemen bewegen.",
+        "items": [
+          "Dokumentenauswertung und Datenextraktion in großem Volumen",
+          "Transkription von Anrufen und Besprechungen in strukturierte Datensätze",
+          "Berichterstellung aus unstrukturierten Eingaben",
+          "Weiterleitung und Vorsortierung innerhalb bestehender Abläufe"
+        ]
+      },
+      {
+        "h3": "KI-Transformation",
+        "p": "Verändern, wie ein Prozess funktioniert — nicht nur die bestehende Version beschleunigen.",
+        "items": [
+          "Entscheidungsebenen innerhalb operativer Abläufe",
+          "Copilots dort eingebettet, wo die Arbeit tatsächlich stattfindet",
+          "Predictive Analytics auf Betriebsdaten",
+          "Einen Prozess neu bauen auf Basis dessen, was KI möglich macht"
+        ]
+      },
+      {
+        "h3": "KI-Optimierung",
+        "p": "Prozesse, die Sie bereits betreiben, messbar besser gemacht.",
+        "items": [
+          "Kosten- und Latenzoptimierung bestehender KI-Systeme",
+          "Genauigkeitsmessung und Evaluations-Harnesses",
+          "Brüchige Regelwerke durch Modelle ersetzen, wo es sich rechnet",
+          "Einen stecken gebliebenen Piloten zu Ende bringen"
+        ]
+      }
+    ]
+  },
+  "proof": {
+    "eyebrow": "Beleg",
+    "h2": "Von Tagen auf Stunden. Im Produktivbetrieb. Läuft weiterhin.",
+    "body": "Die Bearbeitung von Versicherungsfällen lief über manuelle Dokumentenbearbeitung und dauerte Tage. Wir haben eine Plattform gebaut, die Schaden-PDFs ausliest, Anrufe transkribiert, strukturierte Daten extrahiert und die Berichte erzeugt. Die Bearbeitung sank von Tagen auf Stunden.",
+    "cta": "Alle sechs Projekte ansehen →"
+  },
+  "scope": {
+    "eyebrow": "Umfang",
+    "h2": "Wir sagen Ihnen, wenn KI nicht die Antwort ist.",
+    "body": "Viele Probleme mit dem Etikett „KI“ entpuppen sich als Datenprobleme, Prozessprobleme oder Reporting-Probleme, bei denen ein Modell vor allem Kosten und Unsicherheit hinzufügt. Wenn wir das feststellen, sagen wir es — genau wie bei jedem Produkt, das wir für nicht bauenswert halten.",
+    "cta": "Strategiegespräch buchen",
+    "meta": "hello@lucrumtech.com · Antwort innerhalb von 24 Stunden"
+  }
+}

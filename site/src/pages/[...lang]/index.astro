@@ -63,7 +63,8 @@ const to = (p: string) => localePath(locale, p);
           <div class="case"><span class="tag">{k.tag}</span><h3>{k.name}</h3><p>{k.body}</p></div>
         ))}
       </div>
-      <p style="margin-top:28px"><a class="btn btn-quiet" href={to('/work')}>{c.proof.cta}</a></p>
+      <p class="sub" style="margin-top:24px">{c.proof.aiLine}<a href={to('/ai')} class="strong" style="text-decoration:underline; text-underline-offset:3px">{c.proof.aiLink}</a></p>
+      <p style="margin-top:20px"><a class="btn btn-quiet" href={to('/work')}>{c.proof.cta}</a></p>
     </div>
   </section>
 

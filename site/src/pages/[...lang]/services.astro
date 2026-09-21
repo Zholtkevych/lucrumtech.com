@@ -20,7 +20,14 @@ const c = (await import(`../../content/${locale}/services.json`)).default;
           <div class="blk">
             <h3>{b.h3}</h3>
             <p>{b.p}</p>
-            <ul>{b.items.map((i) => <li>{i}</li>)}</ul>
+            {b.items && <ul>{b.items.map((i) => <li>{i}</li>)}</ul>}
+            {/* The AI block points at /ai rather than repeating it — two pages
+                targeting the same terms would compete for the same ranking. */}
+            {b.link && (
+              <p style="margin:12px 0 0">
+                <a href={localePath(locale, '/ai')} class="strong" style="font-size:16px; text-decoration:underline; text-underline-offset:3px">{b.link}</a>
+              </p>
+            )}
           </div>
         ))}
       </div>

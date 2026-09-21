@@ -1,0 +1,65 @@
+{
+  "title": "Automatización, transformación y optimización con IA — LucrumTech",
+  "description": "La mayoría de los proyectos de IA nunca salen del piloto. Integramos automatización, transformación y optimización con IA en los sistemas que ya usas, y respondemos por ellos en producción.",
+  "eyebrow": "IA",
+  "h1": "IA que llega a producción.",
+  "h1Muted": "La mayoría no lo consigue.",
+  "lede": "La mayoría de los proyectos de IA mueren entre la demo y el despliegue. Se construye algo impresionante, todo el mundo coincide en que es el futuro, y un año después no hay nada funcionando en el negocio. La tecnología casi nunca fue el problema.",
+  "lede2": "Integramos la IA en los sistemas que ya usas y seguimos siendo responsables de ella una vez está en marcha. La misma respuesta que en todo lo que hacemos: un equipo que se hace cargo hasta que funciona.",
+  "cta": "Reserva una llamada estratégica",
+  "gap": {
+    "eyebrow": "Por qué se atascan los pilotos",
+    "h2": "Una demo demuestra que puede funcionar. Producción demuestra que funciona.",
+    "body": "Un piloto funciona con datos limpios, un equipo dispuesto y sin fecha límite. En producción no hay nada de eso. El modelo se encuentra con documentos reales, casos límite reales y personas reales que ya tienen su trabajo — y en algún punto de ese camino el proyecto deja de ser responsabilidad de nadie.",
+    "strong": "Esa distancia no es un problema de tecnología. Es un problema de responsabilidad."
+  },
+  "build": {
+    "eyebrow": "Qué construimos",
+    "h2": "Tres cosas, y las tres ya lanzadas antes.",
+    "blocks": [
+      {
+        "h3": "Automatización con IA",
+        "p": "Los pasos manuales de un flujo: leer documentos, extraer datos y moverlos entre sistemas.",
+        "items": [
+          "Análisis de documentos y extracción de datos a gran volumen",
+          "Transcripción de llamadas y reuniones en registros estructurados",
+          "Generación de informes a partir de entradas no estructuradas",
+          "Enrutamiento y clasificación dentro de los flujos existentes"
+        ]
+      },
+      {
+        "h3": "Transformación con IA",
+        "p": "Cambiar cómo funciona un proceso, no solo acelerar la versión actual.",
+        "items": [
+          "Capas de decisión dentro de los flujos operativos",
+          "Copilotos integrados donde realmente ocurre el trabajo",
+          "Analítica predictiva sobre datos operativos",
+          "Rediseñar un proceso a partir de lo que la IA hace posible"
+        ]
+      },
+      {
+        "h3": "Optimización con IA",
+        "p": "Procesos que ya ejecutas, mejorados de forma medible.",
+        "items": [
+          "Ajuste de coste y latencia en sistemas de IA existentes",
+          "Medición de precisión y sistemas de evaluación",
+          "Sustituir reglas frágiles por modelos cuando compensa",
+          "Llevar hasta el final un piloto que se quedó parado"
+        ]
+      }
+    ]
+  },
+  "proof": {
+    "eyebrow": "Prueba",
+    "h2": "De días a horas. En producción. Sigue funcionando.",
+    "body": "La gestión de expedientes de seguros dependía del tratamiento manual de documentos y tardaba días. Construimos una plataforma que analiza los PDF de siniestros, transcribe llamadas, extrae datos estructurados y genera los informes. El procesamiento pasó de días a horas.",
+    "cta": "Ver los seis proyectos →"
+  },
+  "scope": {
+    "eyebrow": "Alcance",
+    "h2": "Te diremos cuándo la IA no es la respuesta.",
+    "body": "Muchos problemas etiquetados como «IA» resultan ser problemas de datos, de proceso o de reporting, donde un modelo añadiría sobre todo coste e incertidumbre. Si es lo que encontramos, te lo diremos, igual que haríamos con cualquier producto que no creyéramos que merece la pena construir.",
+    "cta": "Reserva una llamada estratégica",
+    "meta": "hello@lucrumtech.com · Respuesta en menos de 24 horas"
+  }
+}

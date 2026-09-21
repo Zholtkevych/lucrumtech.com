@@ -1,0 +1,65 @@
+{
+  "title": "AI automation, transformation and optimisation — LucrumTech",
+  "description": "Most AI projects never leave the pilot. We build AI automation, transformation and optimisation into the systems you already run — and own it in production.",
+  "eyebrow": "AI",
+  "h1": "AI that makes it into production.",
+  "h1Muted": "Most of it never does.",
+  "lede": "Most AI projects die between the demo and the deployment. Something impressive gets built, everyone agrees it's the future, and a year later nothing is running in the business. The technology was rarely the problem.",
+  "lede2": "We build AI into the systems you already run, and stay accountable for it once it's live. Same answer as everything else we do: one team, owning it until it works.",
+  "cta": "Book a strategy call",
+  "gap": {
+    "eyebrow": "Why pilots stall",
+    "h2": "A demo proves it can work. Production proves it does.",
+    "body": "A pilot runs on clean data, a willing team and no deadline. Production has none of those. The model meets real documents, real edge cases, and real people who already have a job to do — and somewhere in there the project stops being anyone's responsibility.",
+    "strong": "That gap isn't a technology problem. It's an ownership problem."
+  },
+  "build": {
+    "eyebrow": "What we build",
+    "h2": "Three things, all of them shipped before.",
+    "blocks": [
+      {
+        "h3": "AI automation",
+        "p": "The manual steps in a workflow: reading documents, extracting data, moving it between systems.",
+        "items": [
+          "Document parsing and data extraction at volume",
+          "Call and meeting transcription into structured records",
+          "Report generation from unstructured inputs",
+          "Routing and triage inside existing workflows"
+        ]
+      },
+      {
+        "h3": "AI transformation",
+        "p": "Changing how a process works, not just making the current version faster.",
+        "items": [
+          "Decision layers inside operational workflows",
+          "Copilots embedded where the work actually happens",
+          "Predictive analytics on operational data",
+          "Rebuilding a process around what AI makes possible"
+        ]
+      },
+      {
+        "h3": "AI optimisation",
+        "p": "Processes you already run, made measurably better.",
+        "items": [
+          "Cost and latency tuning on existing AI systems",
+          "Accuracy measurement and evaluation harnesses",
+          "Replacing brittle rules with models where it pays",
+          "Taking a stalled pilot the rest of the way"
+        ]
+      }
+    ]
+  },
+  "proof": {
+    "eyebrow": "Proof",
+    "h2": "Days to hours. In production. Still running.",
+    "body": "Insurance case processing ran on manual document handling and took days. We built a platform that parses claim PDFs, transcribes calls, extracts structured data and generates the reports. Processing dropped from days to hours.",
+    "cta": "See all six projects →"
+  },
+  "scope": {
+    "eyebrow": "Scope",
+    "h2": "We'll tell you when AI isn't the answer.",
+    "body": "Plenty of problems labelled \"AI\" turn out to be data problems, process problems or reporting problems, where a model would add cost and uncertainty and little else. If that's what we find, we'll say so — the same way we would about any product we didn't think was worth building.",
+    "cta": "Book a strategy call",
+    "meta": "hello@lucrumtech.com · Reply within 24 hours"
+  }
+}
