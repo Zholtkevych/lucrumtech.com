@@ -2,10 +2,13 @@
 
 Astro static site for lucrumtech.com. No CMS — every page is a file you edit directly.
 
-- `site/` — the site. Routes are files under `site/src/pages/`:
-  `/` `/services` `/work` `/about` `/contact` `/interim` `/organisation`
-  `/privacy` `/privacy/es` `/privacy/de` `/privacy/fr`
+- `site/` — the site. Nine routes × four languages (36 pages). Templates are in
+  `site/src/pages/[...lang]/`, one per route; copy is per-language JSON in
+  `site/src/content/<lang>/`. English sits at the root (`/services`), the others take a
+  prefix (`/de/services`).
+  Routes: `/` `/services` `/ai` `/work` `/about` `/contact` `/interim` `/organisation` `/privacy`
 - `deploy/nginx-lucrumtech.conf` — the live Nginx server block.
+- `deploy/nginx-formguard.conf` — contact-form abuse protection (see below).
 - `lucrumtech-clickable.html` — the original approved design prototype, kept for reference.
 
 ## Editing content
@@ -99,7 +102,13 @@ reopens it so consent can be withdrawn.
 
 - No custom 404 page — unknown paths get Nginx's default. The old site never 404'd (the SPA
   returned the homepage for everything), so this is new.
-- ES/DE/FR privacy translations are abridged (see above).
-- The restored policy says LucrumTech is "headquartered in Berlin, Germany"; the new site copy
-  says "distributed across the EU and Canada". One of the two is out of date.
-- Site is English-only; the old one had full ES/DE/FR. Only the privacy policy is translated.
+- ES/DE/FR privacy translations are abridged (see above), and the ES/DE/FR marketing copy is a
+  first-pass translation that has not had a native review.
+- The privacy policy names Canada as the company's base but not the registered entity. GDPR
+  requires the controller's identity, so the exact legal name belongs there.
+- A controller outside the EU offering services into the EU generally needs an Art. 27 EU
+  representative named in the policy. Not addressed — needs legal input, not a code change.
+- The contact form's honeypot is client-side only; the server-side block is the Nginx origin
+  check. A determined bot that sets an Origin header would get through.
+- WhatIf and nuMessage have no stated outcome on `/work`, so the page promises six products and
+  substantiates four.
