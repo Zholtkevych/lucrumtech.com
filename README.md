@@ -62,9 +62,27 @@ proxied by the Nginx block above. It accepts `multipart/form-data` (`name`, `ema
 `message`, plus optional `company`/`topic`), sends via `mail.formanova.solutions:587` as
 `hello@lucrumtech.com`, and delivers to alex.zholtkevych@ and veronika.frontova@lucrumtech.com.
 
-The form's hidden `reference` field is a honeypot — bots that fill it get a fake success and
-nothing is sent. It's deliberately *not* called `company`, because that's a real field on the
-API.
+The form's hidden `reference` field is a honeypot — but note it is checked in **browser
+JavaScript only**, so it does nothing against a bot posting straight at the endpoint. It's
+deliberately *not* called `company`, because that's a real field on the API.
+
+### Abuse protection
+
+In September 2026 a bot posted ~280 submissions directly to `/api/website/send-email` over two
+days, all of which became mail. The FastAPI service validates nothing — no rate limit, no
+honeypot, no origin check — so the block happens in Nginx:
+
+- `deploy/nginx-formguard.conf` → `/etc/nginx/conf.d/lucrumtech-formguard.conf`. Declares the
+  rate-limit zone and the Origin/Referer maps (http-level directives can only live there). It
+  is inert until referenced, so the other sites on the box are unaffected.
+- The `/api/website/` block in `deploy/nginx-lucrumtech.conf` returns 403 unless the request
+  carries an Origin or Referer from lucrumtech.com, and rate-limits to 10/min per IP.
+
+A submission from the site works normally; a direct POST gets 403. If you ever need to call the
+endpoint yourself, send `-H "Origin: https://lucrumtech.com"`.
+
+The durable fix, if the bot adapts, is a server-side honeypot check inside the FastAPI app or a
+captcha on the form. Neither is in place.
 
 ## Analytics and consent
 
