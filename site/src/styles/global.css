@@ -27,8 +27,11 @@ p{margin:0 0 18px}
 .eyebrow{font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--t3); font-weight:600; margin:0 0 18px}
 /* Names the category above the hero. Same slot and geometry as .eyebrow — the
    homepage was the only page without one — but heavier and in the accent, so
-   it reads as the offer rather than a section label. */
-.hero-kicker{font-size:13px; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); font-weight:700; margin:0 0 16px}
+   it reads as the offer rather than a section label.
+   Tracking is tighter than .eyebrow because it is twice the size — large
+   uppercase sprawls at the same letter-spacing — and clamped so the longer
+   translations don't take three lines on a phone. */
+.hero-kicker{font-size:clamp(19px,2.3vw,26px); line-height:1.2; letter-spacing:.06em; text-transform:uppercase; color:var(--accent); font-weight:700; margin:0 0 18px; text-wrap:balance}
 a{color:inherit}
 
 header{border-bottom:1px solid #E3E3E0; position:sticky; top:0; background:#FFFFFF; z-index:30}
