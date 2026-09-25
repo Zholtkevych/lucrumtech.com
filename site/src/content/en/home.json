@@ -2,6 +2,7 @@
   "title": "LucrumTech — Product teams that own the outcome",
   "description": "Strategy, architecture and senior engineering under one accountable team. Six products shipped across AI, industrial automation and enterprise systems.",
   "hero": {
+    "kicker": "Product ownership as a service",
     "h1": "Product teams that own the outcome.",
     "h1Muted": "Not another vendor delivering code.",
     "lede": "LucrumTech takes a product from idea to revenue — strategy, architecture, engineering, and one person accountable for whether it works.",

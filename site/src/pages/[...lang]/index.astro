@@ -13,6 +13,7 @@ const to = (p: string) => localePath(locale, p);
 <Layout title={c.title} description={c.description} lang={locale} basePath="/" alternates={alternatesFor('/')}>
   <div class="wrap"><div class="split">
     <div>
+      <p class="hero-kicker">{c.hero.kicker}</p>
       <h1>{c.hero.h1}<span class="muted">{c.hero.h1Muted}</span></h1>
       <p class="lede" style="margin-top:26px">{c.hero.lede}</p>
       <p class="sub">{c.hero.sub}</p>
