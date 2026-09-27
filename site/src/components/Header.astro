@@ -3,6 +3,7 @@ import LogoMark from './LogoMark.astro';
 import { cleanPath } from '../lib/path';
 import { LOCALES, LOCALE_LABELS, DEFAULT_LOCALE, localePath, type Locale } from '../i18n/config';
 import { UI } from '../i18n/ui';
+import LinkedInLink from './LinkedInLink.astro';
 
 interface Props {
   locale?: Locale;
@@ -47,6 +48,8 @@ const links = [
         >{l.toUpperCase()}</a>
       ))}
     </div>
+
+    <LinkedInLink class="navsocial" size={19} />
   </div>
 </nav></div></header>
 
@@ -62,6 +65,7 @@ const links = [
       nav{height:auto !important; min-height:64px; flex-wrap:wrap; padding:10px 0}
       .navcrisis{margin-left:0 !important; padding-left:0 !important; border-left:0 !important}
       .navlang{margin-left:0 !important; padding-left:0 !important; border-left:0 !important; border-top:0 !important}
+      .navsocial{margin:0 !important; padding-left:0 !important; border-left:0 !important}
     }
   </style>
 </noscript>

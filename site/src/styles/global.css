@@ -50,6 +50,19 @@ nav{display:flex; align-items:center; gap:24px; height:64px}
 .navlang a:hover{color:#1A1D21}
 .navlang a.on{color:#1A1D21; border-bottom-color:#A8322A}
 
+/* LinkedIn mark, rendered by LinkedInLink.astro and used in both the header and
+   the footer — so the rules live here rather than in either component's scoped
+   block, which would not reach a child component's markup. Monochrome because
+   the site carries no brand colour but the accent. */
+.navsocial{display:inline-flex; align-items:center; margin-left:14px; padding-left:14px;
+           border-left:1px solid #E3E3E0; color:#9AA0A8; transition:color .15s ease}
+.navsocial:hover{color:#A8322A}
+.navsocial:focus-visible{outline:2px solid #A8322A; outline-offset:3px}
+
+.foot-social{display:inline-flex; margin-top:16px; color:var(--t3); transition:color .15s ease}
+.foot-social:hover{color:var(--accent)}
+.foot-social:focus-visible{outline:2px solid var(--accent); outline-offset:4px}
+
 .navtoggle{display:none; margin-left:auto; background:none; border:0; padding:10px 0 10px 10px; cursor:pointer; flex-direction:column; gap:5px; align-items:flex-end}
 /* Brand red, matching the primary button — stays legible on white and survives
    browser "force dark mode", which leaves a near-black bar invisible. */
@@ -137,7 +150,7 @@ footer{padding:40px 0; color:var(--t3); font-size:14px}
 /* Seven links plus four language codes is a lot of horizontal content, and the
    German and French labels are the longest. Tighten the nav well before the
    layout breakpoint so it never spills out of the fixed-height bar. */
-@media (max-width:1024px){
+@media (max-width:1120px){
   .navlinks{gap:13px}
   .navlinks a{font-size:14px}
   .navlang{margin-left:4px; padding-left:12px; gap:7px}
@@ -170,4 +183,6 @@ footer{padding:40px 0; color:var(--t3); font-size:14px}
   /* Languages sit as a row of codes under the links rather than a stacked list. */
   .navlang{margin:0; padding:14px 0 2px; border-left:0; border-top:1px solid #ECECE9; gap:16px}
   .navlang a{font-size:13px; padding:4px 0}
+  /* No vertical rule to divide against once the bar has become a panel. */
+  .navsocial{margin:12px 0 4px; padding-left:0; border-left:0}
 }
