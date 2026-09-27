@@ -25,6 +25,12 @@ const links = [
       <div class="foot-contact">
         <a href="mailto:hello@lucrumtech.com" class="foot-mail">hello@lucrumtech.com</a>
         <span class="foot-note">{t.footer.contactLabel}</span>
+        <a
+          class="foot-social"
+          href="https://www.linkedin.com/company/lucrumtech-your-product-partner/"
+          target="_blank"
+          rel="noopener"
+        >LinkedIn →</a>
       </div>
       <nav class="foot-links" aria-label="Footer">
         {links.map((l) => <a href={localePath(locale, l.route)}>{l.label}</a>)}
@@ -44,6 +50,10 @@ const links = [
              text-decoration:underline; text-underline-offset:4px}
   .foot-mail:hover{color:var(--accent)}
   .foot-note{display:block; margin-top:6px; font-size:14px; color:var(--t3)}
+  .foot-social{display:inline-block; margin-top:14px; font-size:15px; font-weight:600;
+               color:var(--t2); text-decoration:none;
+               border-bottom:1px solid var(--line); padding-bottom:2px}
+  .foot-social:hover{color:var(--accent); border-bottom-color:var(--accent)}
   .foot-links{display:flex; gap:10px 22px; flex-wrap:wrap; align-items:flex-start; max-width:560px}
   .foot-links a{font-size:15px; color:var(--t2); text-decoration:none;
                 border-bottom:1px solid transparent; padding-bottom:1px}
