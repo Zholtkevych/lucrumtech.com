@@ -4,10 +4,10 @@ import type { Locale } from './config';
 // Register: informal "tú" in Spanish, formal "Sie"/"vous" in German and French,
 // matching how the previous site addressed each audience.
 export const UI: Record<Locale, {
-  nav: { home: string; services: string; ai: string; work: string; about: string; contact: string; interim: string };
+  nav: { home: string; services: string; ai: string; organisation: string; work: string; about: string; contact: string; interim: string };
   menu: string;
   language: string;
-  footer: { copyright: string; tagline: string };
+  footer: { copyright: string; tagline: string; contactLabel: string; privacy: string };
   form: {
     name: string; email: string; message: string;
     namePlaceholder: string; emailPlaceholder: string; messagePlaceholder: string;
@@ -15,10 +15,10 @@ export const UI: Record<Locale, {
   };
 }> = {
   en: {
-    nav: { home: 'Home', services: 'Services', ai: 'AI', work: 'Work', about: 'About', contact: 'Contact', interim: 'Interim' },
+    nav: { home: 'Home', services: 'Services', ai: 'AI', organisation: 'Organisation', work: 'Work', about: 'About', contact: 'Contact', interim: 'Interim' },
     menu: 'Menu',
     language: 'Language',
-    footer: { copyright: '© 2026 LucrumTech', tagline: 'Product ownership. From idea to revenue.' },
+    footer: { copyright: '© 2026 LucrumTech', tagline: 'Product ownership. From idea to revenue.', contactLabel: 'Reply within 24 hours', privacy: 'Privacy' },
     form: {
       name: 'Name', email: 'Email', message: 'Message',
       namePlaceholder: 'Your name', emailPlaceholder: 'you@company.com',
@@ -30,10 +30,10 @@ export const UI: Record<Locale, {
     },
   },
   es: {
-    nav: { home: 'Inicio', services: 'Servicios', ai: 'IA', work: 'Proyectos', about: 'Acerca de', contact: 'Contacto', interim: 'Interim' },
+    nav: { home: 'Inicio', services: 'Servicios', ai: 'IA', organisation: 'Organización', work: 'Proyectos', about: 'Acerca de', contact: 'Contacto', interim: 'Interim' },
     menu: 'Menú',
     language: 'Idioma',
-    footer: { copyright: '© 2026 LucrumTech', tagline: 'Propiedad del producto. De la idea a los ingresos.' },
+    footer: { copyright: '© 2026 LucrumTech', tagline: 'Propiedad del producto. De la idea a los ingresos.', contactLabel: 'Respuesta en menos de 24 horas', privacy: 'Privacidad' },
     form: {
       name: 'Nombre', email: 'Correo electrónico', message: 'Mensaje',
       namePlaceholder: 'Tu nombre', emailPlaceholder: 'tu@empresa.com',
@@ -45,10 +45,10 @@ export const UI: Record<Locale, {
     },
   },
   de: {
-    nav: { home: 'Start', services: 'Leistungen', ai: 'KI', work: 'Referenzen', about: 'Über uns', contact: 'Kontakt', interim: 'Interim' },
+    nav: { home: 'Start', services: 'Leistungen', ai: 'KI', organisation: 'Organisation', work: 'Referenzen', about: 'Über uns', contact: 'Kontakt', interim: 'Interim' },
     menu: 'Menü',
     language: 'Sprache',
-    footer: { copyright: '© 2026 LucrumTech', tagline: 'Product Ownership. Von der Idee zum Umsatz.' },
+    footer: { copyright: '© 2026 LucrumTech', tagline: 'Product Ownership. Von der Idee zum Umsatz.', contactLabel: 'Antwort innerhalb von 24 Stunden', privacy: 'Datenschutz' },
     form: {
       name: 'Name', email: 'E-Mail', message: 'Nachricht',
       namePlaceholder: 'Ihr Name', emailPlaceholder: 'sie@unternehmen.com',
@@ -60,10 +60,10 @@ export const UI: Record<Locale, {
     },
   },
   fr: {
-    nav: { home: 'Accueil', services: 'Services', ai: 'IA', work: 'Réalisations', about: 'À propos', contact: 'Contact', interim: 'Transition' },
+    nav: { home: 'Accueil', services: 'Services', ai: 'IA', organisation: 'Organisation', work: 'Réalisations', about: 'À propos', contact: 'Contact', interim: 'Transition' },
     menu: 'Menu',
     language: 'Langue',
-    footer: { copyright: '© 2026 LucrumTech', tagline: 'La propriété du produit. De l’idée au chiffre d’affaires.' },
+    footer: { copyright: '© 2026 LucrumTech', tagline: 'La propriété du produit. De l’idée au chiffre d’affaires.', contactLabel: 'Réponse sous 24 heures', privacy: 'Confidentialité' },
     form: {
       name: 'Nom', email: 'E-mail', message: 'Message',
       namePlaceholder: 'Votre nom', emailPlaceholder: 'vous@entreprise.com',

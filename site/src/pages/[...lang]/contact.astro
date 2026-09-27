@@ -15,8 +15,11 @@ const f = UI[locale].form;
   <section>
     <div class="wrap">
       <p class="eyebrow">{c.eyebrow}</p>
-      <h1>{c.h1}</h1>
-      <p class="lede" style="margin-top:24px">{c.lede}</p>
+      {/* Someone arriving from /interim is mid-crisis; "Tell us what you're
+          building" doesn't meet them there. The urgent variant is swapped in
+          client-side, since the site is static and can't branch per request. */}
+      <h1 id="c-h1" data-urgent={c.urgent.h1}>{c.h1}</h1>
+      <p class="lede" style="margin-top:24px" id="c-lede" data-urgent={c.urgent.lede}>{c.lede}</p>
       <form class="form" id="contact-form" method="POST" action="/api/website/send-email" novalidate>
         <label for="f-name">{f.name}</label>
         <input id="f-name" name="name" type="text" placeholder={f.namePlaceholder} autocomplete="name" required>
@@ -38,6 +41,13 @@ const f = UI[locale].form;
   </section>
 
   <script>
+    if (new URLSearchParams(location.search).get('from') === 'interim') {
+      for (const id of ['c-h1', 'c-lede']) {
+        const el = document.getElementById(id);
+        if (el?.dataset.urgent) el.textContent = el.dataset.urgent;
+      }
+    }
+
     const form = document.getElementById('contact-form') as HTMLFormElement;
     const err = document.getElementById('f-err') as HTMLParagraphElement;
     const ok = document.getElementById('f-ok') as HTMLParagraphElement;

@@ -7,5 +7,9 @@
   "meta": "hello@lucrumtech.com · Reply within 24 hours",
   "urgentBefore": "In trouble right now? ",
   "urgentLink": "Talk to us today",
-  "urgentAfter": " — we can start within 72 hours."
+  "urgentAfter": " — we can start within 72 hours.",
+  "urgent": {
+    "h1": "Tell us what is going wrong.",
+    "lede": "The more specific you are, the faster we can tell you whether we can help — and whether you even need us. We can start within 72 hours."
+  }
 }

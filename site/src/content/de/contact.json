@@ -7,5 +7,9 @@
   "meta": "hello@lucrumtech.com · Antwort innerhalb von 24 Stunden",
   "urgentBefore": "Gerade in Schwierigkeiten? ",
   "urgentLink": "Sprechen Sie uns heute an",
-  "urgentAfter": " — wir können innerhalb von 72 Stunden starten."
+  "urgentAfter": " — wir können innerhalb von 72 Stunden starten.",
+  "urgent": {
+    "h1": "Sagen Sie uns, was schiefläuft.",
+    "lede": "Je konkreter Sie sind, desto schneller können wir sagen, ob wir helfen können — und ob Sie uns überhaupt brauchen. Wir können innerhalb von 72 Stunden starten."
+  }
 }

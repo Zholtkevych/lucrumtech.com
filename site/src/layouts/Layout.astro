@@ -20,6 +20,11 @@ interface Props {
 
 const { title, description, dark = false, lang = 'en', basePath = '/', alternates } = Astro.props;
 
+// Share cards are per-locale; regenerate with `npm run gen:og` after copy changes.
+const OG_LOCALE: Record<Locale, string> = {
+  en: 'en_GB', es: 'es_ES', de: 'de_DE', fr: 'fr_FR',
+};
+
 // Canonical has to match the URL visitors and crawlers actually hit, or
 // /privacy and /privacy.html compete as duplicates.
 const canonicalURL = new URL(cleanPath(Astro.url.pathname), Astro.site);
@@ -41,6 +46,16 @@ const canonicalURL = new URL(cleanPath(Astro.url.pathname), Astro.site);
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonicalURL} />
+  <meta property="og:image" content={new URL(`/og-${lang}.png`, Astro.site)} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content={title} />
+  <meta property="og:locale" content={OG_LOCALE[lang]} />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={new URL(`/og-${lang}.png`, Astro.site)} />
 
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />

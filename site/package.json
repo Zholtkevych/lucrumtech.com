@@ -10,7 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "gen:icons": "node scripts/gen-icons.mjs"
+    "gen:icons": "node scripts/gen-icons.mjs",
+    "gen:og": "node scripts/gen-og.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.4",
@@ -20,6 +21,7 @@
     "esbuild": true
   },
   "devDependencies": {
+    "playwright": "^1.63.0",
     "png-to-ico": "^3.0.2",
     "sharp": "^0.35.4"
   }
