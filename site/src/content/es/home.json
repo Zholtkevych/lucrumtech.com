@@ -6,15 +6,15 @@
     "h1": "Equipos de producto que responden por el resultado.",
     "h1Muted": "No otro proveedor que entrega código.",
     "lede": "LucrumTech lleva un producto de la idea a los ingresos: estrategia, arquitectura, ingeniería y una persona que responde por que funcione.",
-    "sub": "Distribuidos por la UE y Canadá. Un único equipo responsable, de la idea a los ingresos.",
+    "sub": "Fundada por Alex Zholtkevych: más de 25 años en FinTech, HealthTech, seguros y sistemas industriales. Grado en Matemática Aplicada y Máster en Informática. Más de 30 productos lanzados.",
     "cta": "Reserva una llamada estratégica",
     "stats": [
       {
         "value": "6",
-        "label": "productos lanzados"
+        "label": "productos como LucrumTech"
       },
       {
-        "value": "20+",
+        "value": "25+",
         "label": "años de ingeniería sénior"
       },
       {
@@ -81,7 +81,7 @@
       {
         "name": "Alex Zholtkevych",
         "role": "— producto, entrega, ingeniería, operaciones",
-        "bio": "Más de 20 años en Big Tech, telecomunicaciones, AdTech, FinTech, seguros y HealthTech. Máster en Informática. Más de 25 productos lanzados, de la arquitectura a la entrega."
+        "bio": "Más de 25 años en Big Tech, telecomunicaciones, AdTech, FinTech, seguros, HealthTech y sistemas industriales. Grado en Matemática Aplicada y Máster en Informática. Más de 30 productos lanzados, de la arquitectura a la entrega."
       },
       {
         "role": "",
