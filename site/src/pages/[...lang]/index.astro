@@ -75,7 +75,7 @@ const to = (p: string) => localePath(locale, p);
       <h2>{c.team.h2}</h2>
       <div style="margin-top:28px">
         {c.team.people.map((p) => (
-          <div class="person"><div><h3>{p.name} <span>{p.role}</span></h3><p>{p.bio}</p></div></div>
+          <div class="person"><div><h3>{p.name ? <>{p.name} <span>{p.role}</span></> : p.heading}</h3><p>{p.bio}</p></div></div>
         ))}
       </div>
       <p class="sub" style="margin-top:26px">{c.team.note}</p>

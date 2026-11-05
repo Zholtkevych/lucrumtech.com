@@ -80,18 +80,13 @@
     "people": [
       {
         "name": "Alex Zholtkevych",
-        "role": "— producto, entrega, ingeniería",
+        "role": "— producto, entrega, ingeniería, operaciones",
         "bio": "Más de 20 años en Big Tech, telecomunicaciones, AdTech, FinTech, seguros y HealthTech. Máster en Informática. Más de 25 productos lanzados, de la arquitectura a la entrega."
       },
       {
-        "name": "Alina Ihnatenko",
-        "role": "— organización, liderazgo, personas",
-        "bio": "Chief People Officer. Más de 15 años, más de 11 en tecnología. Más de 350 personas incorporadas y equipos escalados, con reconstrucciones integrales entregadas en tres meses."
-      },
-      {
-        "name": "Veronika Frontova",
-        "role": "— contratación",
-        "bio": "Reclutamiento de ciclo completo en perfiles técnicos y no técnicos, desde la búsqueda hasta la incorporación y los primeros 90 días. Canadá, Ucrania y la UE."
+        "role": "",
+        "bio": "Reclutamiento de ciclo completo en perfiles técnicos y no técnicos, desde la búsqueda hasta la incorporación y los primeros 90 días. Ahora también lidera la parte organizativa: estructura, roles y el modelo operativo de un equipo en crecimiento. Canadá, Ucrania y la UE.",
+        "heading": "Organización, personas y contratación"
       }
     ],
     "note": "Detrás de ellos: un equipo de entrega de seis ingenieros en la UE y Canadá — full-stack, cloud, sistemas industriales. Formado y entrenado por nosotros, dirigido por nosotros y responsable ante nosotros."

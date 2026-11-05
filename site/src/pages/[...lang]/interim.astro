@@ -71,8 +71,8 @@ const contact = localePath(locale, '/contact') + '?from=interim';
     <div class="wrap">
       <p class="eyebrow">{c.who.eyebrow}</p>
       <div style="margin-top:8px">
-        {c.who.people.map((p) => (
-          <div class="person"><div><h3>{p.name} <span>{p.role}</span></h3><p>{p.bio}</p></div></div>
+        {c.who.blocks.map((b) => (
+          <div class="person"><div><h3>{b.h3}</h3><p>{b.body}</p></div></div>
         ))}
       </div>
       <div class="btnrow"><a class="btn btn-crisis" href={contact}>{c.who.cta}</a></div>

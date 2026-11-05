@@ -80,18 +80,13 @@
     "people": [
       {
         "name": "Alex Zholtkevych",
-        "role": "— product, delivery, engineering",
+        "role": "— product, delivery, engineering, operations",
         "bio": "20+ years across Big Tech, Telecom, AdTech, FinTech, Insurance and HealthTech. MSc Computer Science. 25+ products shipped, from architecture through delivery."
       },
       {
-        "name": "Alina Ihnatenko",
-        "role": "— organisation, leadership, people",
-        "bio": "Chief People Officer. 15+ years, 11+ in technology. 350+ people across organisations built and scaled, and end-to-end rebuilds delivered in three months."
-      },
-      {
-        "name": "Veronika Frontova",
-        "role": "— hiring",
-        "bio": "Full-cycle recruiting across technical and non-technical roles, from sourcing through onboarding and the first 90 days. Canada, Ukraine and the EU."
+        "role": "",
+        "bio": "Full-cycle recruiting across technical and non-technical roles, from sourcing through onboarding and the first 90 days. Now leads the organisational side too — structure, roles and the operating model behind a growing team. Canada, Ukraine and the EU.",
+        "heading": "Organisation, people and hiring"
       }
     ],
     "note": "Behind them: a delivery team of six engineers across the EU and Canada — full-stack, cloud, industrial systems. Built and trained by us, led by us, accountable to us."

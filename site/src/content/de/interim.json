@@ -21,15 +21,30 @@
     "groups": [
       {
         "h3": "01 — Etwas ist kaputtgegangen",
-        "items": ["Releases verschieben sich laufend und niemand kann sagen, was als Nächstes kommt", "Die Architektur hält der Last nicht stand und das Team löscht permanent Brände", "Schlüsselpersonen gehen und Sie wissen noch nicht, warum", "Eine Führungsebene ist das Problem und niemand spricht es aus"]
+        "items": [
+          "Releases verschieben sich laufend und niemand kann sagen, was als Nächstes kommt",
+          "Die Architektur hält der Last nicht stand und das Team löscht permanent Brände",
+          "Schlüsselpersonen gehen und Sie wissen noch nicht, warum",
+          "Eine Führungsebene ist das Problem und niemand spricht es aus"
+        ]
       },
       {
         "h3": "02 — Das Unternehmen steht still",
-        "items": ["Alle sind beschäftigt und nichts Wesentliches wird ausgeliefert", "Dieselben Probleme kommen jedes Quartal in neuer Gestalt zurück", "Sie haben die Mannschaft verdoppelt und die Umsetzung ist schlechter geworden, nicht besser", "Jede Entscheidung läuft weiterhin über Sie"]
+        "items": [
+          "Alle sind beschäftigt und nichts Wesentliches wird ausgeliefert",
+          "Dieselben Probleme kommen jedes Quartal in neuer Gestalt zurück",
+          "Sie haben die Mannschaft verdoppelt und die Umsetzung ist schlechter geworden, nicht besser",
+          "Jede Entscheidung läuft weiterhin über Sie"
+        ]
       },
       {
         "h3": "03 — Skalierung ins Enterprise-Geschäft",
-        "items": ["Enterprise-Kunden verlangen Dinge, die Sie nicht haben — Security-Reviews, SLAs, Audit-Trails", "Was bei 20 Personen funktioniert hat, bricht bei 80 zusammen", "Einkauf, Compliance und Recht sitzen inzwischen in jedem Deal, und niemand verantwortet das", "Sie brauchen Prozesse, ohne zu einem Unternehmen zu werden, das nur noch aus Prozessen besteht"]
+        "items": [
+          "Enterprise-Kunden verlangen Dinge, die Sie nicht haben — Security-Reviews, SLAs, Audit-Trails",
+          "Was bei 20 Personen funktioniert hat, bricht bei 80 zusammen",
+          "Einkauf, Compliance und Recht sitzen inzwischen in jedem Deal, und niemand verantwortet das",
+          "Sie brauchen Prozesse, ohne zu einem Unternehmen zu werden, das nur noch aus Prozessen besteht"
+        ]
       }
     ],
     "closing": "Wenn mehr als zwei davon gleichzeitig zutreffen, sind das keine mehreren Probleme. Es ist ein Problem, das Sie noch nicht gefunden haben."
@@ -38,10 +53,22 @@
     "eyebrow": "So läuft es ab",
     "h2": "Zwei Wochen. Fester Umfang, fester Preis.",
     "steps": [
-      { "term": "Tag 1–3 — Zugang", "body": "Wir sprechen mit allen: Führung, Management und den Menschen, die die Arbeit tatsächlich machen. Einzeln und vertraulich." },
-      { "term": "Tag 4–10 — Diagnose", "body": "Wir gleichen ab, was wirklich passiert, mit dem, was Sie glauben, das passiert. Die Lücke dazwischen ist meist die ganze Antwort." },
-      { "term": "Tag 11–14 — Befund", "body": "Eine schriftliche Diagnose: die Ursache, was sie Sie kostet und was wir dagegen tun würden. Einschließlich der Aussage, wenn sie zutrifft, dass Sie uns nicht brauchen." },
-      { "term": "Dann entscheiden Sie", "body": "Die Diagnose gehört Ihnen in jedem Fall. Wenn Sie wollen, dass wir sie umsetzen, kommen wir als Interim Leadership herein und verantworten die Lösung, bis sie trägt." }
+      {
+        "term": "Tag 1–3 — Zugang",
+        "body": "Wir sprechen mit allen: Führung, Management und den Menschen, die die Arbeit tatsächlich machen. Einzeln und vertraulich."
+      },
+      {
+        "term": "Tag 4–10 — Diagnose",
+        "body": "Wir gleichen ab, was wirklich passiert, mit dem, was Sie glauben, das passiert. Die Lücke dazwischen ist meist die ganze Antwort."
+      },
+      {
+        "term": "Tag 11–14 — Befund",
+        "body": "Eine schriftliche Diagnose: die Ursache, was sie Sie kostet und was wir dagegen tun würden. Einschließlich der Aussage, wenn sie zutrifft, dass Sie uns nicht brauchen."
+      },
+      {
+        "term": "Dann entscheiden Sie",
+        "body": "Die Diagnose gehört Ihnen in jedem Fall. Wenn Sie wollen, dass wir sie umsetzen, kommen wir als Interim Leadership herein und verantworten die Lösung, bis sie trägt."
+      }
     ],
     "strong": "Kein Retainer zum Start. Keine Bindung über Woche zwei hinaus."
   },
@@ -51,13 +78,22 @@
     "body": "Wenn die Diagnose eine Plattform findet, die nicht trägt, ein Produkt, das neu gebaut werden muss, oder eine Automatisierung, die es längst geben sollte, haben wir Senior Engineers, die das können — keine Weiterempfehlung an den nächsten Dienstleister. Das ist der Unterschied zwischen Beratung und Verantwortung."
   },
   "who": {
-    "eyebrow": "Wer hereinkommt",
-    "people": [
-      { "name": "Alex Zholtkevych", "role": "— Produkt, Delivery, Engineering, Executive", "bio": "Über 20 Jahre in Big Tech, Telekommunikation, AdTech, FinTech, Versicherung und HealthTech. MSc Informatik. Über 25 ausgelieferte Produkte. Wird gerufen, wenn die Umsetzung stockt — die Roadmap ist nicht real, die Architektur trägt nicht, oder die Führung ist sich nicht einig, was überhaupt gebaut wird." },
-      { "name": "Alina Ihnatenko", "role": "— Organisation, Führung, People", "bio": "Chief People Officer. Über 15 Jahre, davon über 11 in der Technologiebranche. Über 350 Mitarbeitende aufgebaut und skaliert, End-to-End-Umbauten in drei Monaten. Wird gerufen, wenn ein Unternehmen schneller gewachsen ist als seine Struktur: Entscheidungen stocken, niemand verantwortet etwas, und die Leute, die es aufgebaut haben, gehen." },
-      { "name": "Veronika Frontova", "role": "— Recruiting", "bio": "Full-Cycle-Recruiting für technische und nicht-technische Rollen, von der Suche über das Onboarding bis zu den ersten 90 Tagen. Wird gerufen, wenn Stellen seit Monaten offen sind oder sich die Eingestellten immer wieder als die Falschen erweisen." }
-    ],
+    "eyebrow": "Wo wir ansetzen",
     "cta": "Sprechen Sie uns heute an",
-    "meta": "hello@lucrumtech.com · Wir können innerhalb von 72 Stunden starten"
+    "meta": "hello@lucrumtech.com · Wir können innerhalb von 72 Stunden starten",
+    "blocks": [
+      {
+        "h3": "Produkt, Delivery und Engineering",
+        "body": "Wir kommen, wenn die Umsetzung stockt — die Roadmap ist nicht real, die Architektur trägt nicht, oder die Führung ist sich nicht einig, was überhaupt gebaut wird."
+      },
+      {
+        "h3": "Organisation und Führung",
+        "body": "Wir kommen, wenn ein Unternehmen schneller gewachsen ist als seine Struktur: Entscheidungen stocken, niemand verantwortet etwas, und die Leute, die es aufgebaut haben, gehen."
+      },
+      {
+        "h3": "Recruiting",
+        "body": "Wir kommen, wenn Stellen seit Monaten offen sind oder sich die Eingestellten immer wieder als die Falschen erweisen."
+      }
+    ]
   }
 }
