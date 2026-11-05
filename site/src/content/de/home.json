@@ -6,7 +6,6 @@
     "h1": "Produktteams, die für das Ergebnis geradestehen.",
     "h1Muted": "Kein weiterer Dienstleister, der Code liefert.",
     "lede": "LucrumTech bringt ein Produkt von der Idee zum Umsatz — Strategie, Architektur, Engineering und eine Person, die dafür geradesteht, dass es funktioniert.",
-    "sub": "Gegründet von Alex Zholtkevych — über 25 Jahre in FinTech, HealthTech, Versicherung und industriellen Systemen. BSc Angewandte Mathematik, MSc Informatik. Über 30 ausgelieferte Produkte.",
     "cta": "Strategiegespräch buchen",
     "stats": [
       {
@@ -21,7 +20,10 @@
         "value": "24 Std.",
         "label": "Antwortzeit"
       }
-    ]
+    ],
+    "subBefore": "Gegründet von ",
+    "subName": "Alex Zholtkevych",
+    "subAfter": " — über 25 Jahre in Big Tech, Telekommunikation, AdTech, FinTech, Versicherung, HealthTech und industriellen Systemen. BSc Angewandte Mathematik, MSc Informatik. Über 30 ausgelieferte Produkte."
   },
   "panel": {
     "q": "Kaputt, festgefahren oder auf dem Weg zum Enterprise-Kunden?",
@@ -81,7 +83,8 @@
       {
         "name": "Alex Zholtkevych",
         "role": "— Produkt, Delivery, Engineering, Operations",
-        "bio": "Über 25 Jahre in Big Tech, Telekommunikation, AdTech, FinTech, Versicherung, HealthTech und industriellen Systemen. BSc Angewandte Mathematik, MSc Informatik. Über 30 ausgelieferte Produkte, von der Architektur bis zur Auslieferung."
+        "bio": "Über 25 Jahre in Big Tech, Telekommunikation, AdTech, FinTech, Versicherung, HealthTech und industriellen Systemen. BSc Angewandte Mathematik, MSc Informatik. Über 30 ausgelieferte Produkte, von der Architektur bis zur Auslieferung.",
+        "linkedin": "alex"
       },
       {
         "role": "",

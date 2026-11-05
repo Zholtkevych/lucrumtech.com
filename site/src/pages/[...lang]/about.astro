@@ -1,5 +1,6 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import { PROFILES } from '../../lib/profiles';
 import { localeParams, alternatesFor, type Locale } from '../../i18n/config';
 
 export function getStaticPaths() {
@@ -17,7 +18,7 @@ const c = (await import(`../../content/${locale}/about.json`)).default;
       <p class="lede" style="margin-top:24px">{c.lede}</p>
       <div style="margin-top:20px">
         {c.people.map((p) => (
-          <div class="person"><div><h3>{p.name ? <>{p.name} <span>{p.role}</span></> : p.heading}</h3><p>{p.bio}</p></div></div>
+          <div class="person"><div><h3>{p.name ? <>{p.linkedin ? <a class="profile-link" href={PROFILES[p.linkedin]} target="_blank" rel="noopener">{p.name}</a> : p.name} <span>{p.role}</span></> : p.heading}</h3><p>{p.bio}</p></div></div>
         ))}
       </div>
       <p class="sub" style="margin-top:26px">{c.note}</p>

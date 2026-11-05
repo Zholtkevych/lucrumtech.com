@@ -6,7 +6,6 @@
     "h1": "Equipos de producto que responden por el resultado.",
     "h1Muted": "No otro proveedor que entrega código.",
     "lede": "LucrumTech lleva un producto de la idea a los ingresos: estrategia, arquitectura, ingeniería y una persona que responde por que funcione.",
-    "sub": "Fundada por Alex Zholtkevych: más de 25 años en FinTech, HealthTech, seguros y sistemas industriales. Grado en Matemática Aplicada y Máster en Informática. Más de 30 productos lanzados.",
     "cta": "Reserva una llamada estratégica",
     "stats": [
       {
@@ -21,7 +20,10 @@
         "value": "24 h",
         "label": "tiempo de respuesta"
       }
-    ]
+    ],
+    "subBefore": "Fundada por ",
+    "subName": "Alex Zholtkevych",
+    "subAfter": ": más de 25 años en Big Tech, telecomunicaciones, AdTech, FinTech, seguros, HealthTech y sistemas industriales. Grado en Matemática Aplicada y Máster en Informática. Más de 30 productos lanzados."
   },
   "panel": {
     "q": "¿Algo roto, bloqueado o escalando a enterprise?",
@@ -81,7 +83,8 @@
       {
         "name": "Alex Zholtkevych",
         "role": "— producto, entrega, ingeniería, operaciones",
-        "bio": "Más de 25 años en Big Tech, telecomunicaciones, AdTech, FinTech, seguros, HealthTech y sistemas industriales. Grado en Matemática Aplicada y Máster en Informática. Más de 30 productos lanzados, de la arquitectura a la entrega."
+        "bio": "Más de 25 años en Big Tech, telecomunicaciones, AdTech, FinTech, seguros, HealthTech y sistemas industriales. Grado en Matemática Aplicada y Máster en Informática. Más de 30 productos lanzados, de la arquitectura a la entrega.",
+        "linkedin": "alex"
       },
       {
         "role": "",

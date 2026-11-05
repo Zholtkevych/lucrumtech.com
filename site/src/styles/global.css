@@ -186,3 +186,9 @@ footer{padding:40px 0; color:var(--t3); font-size:14px}
   /* No vertical rule to divide against once the bar has become a panel. */
   .navsocial{margin:12px 0 4px; padding-left:0; border-left:0}
 }
+
+/* A person's name linking out to their profile — underlined so it reads as a
+   link inside running text, and takes the accent like every other link here. */
+.profile-link{color:inherit; text-decoration:underline; text-underline-offset:3px;
+              text-decoration-thickness:1px; text-decoration-color:var(--line)}
+.profile-link:hover{color:var(--accent); text-decoration-color:var(--accent)}

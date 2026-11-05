@@ -6,7 +6,6 @@
     "h1": "Des équipes produit qui répondent du résultat.",
     "h1Muted": "Pas un prestataire de plus qui livre du code.",
     "lede": "LucrumTech mène un produit de l’idée au chiffre d’affaires : stratégie, architecture, ingénierie, et une personne qui répond de son bon fonctionnement.",
-    "sub": "Fondée par Alex Zholtkevych — plus de 25 ans dans la FinTech, la HealthTech, l’assurance et les systèmes industriels. Licence en mathématiques appliquées, master en informatique. Plus de 30 produits livrés.",
     "cta": "Réserver un appel stratégique",
     "stats": [
       {
@@ -21,7 +20,10 @@
         "value": "24 h",
         "label": "délai de réponse"
       }
-    ]
+    ],
+    "subBefore": "Fondée par ",
+    "subName": "Alex Zholtkevych",
+    "subAfter": " — plus de 25 ans dans la Big Tech, les télécoms, l’AdTech, la FinTech, l’assurance, la HealthTech et les systèmes industriels. Licence en mathématiques appliquées, master en informatique. Plus de 30 produits livrés."
   },
   "panel": {
     "q": "En panne, à l’arrêt ou en passage à l’enterprise ?",
@@ -81,7 +83,8 @@
       {
         "name": "Alex Zholtkevych",
         "role": "— produit, delivery, ingénierie, opérations",
-        "bio": "Plus de 25 ans dans la Big Tech, les télécoms, l’AdTech, la FinTech, l’assurance, la HealthTech et les systèmes industriels. Licence en mathématiques appliquées, master en informatique. Plus de 30 produits livrés, de l’architecture à la mise en production."
+        "bio": "Plus de 25 ans dans la Big Tech, les télécoms, l’AdTech, la FinTech, l’assurance, la HealthTech et les systèmes industriels. Licence en mathématiques appliquées, master en informatique. Plus de 30 produits livrés, de l’architecture à la mise en production.",
+        "linkedin": "alex"
       },
       {
         "role": "",
