@@ -199,9 +199,12 @@ footer{padding:40px 0; color:var(--t3); font-size:14px}
 .door{display:block; background:var(--crisis-bg); border:1px solid var(--crisis-line);
       padding:22px 24px; text-decoration:none; transition:border-color .15s ease}
 .door:hover{border-color:var(--accent)}
-.door-k{display:block; color:#FFFFFF; font-size:20px; font-weight:600; line-height:1.25}
+/* Brand red, dark-surface variant — the same #E2756A the crisis panel used.
+   The literal accent (#A8322A) only reaches 2.0:1 on this background; this
+   reaches 4.5:1. Hover goes to white so there is still a state change. */
+.door-k{display:block; color:#E2756A; font-size:20px; font-weight:600; line-height:1.25}
 .door-p{display:block; margin-top:8px; color:#C3C8CF; font-size:15.5px; line-height:1.55}
-.door:hover .door-k{color:var(--accent)}
+.door:hover .door-k{color:#FFFFFF}
 
 /* Booking embed. The iframe is injected on click rather than at page load, so
    Google sets nothing until the visitor opts in. */
