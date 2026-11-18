@@ -52,25 +52,16 @@
   "how": {
     "eyebrow": "Cómo funciona",
     "h2": "Dos semanas. Alcance cerrado, precio cerrado.",
+    "price": "7.500 USD",
+    "priceNote": "Precio cerrado por las dos semanas. El diagnóstico escrito es tuyo en cualquier caso.",
     "steps": [
-      {
-        "term": "Días 1–3 — Acceso",
-        "body": "Hablamos con todos: dirección, mandos intermedios y las personas que realmente hacen el trabajo. Por separado y en confianza."
-      },
-      {
-        "term": "Días 4–10 — Diagnóstico",
-        "body": "Contrastamos lo que ocurre de verdad con lo que crees que ocurre. La distancia entre ambas cosas suele ser toda la respuesta."
-      },
-      {
-        "term": "Días 11–14 — Conclusiones",
-        "body": "Un diagnóstico por escrito: la causa raíz, lo que te está costando y qué haríamos al respecto. Incluido, cuando sea cierto, que no nos necesitas."
-      },
-      {
-        "term": "Después decides",
-        "body": "El diagnóstico es tuyo en cualquier caso. Si quieres que lo ejecutemos, entramos como liderazgo interino y nos hacemos cargo de la solución hasta que se sostenga."
-      }
+      { "term": "Días 1–3 — Acceso", "body": "Hablamos con todos: dirección, mandos intermedios y las personas que realmente hacen el trabajo. Por separado y en confianza." },
+      { "term": "Días 4–10 — Diagnóstico", "body": "Contrastamos lo que ocurre de verdad con lo que crees que ocurre. La distancia entre ambas cosas suele ser toda la respuesta." },
+      { "term": "Días 11–14 — Conclusiones", "body": "Un diagnóstico por escrito: la causa raíz, lo que te está costando y qué haríamos al respecto. Incluido, cuando sea cierto, que no nos necesitas." },
+      { "term": "Después decides", "body": "El diagnóstico es tuyo en cualquier caso. Si quieres que lo ejecutemos, entramos como liderazgo interino y nos hacemos cargo de la solución hasta que se sostenga." }
     ],
-    "strong": "Sin cuota inicial. Sin compromiso más allá de la segunda semana."
+    "strong": "Sin cuota inicial. Sin compromiso más allá de la segunda semana.",
+    "ongoing": "Si quieres que asumamos la solución, el liderazgo interino va de dos a tres días por semana: 10.000–15.000 USD al mes."
   },
   "build": {
     "eyebrow": "También podemos construir la solución",
@@ -82,18 +73,9 @@
     "cta": "Habla con nosotros hoy",
     "meta": "hello@lucrumtech.com · Podemos empezar en 72 horas",
     "blocks": [
-      {
-        "h3": "Producto, entrega e ingeniería",
-        "body": "Entramos cuando la ejecución se ha detenido: la hoja de ruta no es real, la arquitectura no aguanta o la dirección no se pone de acuerdo sobre qué se está construyendo."
-      },
-      {
-        "h3": "Organización y liderazgo",
-        "body": "Entramos cuando una empresa ha crecido más rápido que su estructura: las decisiones se atascan, nadie se hace cargo de nada y quienes la construyeron empiezan a irse."
-      },
-      {
-        "h3": "Contratación",
-        "body": "Entramos cuando hay vacantes abiertas desde hace meses o cuando las personas que se contratan resultan no ser las adecuadas."
-      }
+      { "h3": "Producto, entrega e ingeniería", "body": "Entramos cuando la ejecución se ha detenido: la hoja de ruta no es real, la arquitectura no aguanta o la dirección no se pone de acuerdo sobre qué se está construyendo." },
+      { "h3": "Organización y liderazgo", "body": "Entramos cuando una empresa ha crecido más rápido que su estructura: las decisiones se atascan, nadie se hace cargo de nada y quienes la construyeron empiezan a irse." },
+      { "h3": "Contratación", "body": "Entramos cuando hay vacantes abiertas desde hace meses o cuando las personas que se contratan resultan no ser las adecuadas." }
     ]
   },
   "organisation": {
@@ -102,22 +84,10 @@
     "body": "Construimos la organización que sostiene el negocio: estructura, liderazgo, personas y modelo operativo. Para empresas que se están creando y para empresas que han superado la estructura que un día funcionó.",
     "chain": "Modelo de negocio → capacidades → organización → liderazgo → equipo → modelo operativo → lanzamiento → escala",
     "blocks": [
-      {
-        "h3": "Estrategia y diseño organizativo",
-        "p": "Estrategia de personas, diseño organizativo, planificación de plantilla, arquitectura de liderazgo, gestión del desempeño, cultura."
-      },
-      {
-        "h3": "Creación y escalado de negocio",
-        "p": "Arquitectura organizativa, diseño de equipos, capacidades críticas, equipo directivo, estrategia de contratación, interno frente a externo, modelo de escalado."
-      },
-      {
-        "h3": "Transformación y reestructuración",
-        "p": "Auditoría organizativa, rediseño, modelo operativo, roles y responsabilidades, transiciones de liderazgo, reconstrucción de equipos."
-      },
-      {
-        "h3": "Executive search y contrataciones críticas",
-        "p": "Posiciones de C-level, VP y responsables de área: desde la búsqueda y la evaluación hasta la selección, la oferta y la integración a 90 días."
-      }
+      { "h3": "Estrategia y diseño organizativo", "p": "Estrategia de personas, diseño organizativo, planificación de plantilla, arquitectura de liderazgo, gestión del desempeño, cultura." },
+      { "h3": "Creación y escalado de negocio", "p": "Arquitectura organizativa, diseño de equipos, capacidades críticas, equipo directivo, estrategia de contratación, interno frente a externo, modelo de escalado." },
+      { "h3": "Transformación y reestructuración", "p": "Auditoría organizativa, rediseño, modelo operativo, roles y responsabilidades, transiciones de liderazgo, reconstrucción de equipos." },
+      { "h3": "Executive search y contrataciones críticas", "p": "Posiciones de C-level, VP y responsables de área: desde la búsqueda y la evaluación hasta la selección, la oferta y la integración a 90 días." }
     ],
     "hiringH2": "Una incorporación que se va en el tercer mes nunca fue una incorporación.",
     "hiringBody": "La contratación sigue un proceso definido: desde la toma de requisitos hasta la incorporación y el seguimiento del periodo de prueba, registrado en ATS y con tiempos de respuesta acordados en cada etapa. Sin cajas negras y sin candidatos que se quedan tres semanas sin noticias."

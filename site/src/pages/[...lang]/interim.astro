@@ -50,12 +50,15 @@ const contact = localePath(locale, '/contact') + '?from=interim';
     <div class="wrap">
       <p class="eyebrow">{c.how.eyebrow}</p>
       <h2>{c.how.h2}</h2>
+      <p class="how-price">{c.how.price}</p>
+      <p class="sub">{c.how.priceNote}</p>
       <div class="ladder">
         {c.how.steps.map((s) => (
           <div class="step"><b>{s.term}</b><p>{s.body}</p></div>
         ))}
       </div>
       <p class="strong" style="margin-top:22px">{c.how.strong}</p>
+      <p class="sub how-ongoing">{c.how.ongoing}</p>
     </div>
   </section>
 
@@ -96,3 +99,11 @@ const contact = localePath(locale, '/contact') + '?from=interim';
     </div>
   </section>
 </Layout>
+
+<style>
+  .how-price{margin:24px 0 4px; font-size:clamp(30px,3.6vw,42px); font-weight:600;
+             letter-spacing:-0.02em; color:var(--accent); line-height:1.1}
+  /* What it costs to keep us past week two — the question the diagnostic
+     always raises. */
+  .how-ongoing{margin-top:10px; max-width:62ch}
+</style>

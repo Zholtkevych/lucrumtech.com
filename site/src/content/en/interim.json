@@ -52,25 +52,16 @@
   "how": {
     "eyebrow": "How it works",
     "h2": "Two weeks. Fixed scope, fixed fee.",
+    "price": "USD 7,500",
+    "priceNote": "Fixed fee for the two weeks. The written diagnosis is yours either way.",
     "steps": [
-      {
-        "term": "Days 1–3 — Access",
-        "body": "We talk to everyone: leadership, managers, and the people actually doing the work. Separately, and in confidence."
-      },
-      {
-        "term": "Days 4–10 — Diagnosis",
-        "body": "We map what is really happening against what you believe is happening. The gap between those two is usually the whole answer."
-      },
-      {
-        "term": "Days 11–14 — Findings",
-        "body": "A written diagnosis: the root cause, what it is costing you, and what we would do about it. Including, when it's true, that you don't need us."
-      },
-      {
-        "term": "Then you decide",
-        "body": "The diagnosis is yours either way. If you want us to execute it, we come in as interim leadership and own the fix until it holds."
-      }
+      { "term": "Days 1–3 — Access", "body": "We talk to everyone: leadership, managers, and the people actually doing the work. Separately, and in confidence." },
+      { "term": "Days 4–10 — Diagnosis", "body": "We map what is really happening against what you believe is happening. The gap between those two is usually the whole answer." },
+      { "term": "Days 11–14 — Findings", "body": "A written diagnosis: the root cause, what it is costing you, and what we would do about it. Including, when it's true, that you don't need us." },
+      { "term": "Then you decide", "body": "The diagnosis is yours either way. If you want us to execute it, we come in as interim leadership and own the fix until it holds." }
     ],
-    "strong": "No retainer to start. No commitment past week two."
+    "strong": "No retainer to start. No commitment past week two.",
+    "ongoing": "If you want us to own the fix, interim leadership runs two to three days a week — USD 10,000–15,000 per month."
   },
   "build": {
     "eyebrow": "We can also build the fix",
@@ -82,18 +73,9 @@
     "cta": "Talk to us today",
     "meta": "hello@lucrumtech.com · We can start within 72 hours",
     "blocks": [
-      {
-        "h3": "Product, delivery and engineering",
-        "body": "We come in when execution has stalled — the roadmap isn't real, the architecture won't hold, or leadership can't agree on what is being built."
-      },
-      {
-        "h3": "Organisation and leadership",
-        "body": "We come in when a company grew faster than its structure: decisions stall, nobody owns anything, and the people who built it start leaving."
-      },
-      {
-        "h3": "Hiring",
-        "body": "We come in when roles have been open for months, or the people being hired keep turning out to be the wrong ones."
-      }
+      { "h3": "Product, delivery and engineering", "body": "We come in when execution has stalled — the roadmap isn't real, the architecture won't hold, or leadership can't agree on what is being built." },
+      { "h3": "Organisation and leadership", "body": "We come in when a company grew faster than its structure: decisions stall, nobody owns anything, and the people who built it start leaving." },
+      { "h3": "Hiring", "body": "We come in when roles have been open for months, or the people being hired keep turning out to be the wrong ones." }
     ]
   },
   "organisation": {
@@ -102,22 +84,10 @@
     "body": "We build the organisation behind the business — structure, leadership, people and operating model. For companies being built, and for companies that have outgrown the structure that once worked.",
     "chain": "Business model → capabilities → organisation → leadership → team → operating model → launch → scale",
     "blocks": [
-      {
-        "h3": "Organisational strategy and design",
-        "p": "People strategy, organisational design, workforce planning, leadership architecture, performance management, culture."
-      },
-      {
-        "h3": "Business building and scaling",
-        "p": "Organisational architecture, team design, critical capabilities, leadership team, hiring strategy, in-house vs outsource, scaling model."
-      },
-      {
-        "h3": "Transformation and restructuring",
-        "p": "Organisational audit, redesign, operating model, roles and accountability, leadership transitions, team rebuild."
-      },
-      {
-        "h3": "Executive search and critical hiring",
-        "p": "C-level, VP and head-level roles — from search and assessment through selection, offer and 90-day integration."
-      }
+      { "h3": "Organisational strategy and design", "p": "People strategy, organisational design, workforce planning, leadership architecture, performance management, culture." },
+      { "h3": "Business building and scaling", "p": "Organisational architecture, team design, critical capabilities, leadership team, hiring strategy, in-house vs outsource, scaling model." },
+      { "h3": "Transformation and restructuring", "p": "Organisational audit, redesign, operating model, roles and accountability, leadership transitions, team rebuild." },
+      { "h3": "Executive search and critical hiring", "p": "C-level, VP and head-level roles — from search and assessment through selection, offer and 90-day integration." }
     ],
     "hiringH2": "A placement that leaves in month three was never a placement.",
     "hiringBody": "Hiring runs on a defined process — intake through onboarding and probation follow-up, tracked in ATS with agreed response times at every stage. No black box, no candidate going quiet for three weeks."

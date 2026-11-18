@@ -56,11 +56,49 @@ const c = (await import(`../../content/${locale}/product.json`)).default;
             <h3>{b.h3}</h3>
             <p>{b.p}</p>
             <ul>{b.items.map((i) => <li>{i}</li>)}</ul>
+            {b.rate && <p class="rate">{b.rate}</p>}
+            {b.tiers && (
+              <dl class="tiers">
+                {b.tiers.map((t) => (
+                  <Fragment><dt>{t.name}</dt><dd>{t.price}</dd></Fragment>
+                ))}
+              </dl>
+            )}
           </div>
         ))}
       </div>
+
+      <div class="startbox">
+        <h3>{c.pricing.start.h3}</h3>
+        <p>{c.pricing.start.p}</p>
+        <p class="start-price">{c.pricing.start.price}</p>
+        <p class="sub">{c.pricing.start.priceNote}</p>
+      </div>
+
       <p class="sub" style="margin-top:26px">{c.pricing.note}</p>
       <div class="btnrow"><a class="btn" href={localePath(locale, '/contact')}>{c.pricing.cta}</a></div>
     </div>
   </section>
 </Layout>
+
+<style>
+  /* Hourly is deliberately one line rather than a per-role rate card: the page
+     argues we sell an owned outcome, not bodies by the hour. */
+  .rate{margin-top:16px; margin-bottom:0; font-size:15.5px; color:var(--t2)}
+
+  .tiers{display:grid; grid-template-columns:1fr auto; gap:9px 20px; margin:20px 0 0; font-size:16.5px}
+  .tiers dt{color:var(--t1); font-weight:600}
+  .tiers dd{margin:0; color:var(--accent); font-weight:600; text-align:right; white-space:nowrap}
+  @media (max-width:520px){
+    .tiers{grid-template-columns:1fr; gap:0}
+    .tiers dd{text-align:left; margin-bottom:12px}
+  }
+
+  /* The entry offer sits on the page surface inside the tinted section so it
+     reads as the one thing to do next, not a third package. */
+  .startbox{margin-top:36px; padding:28px 30px; background:var(--s2); border:1px solid var(--line)}
+  .startbox p{max-width:62ch}
+  .start-price{margin:18px 0 4px; font-size:clamp(28px,3.4vw,40px); font-weight:600;
+               letter-spacing:-0.02em; color:var(--accent); line-height:1.1}
+  @media (max-width:520px){.startbox{padding:22px 20px}}
+</style>

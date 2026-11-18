@@ -52,25 +52,16 @@
   "how": {
     "eyebrow": "Comment ça marche",
     "h2": "Deux semaines. Périmètre fixe, forfait fixe.",
+    "price": "7 500 USD",
+    "priceNote": "Forfait pour les deux semaines. Le diagnostic écrit vous appartient dans tous les cas.",
     "steps": [
-      {
-        "term": "Jours 1–3 — Accès",
-        "body": "Nous parlons à tout le monde : direction, managers et les personnes qui font réellement le travail. Séparément, et en confidence."
-      },
-      {
-        "term": "Jours 4–10 — Diagnostic",
-        "body": "Nous confrontons ce qui se passe réellement à ce que vous croyez qu’il se passe. L’écart entre les deux constitue généralement toute la réponse."
-      },
-      {
-        "term": "Jours 11–14 — Conclusions",
-        "body": "Un diagnostic écrit : la cause racine, ce qu’elle vous coûte et ce que nous ferions. Y compris, lorsque c’est le cas, que vous n’avez pas besoin de nous."
-      },
-      {
-        "term": "Ensuite, vous décidez",
-        "body": "Le diagnostic vous appartient dans tous les cas. Si vous voulez que nous l’exécutions, nous entrons en management de transition et assumons la correction jusqu’à ce qu’elle tienne."
-      }
+      { "term": "Jours 1–3 — Accès", "body": "Nous parlons à tout le monde : direction, managers et les personnes qui font réellement le travail. Séparément, et en confidence." },
+      { "term": "Jours 4–10 — Diagnostic", "body": "Nous confrontons ce qui se passe réellement à ce que vous croyez qu’il se passe. L’écart entre les deux constitue généralement toute la réponse." },
+      { "term": "Jours 11–14 — Conclusions", "body": "Un diagnostic écrit : la cause racine, ce qu’elle vous coûte et ce que nous ferions. Y compris, lorsque c’est le cas, que vous n’avez pas besoin de nous." },
+      { "term": "Ensuite, vous décidez", "body": "Le diagnostic vous appartient dans tous les cas. Si vous voulez que nous l’exécutions, nous entrons en management de transition et assumons la correction jusqu’à ce qu’elle tienne." }
     ],
-    "strong": "Pas d’honoraires récurrents pour démarrer. Aucun engagement au-delà de la deuxième semaine."
+    "strong": "Pas d’honoraires récurrents pour démarrer. Aucun engagement au-delà de la deuxième semaine.",
+    "ongoing": "Si vous voulez que nous prenions la suite, la direction par intérim se fait sur deux à trois jours par semaine — 10 000–15 000 USD par mois."
   },
   "build": {
     "eyebrow": "Nous pouvons aussi construire la solution",
@@ -82,18 +73,9 @@
     "cta": "Parlons-en dès aujourd’hui",
     "meta": "hello@lucrumtech.com · Nous pouvons démarrer sous 72 heures",
     "blocks": [
-      {
-        "h3": "Produit, delivery et ingénierie",
-        "body": "Nous intervenons quand l’exécution s’est enlisée : la feuille de route n’est pas réelle, l’architecture ne tient pas, ou la direction ne s’accorde pas sur ce qui est construit."
-      },
-      {
-        "h3": "Organisation et leadership",
-        "body": "Nous intervenons quand une entreprise a grandi plus vite que sa structure : les décisions stagnent, personne n’est responsable de rien, et ceux qui l’ont construite commencent à partir."
-      },
-      {
-        "h3": "Recrutement",
-        "body": "Nous intervenons quand des postes sont ouverts depuis des mois, ou que les personnes recrutées se révèlent systématiquement ne pas être les bonnes."
-      }
+      { "h3": "Produit, delivery et ingénierie", "body": "Nous intervenons quand l’exécution s’est enlisée : la feuille de route n’est pas réelle, l’architecture ne tient pas, ou la direction ne s’accorde pas sur ce qui est construit." },
+      { "h3": "Organisation et leadership", "body": "Nous intervenons quand une entreprise a grandi plus vite que sa structure : les décisions stagnent, personne n’est responsable de rien, et ceux qui l’ont construite commencent à partir." },
+      { "h3": "Recrutement", "body": "Nous intervenons quand des postes sont ouverts depuis des mois, ou que les personnes recrutées se révèlent systématiquement ne pas être les bonnes." }
     ]
   },
   "organisation": {
@@ -102,22 +84,10 @@
     "body": "Nous construisons l’organisation derrière l’entreprise : structure, leadership, personnes et modèle opérationnel. Pour les sociétés en cours de création, et pour celles qui ont dépassé la structure qui fonctionnait autrefois.",
     "chain": "Modèle économique → compétences → organisation → leadership → équipe → modèle opérationnel → lancement → mise à l’échelle",
     "blocks": [
-      {
-        "h3": "Stratégie et conception organisationnelle",
-        "p": "Stratégie RH, conception organisationnelle, planification des effectifs, architecture de leadership, gestion de la performance, culture."
-      },
-      {
-        "h3": "Création et mise à l’échelle d’entreprise",
-        "p": "Architecture organisationnelle, conception des équipes, compétences critiques, équipe dirigeante, stratégie de recrutement, interne ou externalisé, modèle de croissance."
-      },
-      {
-        "h3": "Transformation et restructuration",
-        "p": "Audit organisationnel, refonte, modèle opérationnel, rôles et responsabilités, transitions de direction, reconstruction d’équipe."
-      },
-      {
-        "h3": "Executive search et recrutements critiques",
-        "p": "Postes de C-level, VP et responsables de département — de la recherche et l’évaluation jusqu’à la sélection, l’offre et l’intégration à 90 jours."
-      }
+      { "h3": "Stratégie et conception organisationnelle", "p": "Stratégie RH, conception organisationnelle, planification des effectifs, architecture de leadership, gestion de la performance, culture." },
+      { "h3": "Création et mise à l’échelle d’entreprise", "p": "Architecture organisationnelle, conception des équipes, compétences critiques, équipe dirigeante, stratégie de recrutement, interne ou externalisé, modèle de croissance." },
+      { "h3": "Transformation et restructuration", "p": "Audit organisationnel, refonte, modèle opérationnel, rôles et responsabilités, transitions de direction, reconstruction d’équipe." },
+      { "h3": "Executive search et recrutements critiques", "p": "Postes de C-level, VP et responsables de département — de la recherche et l’évaluation jusqu’à la sélection, l’offre et l’intégration à 90 jours." }
     ],
     "hiringH2": "Une recrue qui part au troisième mois n’a jamais été une recrue.",
     "hiringBody": "Le recrutement suit un processus défini — du cadrage à l’intégration et au suivi de la période d’essai, tracé dans un ATS avec des délais de réponse convenus à chaque étape. Pas de boîte noire, pas de candidat laissé sans nouvelles pendant trois semaines."
