@@ -114,6 +114,11 @@
       "k": "Arréglalo.",
       "p": "La entrega se ha parado, o la organización no da abasto.",
       "to": "/interim"
+    },
+    {
+      "k": "Protégelo.",
+      "p": "Necesitas saber qué encontraría un atacante antes de que lo encuentre.",
+      "to": "/security"
     }
   ]
 }

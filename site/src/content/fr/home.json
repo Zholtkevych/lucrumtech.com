@@ -114,6 +114,11 @@
       "k": "Réparer.",
       "p": "La livraison s’est enlisée, ou l’organisation ne suit plus.",
       "to": "/interim"
+    },
+    {
+      "k": "Sécuriser.",
+      "p": "Vous devez savoir ce qu’un attaquant trouverait, avant lui.",
+      "to": "/security"
     }
   ]
 }

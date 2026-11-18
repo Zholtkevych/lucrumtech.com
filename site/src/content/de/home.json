@@ -114,6 +114,11 @@
       "k": "Reparieren.",
       "p": "Die Umsetzung stockt, oder die Organisation kommt nicht mehr mit.",
       "to": "/interim"
+    },
+    {
+      "k": "Absichern.",
+      "p": "Sie müssen wissen, was ein Angreifer findet — bevor er es findet.",
+      "to": "/security"
     }
   ]
 }

@@ -114,6 +114,11 @@
       "k": "Fix it.",
       "p": "Delivery has stalled, or the organisation cannot keep up.",
       "to": "/interim"
+    },
+    {
+      "k": "Secure it.",
+      "p": "You need to know what an attacker would find before they do.",
+      "to": "/security"
     }
   ]
 }

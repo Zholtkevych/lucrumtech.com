@@ -1,0 +1,96 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { localeParams, alternatesFor, localePath, type Locale } from '../../i18n/config';
+
+export function getStaticPaths() {
+  return localeParams();
+}
+
+const { locale } = Astro.props as { locale: Locale };
+const c = (await import(`../../content/${locale}/security.json`)).default;
+const contact = localePath(locale, '/contact');
+---
+<Layout title={c.title} description={c.description} lang={locale} basePath="/security" alternates={alternatesFor('/security')}>
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.eyebrow}</p>
+      <h1>{c.h1}<span class="muted">{c.h1Muted}</span></h1>
+      <p class="lede" style="margin-top:24px">{c.lede}</p>
+      <p class="lede">{c.lede2}</p>
+      <div class="btnrow"><a class="btn" href={contact}>{c.cta}</a></div>
+    </div>
+  </section>
+
+  <section class="tint">
+    <div class="wrap">
+      <p class="eyebrow">{c.offer.eyebrow}</p>
+      <h2>{c.offer.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.offer.body}</p>
+      <p class="offer-price">{c.offer.price}</p>
+      <p class="sub">{c.offer.priceNote}</p>
+      <div class="btnrow"><a class="btn" href={contact}>{c.offer.cta}</a></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.infosec.eyebrow}</p>
+      <h2>{c.infosec.h2}</h2>
+      <div class="grid2">
+        {c.infosec.items.map((i) => (
+          <div class="blk"><h3>{i.h3}</h3><p>{i.p}</p></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="tint">
+    <div class="wrap">
+      <p class="eyebrow">{c.infra.eyebrow}</p>
+      <h2>{c.infra.h2}</h2>
+      <div class="grid2">
+        {c.infra.items.map((i) => (
+          <div class="blk"><h3>{i.h3}</h3><p>{i.p}</p></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.approach.eyebrow}</p>
+      <h2>{c.approach.h2}</h2>
+      <div class="ladder">
+        {c.approach.steps.map((s) => (
+          <div class="step"><b>{s.term}</b><p>{s.body}</p></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="tint">
+    <div class="wrap">
+      <p class="eyebrow">{c.team.eyebrow}</p>
+      <h2>{c.team.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.team.body}</p>
+      <ul class="teamlist">{c.team.items.map((i) => <li>{i}</li>)}</ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">{c.closing.eyebrow}</p>
+      <h2>{c.closing.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.closing.body}</p>
+      <div class="btnrow"><a class="btn" href={contact}>{c.closing.cta}</a></div>
+      <p class="meta">{c.closing.meta}</p>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  .offer-price{margin:26px 0 4px; font-size:clamp(34px,4vw,46px); font-weight:600;
+               letter-spacing:-0.02em; color:var(--accent); line-height:1.1}
+  .teamlist{margin:18px 0 0; padding-left:18px; font-size:16.5px; max-width:66ch}
+  .teamlist li{margin-bottom:7px}
+</style>

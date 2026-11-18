@@ -1,0 +1,73 @@
+{
+  "title": "Ciberseguridad e infraestructura IT — LucrumTech",
+  "description": "Evaluación de seguridad independiente, pruebas de penetración, marcos de seguridad e infraestructura IT. Dos semanas de evaluación a precio cerrado, con un informe de riesgos priorizado que es tuyo.",
+  "eyebrow": "Seguridad",
+  "h1": "Protege tu negocio.",
+  "h1Muted": "Asegura tu tecnología.",
+  "lede": "La tecnología impulsa el crecimiento, y cada sistema sobre el que corre añade riesgo. Vulnerabilidades, filtraciones, fallos de infraestructura y procesos de seguridad endebles amenazan la operación, la reputación y la continuidad.",
+  "lede2": "Ayudamos a construir entornos tecnológicos seguros y resistentes, y el objetivo no es entregarte una lista de vulnerabilidades. Es que el incidente no llegue a ocurrir.",
+  "cta": "Hablemos de tu seguridad",
+  "offer": {
+    "eyebrow": "Por dónde empezar",
+    "h2": "Dos semanas de evaluación de seguridad. Alcance cerrado, precio cerrado.",
+    "body": "Evaluamos tu infraestructura, probamos hasta dónde llegaría un atacante y entregamos un informe de riesgos priorizado: qué está expuesto, cuánto te costaría y qué arreglar primero. El informe es tuyo, sigas o no con nosotros.",
+    "price": "7.200 USD",
+    "priceNote": "Precio cerrado. El trabajo posterior a la evaluación se factura a 90 USD por hora.",
+    "cta": "Reserva una llamada"
+  },
+  "infosec": {
+    "eyebrow": "Seguridad de la información y ciberseguridad",
+    "h2": "Encontrar lo que está expuesto y cerrarlo.",
+    "items": [
+      { "h3": "Análisis de vulnerabilidades y pruebas de penetración", "p": "Identificar debilidades, probar la resistencia de los sistemas y evaluar escenarios de ataque reales." },
+      { "h3": "Políticas y procedimientos de seguridad", "p": "Desarrollo e implantación de políticas, estándares y procedimientos operativos de seguridad de la información." },
+      { "h3": "Monitorización y respuesta a incidentes", "p": "Vigilar sistemas, detectar actividad sospechosa y acompañar la investigación y la respuesta cuando algo ocurre." },
+      { "h3": "Protección de infraestructura crítica", "p": "Asegurar redes, aplicaciones y sistemas esenciales sin parar el negocio." },
+      { "h3": "Sistemas de seguridad de la información", "p": "Documentación de seguridad, implantación técnica y preparación para certificar contra estándares internacionales." },
+      { "h3": "Seguridad del producto software", "p": "Evitar fugas de datos, endurecer aplicaciones y mejorar la resistencia de los sistemas." },
+      { "h3": "Auditorías de seguridad de infraestructura", "p": "Evaluar la infraestructura, probarla, revisar requisitos regulatorios y entregar un informe accionable." },
+      { "h3": "Gestión del riesgo de ciberseguridad", "p": "Identificar, evaluar y priorizar riesgos, incluida la justificación económica de lo que se invierte en seguridad." }
+    ]
+  },
+  "infra": {
+    "eyebrow": "Infraestructura IT",
+    "h2": "La infraestructura fiable es el suelo sobre el que se apoya todo lo demás.",
+    "items": [
+      { "h3": "Consultoría y auditorías IT", "p": "Evaluar entornos y procesos frente a requisitos técnicos, operativos, de cumplimiento y de seguridad." },
+      { "h3": "Arquitectura y diseño de red", "p": "Diseñar, desplegar y configurar infraestructura y equipamiento de red." },
+      { "h3": "Optimización de red", "p": "Mejorar el rendimiento, la fiabilidad y el uso real de los recursos." },
+      { "h3": "Gestión de infraestructura cloud", "p": "Operar y optimizar entornos cloud, almacenamiento, copias de seguridad y migraciones." },
+      { "h3": "Soporte y mantenimiento", "p": "Dar soporte a usuarios y mantener servidores e infraestructura, con horario ampliado por acuerdo." },
+      { "h3": "Actualizaciones y parcheo de seguridad", "p": "Mantener los sistemas al día y remediar vulnerabilidades según se publican." }
+    ]
+  },
+  "approach": {
+    "eyebrow": "Cómo trabajamos",
+    "h2": "La seguridad va dentro de la estrategia de negocio, no al lado.",
+    "steps": [
+      { "term": "Evaluar", "body": "Entender la infraestructura, la postura de seguridad, las vulnerabilidades y el riesgo de negocio que hay debajo." },
+      { "term": "Priorizar", "body": "Determinar qué exposiciones pesan más y dónde el gasto tendrá mayor efecto." },
+      { "term": "Implantar", "body": "Desplegar medidas, políticas y soluciones técnicas reales, no un documento que nadie lee." },
+      { "term": "Monitorizar", "body": "Monitorización, mantenimiento y gestión de riesgo continuos una vez cerradas las brechas." },
+      { "term": "Mejorar", "body": "Seguir reforzando el entorno a medida que cambian el negocio y la tecnología." }
+    ]
+  },
+  "team": {
+    "eyebrow": "Quién hace el trabajo",
+    "h2": "Doce especialistas en seguridad y arquitectura de infraestructura.",
+    "body": "Nuestro equipo de ciberseguridad e infraestructura reúne a doce profesionales con experiencia en seguridad de la información, ciberseguridad y arquitectura de infraestructura.",
+    "items": [
+      "Unos diez años de experiencia profesional de media",
+      "Titulaciones académicas avanzadas, incluidos doctorados",
+      "Trabajo entregado en Europa, Norteamérica y Oriente Medio",
+      "Banca, petróleo y gas, telecomunicaciones, sanidad, software y edición"
+    ]
+  },
+  "closing": {
+    "eyebrow": "Siguiente",
+    "h2": "¿Está tu infraestructura lista para lo que viene?",
+    "body": "Ya necesites una evaluación independiente, un marco de seguridad más sólido, modernizar la infraestructura o experiencia continuada: empieza por la evaluación de dos semanas y decide después.",
+    "cta": "Hablemos de tu seguridad",
+    "meta": "hello@lucrumtech.com · Respuesta en menos de 24 horas"
+  }
+}

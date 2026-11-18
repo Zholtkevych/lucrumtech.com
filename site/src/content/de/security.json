@@ -1,0 +1,73 @@
+{
+  "title": "Cybersicherheit und IT-Infrastruktur — LucrumTech",
+  "description": "Unabhängige Sicherheitsbewertung, Penetrationstests, Sicherheitsframeworks und IT-Infrastruktur. Zwei Wochen Assessment zum Festpreis, mit einem priorisierten Risikobericht, der Ihnen gehört.",
+  "eyebrow": "Sicherheit",
+  "h1": "Schützen Sie Ihr Geschäft.",
+  "h1Muted": "Sichern Sie Ihre Technologie.",
+  "lede": "Technologie treibt Wachstum, und jedes System, auf dem sie läuft, bringt Risiko mit. Schwachstellen, Datenabflüsse, Infrastrukturausfälle und dünne Sicherheitsprozesse bedrohen Betrieb, Ruf und Fortbestand.",
+  "lede2": "Wir helfen Organisationen, sichere und belastbare Technologieumgebungen aufzubauen — und der Zweck ist nicht, Ihnen eine Liste von Schwachstellen zu übergeben. Der Zweck ist, den Vorfall zu verhindern.",
+  "cta": "Über Ihre Sicherheit sprechen",
+  "offer": {
+    "eyebrow": "Wo es anfängt",
+    "h2": "Zwei Wochen Sicherheitsbewertung. Fester Umfang, fester Preis.",
+    "body": "Wir prüfen Ihre Infrastruktur, testen, was ein Angreifer erreichen würde, und liefern einen priorisierten Risikobericht: was offen liegt, was es Sie kosten würde und was zuerst behoben gehört. Der Bericht gehört Ihnen — unabhängig davon, ob Sie weitermachen.",
+    "price": "7.200 USD",
+    "priceNote": "Festpreis. Leistungen über das Assessment hinaus werden mit 90 USD pro Stunde abgerechnet.",
+    "cta": "Gespräch vereinbaren"
+  },
+  "infosec": {
+    "eyebrow": "Informations- und Cybersicherheit",
+    "h2": "Finden, was offen liegt — und es schließen.",
+    "items": [
+      { "h3": "Schwachstellenanalyse und Penetrationstests", "p": "Schwachstellen identifizieren, Widerstandsfähigkeit testen und reale Angriffsszenarien bewerten." },
+      { "h3": "Sicherheitsrichtlinien und -verfahren", "p": "Entwicklung und Einführung von Richtlinien, Standards und operativen Verfahren für Informationssicherheit." },
+      { "h3": "Monitoring und Incident Response", "p": "Systeme überwachen, verdächtige Aktivität erkennen und Untersuchung und Reaktion begleiten, wenn etwas passiert." },
+      { "h3": "Schutz kritischer Infrastruktur", "p": "Netzwerke, Anwendungen und zentrale Systeme absichern, während das Geschäft weiterläuft." },
+      { "h3": "Informationssicherheits-Systeme", "p": "Sicherheitsdokumentation, technische Umsetzung und Vorbereitung auf die Zertifizierung nach internationalen Standards." },
+      { "h3": "Sicherheit von Softwareprodukten", "p": "Datenabfluss verhindern, Anwendungen härten und die Widerstandsfähigkeit von Systemen erhöhen." },
+      { "h3": "Infrastruktur-Sicherheitsaudits", "p": "Infrastruktur bewerten, testen, regulatorische Anforderungen prüfen und einen Bericht liefern, mit dem Sie arbeiten können." },
+      { "h3": "Cyber-Risikomanagement", "p": "Risiken identifizieren, bewerten und priorisieren — einschließlich der wirtschaftlichen Begründung für Sicherheitsausgaben." }
+    ]
+  },
+  "infra": {
+    "eyebrow": "IT-Infrastruktur",
+    "h2": "Verlässliche Infrastruktur ist der Boden, auf dem alles andere steht.",
+    "items": [
+      { "h3": "IT-Beratung und Audits", "p": "Umgebungen und Prozesse gegen technische, operative, Compliance- und Sicherheitsanforderungen prüfen." },
+      { "h3": "Netzwerkarchitektur und -design", "p": "Netzwerkinfrastruktur und Geräte planen, ausrollen und konfigurieren." },
+      { "h3": "Netzwerkoptimierung", "p": "Leistung, Zuverlässigkeit und die tatsächliche Ressourcennutzung verbessern." },
+      { "h3": "Cloud-Infrastruktur", "p": "Cloud-Umgebungen, Speicher, Backup und Migrationen betreiben und optimieren." },
+      { "h3": "Support und Wartung", "p": "Anwender unterstützen, Server und Infrastruktur betreuen — mit erweiterten Supportzeiten nach Vereinbarung." },
+      { "h3": "Updates und Security-Patching", "p": "Systeme aktuell halten und Schwachstellen beheben, sobald sie bekannt werden." }
+    ]
+  },
+  "approach": {
+    "eyebrow": "Wie wir arbeiten",
+    "h2": "Sicherheit gehört in die Geschäftsstrategie, nicht daneben.",
+    "steps": [
+      { "term": "Bewerten", "body": "Die Infrastruktur, die Sicherheitslage, die Schwachstellen und das Geschäftsrisiko dahinter verstehen." },
+      { "term": "Priorisieren", "body": "Die Risiken bestimmen, die am meisten wiegen, und wo Ausgaben die größte Wirkung haben." },
+      { "term": "Umsetzen", "body": "Praktische Maßnahmen, Richtlinien und technische Lösungen einführen — kein Dokument, das ungelesen liegen bleibt." },
+      { "term": "Überwachen", "body": "Laufendes Monitoring, Wartung und Risikomanagement, sobald die Lücken geschlossen sind." },
+      { "term": "Verbessern", "body": "Die Umgebung weiter stärken, während sich Geschäft und Technologie verändern." }
+    ]
+  },
+  "team": {
+    "eyebrow": "Wer die Arbeit macht",
+    "h2": "Zwölf Spezialisten für Sicherheit und Infrastrukturarchitektur.",
+    "body": "Unser Team für Cybersicherheit und Infrastruktur vereint zwölf erfahrene Fachleute aus Informationssicherheit, Cybersicherheit und Infrastrukturarchitektur.",
+    "items": [
+      "Im Schnitt rund zehn Jahre Berufserfahrung",
+      "Höhere akademische Qualifikationen, einschließlich Promotionen",
+      "Projekte in Europa, Nordamerika und dem Nahen Osten",
+      "Banken, Öl und Gas, Telekommunikation, Gesundheitswesen, Software und Verlagswesen"
+    ]
+  },
+  "closing": {
+    "eyebrow": "Weiter",
+    "h2": "Ist Ihre Infrastruktur bereit für das, was kommt?",
+    "body": "Ob unabhängige Bewertung, stärkeres Sicherheitsframework, Modernisierung der Infrastruktur oder laufende Expertise — beginnen Sie mit dem zweiwöchigen Assessment und entscheiden Sie danach.",
+    "cta": "Über Ihre Sicherheit sprechen",
+    "meta": "hello@lucrumtech.com · Antwort innerhalb von 24 Stunden"
+  }
+}

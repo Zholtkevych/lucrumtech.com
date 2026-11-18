@@ -1,0 +1,73 @@
+{
+  "title": "Cybersecurity and IT infrastructure — LucrumTech",
+  "description": "Independent security assessment, penetration testing, security frameworks and IT infrastructure. A two-week assessment at a fixed fee, with a prioritised risk report you keep.",
+  "eyebrow": "Security",
+  "h1": "Protect your business.",
+  "h1Muted": "Secure your technology.",
+  "lede": "Technology drives growth, and every system it runs on introduces risk. Vulnerabilities, breaches, infrastructure failures and thin security process threaten operations, reputation and continuity.",
+  "lede2": "We help organisations build secure, resilient technology environments — and the point is not to hand you a list of vulnerabilities. It is to stop the incident happening.",
+  "cta": "Discuss your security needs",
+  "offer": {
+    "eyebrow": "Where to start",
+    "h2": "A two-week security assessment. Fixed scope, fixed fee.",
+    "body": "We assess your infrastructure, test what an attacker would reach, and give you a prioritised risk report — what is exposed, what it would cost you, and what to fix first. The report is yours whether or not you continue with us.",
+    "price": "USD 7,200",
+    "priceNote": "Fixed fee. Engagements beyond the assessment are billed at USD 90 per hour.",
+    "cta": "Book a call"
+  },
+  "infosec": {
+    "eyebrow": "Information and cybersecurity",
+    "h2": "Find what is exposed, then close it.",
+    "items": [
+      { "h3": "Vulnerability assessment and penetration testing", "p": "Identifying weaknesses, testing system resilience and evaluating real attack scenarios." },
+      { "h3": "Security policies and procedures", "p": "Developing and implementing information security policies, standards and operational procedures." },
+      { "h3": "Monitoring and incident response", "p": "Monitoring systems, detecting suspicious activity, and supporting investigation and response when something happens." },
+      { "h3": "Critical infrastructure protection", "p": "Securing networks, applications and essential systems while keeping the business running." },
+      { "h3": "Information security systems", "p": "Security documentation, technical implementation, and preparing an organisation for certification against international standards." },
+      { "h3": "Software product security", "p": "Preventing data leakage, hardening applications and improving system resilience." },
+      { "h3": "Infrastructure security audits", "p": "Assessing infrastructure, testing it, reviewing regulatory requirements and delivering a report you can act on." },
+      { "h3": "Cybersecurity risk management", "p": "Identifying, evaluating and prioritising risk — including the economic case for what you spend on security." }
+    ]
+  },
+  "infra": {
+    "eyebrow": "IT infrastructure",
+    "h2": "Reliable infrastructure is the floor everything else stands on.",
+    "items": [
+      { "h3": "IT consulting and audits", "p": "Evaluating environments and processes against technical, operational, compliance and security requirements." },
+      { "h3": "Network architecture and design", "p": "Designing, deploying and configuring network infrastructure and equipment." },
+      { "h3": "Network optimisation", "p": "Improving performance, reliability and how resources are actually used." },
+      { "h3": "Cloud infrastructure management", "p": "Managing and optimising cloud environments, storage, backup and migrations." },
+      { "h3": "Support and maintenance", "p": "Supporting users and maintaining servers and infrastructure, with extended-hours support by arrangement." },
+      { "h3": "Updates and security patching", "p": "Keeping systems current and remediating vulnerabilities as they are disclosed." }
+    ]
+  },
+  "approach": {
+    "eyebrow": "How we work",
+    "h2": "Security belongs in the business strategy, not beside it.",
+    "steps": [
+      { "term": "Assess", "body": "Understand the infrastructure, the security posture, the vulnerabilities and the business risk underneath them." },
+      { "term": "Prioritise", "body": "Identify the exposures that matter most and where spending will have the greatest effect." },
+      { "term": "Implement", "body": "Deploy practical measures, policies and technical solutions — not a document that sits unread." },
+      { "term": "Monitor", "body": "Ongoing monitoring, maintenance and risk management once the fixes are in." },
+      { "term": "Improve", "body": "Keep strengthening the environment as the business and the technology change." }
+    ]
+  },
+  "team": {
+    "eyebrow": "Who does the work",
+    "h2": "Twelve specialists in security and infrastructure architecture.",
+    "body": "Our cybersecurity and infrastructure team brings together twelve experienced professionals in information security, cybersecurity and infrastructure architecture.",
+    "items": [
+      "Around ten years of average professional experience",
+      "Advanced academic qualifications, including doctoral degrees",
+      "Work delivered across Europe, North America and the Middle East",
+      "Banking, oil and gas, telecommunications, healthcare, software and publishing"
+    ]
+  },
+  "closing": {
+    "eyebrow": "Next",
+    "h2": "Is your infrastructure ready for what comes next?",
+    "body": "Whether you need an independent assessment, a stronger security framework, infrastructure modernisation or ongoing expertise — start with the two-week assessment and decide from there.",
+    "cta": "Discuss your security needs",
+    "meta": "hello@lucrumtech.com · Reply within 24 hours"
+  }
+}
