@@ -1,7 +1,7 @@
 {
-  "title": "Servicios — LucrumTech",
+  "title": "Producto — LucrumTech",
   "description": "Estrategia, ingeniería, IA y liderazgo técnico en un único equipo responsable: no cuatro proveedores con cuatro contratos y nadie que responda por el resultado.",
-  "eyebrow": "Servicios",
+  "eyebrow": "Producto",
   "h1": "Todo lo necesario para hacerse cargo de un producto, en un solo equipo responsable.",
   "lede": "Estrategia, ingeniería, IA y liderazgo técnico. No cuatro proveedores con cuatro contratos y nadie que responda por el resultado.",
   "blocks": [
@@ -26,11 +26,6 @@
       ]
     },
     {
-      "h3": "IA",
-      "p": "Automatización, transformación y optimización, construidas para producción y no para demos. También llevamos hasta el final los pilotos que se quedaron parados.",
-      "link": "Cómo abordamos la IA →"
-    },
-    {
       "h3": "Liderazgo técnico",
       "p": "Liderazgo tecnológico de nivel ejecutivo sin el coste de una posición a tiempo completo.",
       "items": [
@@ -38,6 +33,16 @@
         "Gestión de producto y responsabilidad de entrega",
         "Decisiones de arquitectura y due diligence técnica",
         "Evaluación de proveedores y equipos"
+      ]
+    },
+    {
+      "h3": "Outstaffing y ampliación de equipo",
+      "p": "Ingenieros sénior y mid trabajando dentro de tu equipo, en tu tablero y en tus dailies, con LucrumTech respondiendo por el trabajo que hacen.",
+      "items": [
+        "Ingenieros full-stack, cloud e industriales",
+        "Integrados en tu proceso, no gestionados como un proyecto aparte",
+        "Escalar o reducir sin firmar un contrato nuevo cada vez",
+        "Un único responsable del resultado"
       ]
     }
   ],
@@ -69,5 +74,43 @@
     ],
     "note": "La mayoría de los proyectos empiezan con una revisión breve de pago. Al terminarla, ambos sabremos si el paquete es la opción adecuada.",
     "cta": "Reserva una llamada estratégica"
+  },
+  "ai": {
+    "eyebrow": "Servicios de IA",
+    "h2": "Una demo demuestra que puede funcionar. Producción demuestra que funciona.",
+    "lede": "La mayoría de los proyectos de IA mueren entre la demo y el despliegue. Se construye algo impresionante, todo el mundo coincide en que es el futuro, y un año después no hay nada funcionando en el negocio. La tecnología casi nunca fue el problema.",
+    "strong": "Esa distancia no es un problema de tecnología. Es un problema de responsabilidad.",
+    "blocks": [
+      {
+        "h3": "Automatización con IA",
+        "p": "Los pasos manuales de un flujo: leer documentos, extraer datos y moverlos entre sistemas.",
+        "items": [
+          "Análisis de documentos y extracción de datos a gran volumen",
+          "Transcripción de llamadas y reuniones en registros estructurados",
+          "Generación de informes a partir de entradas no estructuradas",
+          "Enrutamiento y clasificación dentro de los flujos existentes"
+        ]
+      },
+      {
+        "h3": "Transformación con IA",
+        "p": "Cambiar cómo funciona un proceso, no solo acelerar la versión actual.",
+        "items": [
+          "Capas de decisión dentro de los flujos operativos",
+          "Copilotos integrados donde realmente ocurre el trabajo",
+          "Analítica predictiva sobre datos operativos",
+          "Rediseñar un proceso a partir de lo que la IA hace posible"
+        ]
+      },
+      {
+        "h3": "Optimización con IA",
+        "p": "Procesos que ya ejecutas, mejorados de forma medible.",
+        "items": [
+          "Ajuste de coste y latencia en sistemas de IA existentes",
+          "Medición de precisión y sistemas de evaluación",
+          "Sustituir reglas frágiles por modelos cuando compensa",
+          "Llevar hasta el final un piloto que se quedó parado"
+        ]
+      }
+    ]
   }
 }

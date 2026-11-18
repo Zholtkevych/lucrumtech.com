@@ -67,6 +67,22 @@ const contact = localePath(locale, '/contact') + '?from=interim';
     </div>
   </section>
 
+  <section id="organisation">
+    <div class="wrap">
+      <p class="eyebrow">{c.organisation.eyebrow}</p>
+      <h2>{c.organisation.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.organisation.body}</p>
+      <p class="strong">{c.organisation.chain}</p>
+      <div class="grid2">
+        {c.organisation.blocks.map((b) => (
+          <div class="blk"><h3>{b.h3}</h3><p>{b.p}</p></div>
+        ))}
+      </div>
+      <h3 style="margin-top:38px">{c.organisation.hiringH2}</h3>
+      <p class="lede" style="margin-top:12px">{c.organisation.hiringBody}</p>
+    </div>
+  </section>
+
   <section class="tint">
     <div class="wrap">
       <p class="eyebrow">{c.who.eyebrow}</p>

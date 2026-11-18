@@ -192,3 +192,13 @@ footer{padding:40px 0; color:var(--t3); font-size:14px}
 .profile-link{color:inherit; text-decoration:underline; text-underline-offset:3px;
               text-decoration-thickness:1px; text-decoration-color:var(--line)}
 .profile-link:hover{color:var(--accent); text-decoration-color:var(--accent)}
+
+/* Three-door block: a visitor picks their own situation in a couple of seconds.
+   Sits where the single interim panel used to, so the hero grid is unchanged. */
+.doors{display:flex; flex-direction:column; gap:14px}
+.door{display:block; background:var(--crisis-bg); border:1px solid var(--crisis-line);
+      padding:22px 24px; text-decoration:none; transition:border-color .15s ease}
+.door:hover{border-color:var(--accent)}
+.door-k{display:block; color:#FFFFFF; font-size:20px; font-weight:600; line-height:1.25}
+.door-p{display:block; margin-top:8px; color:#C3C8CF; font-size:15.5px; line-height:1.55}
+.door:hover .door-k{color:var(--accent)}

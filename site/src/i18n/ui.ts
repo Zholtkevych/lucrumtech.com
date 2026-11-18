@@ -4,7 +4,7 @@ import type { Locale } from './config';
 // Register: informal "tú" in Spanish, formal "Sie"/"vous" in German and French,
 // matching how the previous site addressed each audience.
 export const UI: Record<Locale, {
-  nav: { home: string; services: string; ai: string; organisation: string; work: string; about: string; contact: string; interim: string };
+  nav: { home: string; product: string; interim: string; work: string; about: string; contact: string };
   menu: string;
   language: string;
   footer: { copyright: string; tagline: string; contactLabel: string; privacy: string };
@@ -15,7 +15,7 @@ export const UI: Record<Locale, {
   };
 }> = {
   en: {
-    nav: { home: 'Home', services: 'Services', ai: 'AI', organisation: 'Organisation', work: 'Work', about: 'About', contact: 'Contact', interim: 'Interim' },
+    nav: { home: 'Home', product: 'Product', interim: 'Interim', work: 'Work', about: 'About', contact: 'Contact' },
     menu: 'Menu',
     language: 'Language',
     footer: { copyright: '© 2026 LucrumTech', tagline: 'Product ownership. From idea to revenue.', contactLabel: 'Reply within 24 hours', privacy: 'Privacy' },
@@ -30,7 +30,7 @@ export const UI: Record<Locale, {
     },
   },
   es: {
-    nav: { home: 'Inicio', services: 'Servicios', ai: 'IA', organisation: 'Organización', work: 'Proyectos', about: 'Acerca de', contact: 'Contacto', interim: 'Interim' },
+    nav: { home: 'Inicio', product: 'Producto', interim: 'Interim', work: 'Proyectos', about: 'Acerca de', contact: 'Contacto' },
     menu: 'Menú',
     language: 'Idioma',
     footer: { copyright: '© 2026 LucrumTech', tagline: 'Propiedad del producto. De la idea a los ingresos.', contactLabel: 'Respuesta en menos de 24 horas', privacy: 'Privacidad' },
@@ -45,7 +45,7 @@ export const UI: Record<Locale, {
     },
   },
   de: {
-    nav: { home: 'Start', services: 'Leistungen', ai: 'KI', organisation: 'Organisation', work: 'Referenzen', about: 'Über uns', contact: 'Kontakt', interim: 'Interim' },
+    nav: { home: 'Start', product: 'Produkt', interim: 'Interim', work: 'Referenzen', about: 'Über uns', contact: 'Kontakt' },
     menu: 'Menü',
     language: 'Sprache',
     footer: { copyright: '© 2026 LucrumTech', tagline: 'Product Ownership. Von der Idee zum Umsatz.', contactLabel: 'Antwort innerhalb von 24 Stunden', privacy: 'Datenschutz' },
@@ -60,7 +60,7 @@ export const UI: Record<Locale, {
     },
   },
   fr: {
-    nav: { home: 'Accueil', services: 'Services', ai: 'IA', organisation: 'Organisation', work: 'Réalisations', about: 'À propos', contact: 'Contact', interim: 'Transition' },
+    nav: { home: 'Accueil', product: 'Produit', interim: 'Transition', work: 'Réalisations', about: 'À propos', contact: 'Contact' },
     menu: 'Menu',
     language: 'Langue',
     footer: { copyright: '© 2026 LucrumTech', tagline: 'La propriété du produit. De l’idée au chiffre d’affaires.', contactLabel: 'Réponse sous 24 heures', privacy: 'Confidentialité' },

@@ -1,7 +1,7 @@
 {
-  "title": "Leistungen — LucrumTech",
+  "title": "Produkt — LucrumTech",
   "description": "Strategie, Engineering, KI und technische Führung in einem verantwortlichen Team — nicht vier Dienstleister mit vier Verträgen und niemandem, der für das Ergebnis geradesteht.",
-  "eyebrow": "Leistungen",
+  "eyebrow": "Produkt",
   "h1": "Alles, was es braucht, um ein Produkt zu verantworten — in einem Team.",
   "lede": "Strategie, Engineering, KI und technische Führung. Nicht vier Dienstleister mit vier Verträgen und niemandem, der für das Ergebnis geradesteht.",
   "blocks": [
@@ -26,11 +26,6 @@
       ]
     },
     {
-      "h3": "KI",
-      "p": "Automatisierung, Transformation und Optimierung — gebaut für den Produktivbetrieb, nicht für Demos. Stecken gebliebene Piloten bringen wir zu Ende.",
-      "link": "Wie wir an KI herangehen →"
-    },
-    {
       "h3": "Technische Führung",
       "p": "Technologieführung auf Executive-Niveau, ohne die Kosten einer Vollzeitstelle.",
       "items": [
@@ -38,6 +33,16 @@
         "Produktmanagement und Delivery-Verantwortung",
         "Architekturentscheidungen und technische Due Diligence",
         "Bewertung von Dienstleistern und Teams"
+      ]
+    },
+    {
+      "h3": "Outstaffing und Team-Erweiterung",
+      "p": "Senior- und Mid-Level-Engineers, die in Ihrem Team arbeiten, auf Ihrem Board und in Ihren Standups — mit LucrumTech in der Verantwortung für das, was sie liefern.",
+      "items": [
+        "Full-Stack-, Cloud- und Industrie-Engineers",
+        "Eingebunden in Ihren Prozess, nicht als Nebenprojekt geführt",
+        "Hoch- und runterskalieren ohne jedes Mal neuen Vertrag",
+        "Ein Ansprechpartner, der für das Ergebnis geradesteht"
       ]
     }
   ],
@@ -69,5 +74,43 @@
     ],
     "note": "Die meisten Engagements beginnen mit einem kostenpflichtigen Kurz-Review. Danach wissen wir beide, ob das Paket die richtige Wahl ist.",
     "cta": "Strategiegespräch buchen"
+  },
+  "ai": {
+    "eyebrow": "KI-Leistungen",
+    "h2": "Eine Demo zeigt, dass es funktionieren kann. Der Produktivbetrieb zeigt, dass es funktioniert.",
+    "lede": "Die meisten KI-Projekte sterben zwischen Demo und Einführung. Etwas Beeindruckendes wird gebaut, alle sind sich einig, dass es die Zukunft ist, und ein Jahr später läuft nichts davon im Geschäft. An der Technologie lag es selten.",
+    "strong": "Diese Lücke ist kein Technologieproblem. Es ist ein Verantwortungsproblem.",
+    "blocks": [
+      {
+        "h3": "KI-Automatisierung",
+        "p": "Die manuellen Schritte in einem Ablauf: Dokumente lesen, Daten extrahieren, sie zwischen Systemen bewegen.",
+        "items": [
+          "Dokumentenauswertung und Datenextraktion in großem Volumen",
+          "Transkription von Anrufen und Besprechungen in strukturierte Datensätze",
+          "Berichterstellung aus unstrukturierten Eingaben",
+          "Weiterleitung und Vorsortierung innerhalb bestehender Abläufe"
+        ]
+      },
+      {
+        "h3": "KI-Transformation",
+        "p": "Verändern, wie ein Prozess funktioniert — nicht nur die bestehende Version beschleunigen.",
+        "items": [
+          "Entscheidungsebenen innerhalb operativer Abläufe",
+          "Copilots dort eingebettet, wo die Arbeit tatsächlich stattfindet",
+          "Predictive Analytics auf Betriebsdaten",
+          "Einen Prozess neu bauen auf Basis dessen, was KI möglich macht"
+        ]
+      },
+      {
+        "h3": "KI-Optimierung",
+        "p": "Prozesse, die Sie bereits betreiben, messbar besser gemacht.",
+        "items": [
+          "Kosten- und Latenzoptimierung bestehender KI-Systeme",
+          "Genauigkeitsmessung und Evaluations-Harnesses",
+          "Brüchige Regelwerke durch Modelle ersetzen, wo es sich rechnet",
+          "Einen stecken gebliebenen Piloten zu Ende bringen"
+        ]
+      }
+    ]
   }
 }

@@ -1,7 +1,7 @@
 {
-  "title": "Services — LucrumTech",
+  "title": "Produit — LucrumTech",
   "description": "Stratégie, ingénierie, IA et direction technique au sein d’une seule équipe responsable — pas quatre prestataires, quatre contrats et personne qui réponde du résultat.",
-  "eyebrow": "Services",
+  "eyebrow": "Produit",
   "h1": "Tout ce qu’il faut pour assumer un produit — dans une seule équipe responsable.",
   "lede": "Stratégie, ingénierie, IA et direction technique. Pas quatre prestataires avec quatre contrats et personne qui réponde du résultat.",
   "blocks": [
@@ -26,11 +26,6 @@
       ]
     },
     {
-      "h3": "IA",
-      "p": "Automatisation, transformation et optimisation — conçues pour la production, pas pour la démo. Nous menons aussi à terme les pilotes restés en plan.",
-      "link": "Notre approche de l’IA →"
-    },
-    {
       "h3": "Direction technique",
       "p": "Une direction technologique de niveau exécutif, sans le coût d’un poste à temps plein.",
       "items": [
@@ -38,6 +33,16 @@
         "Gestion de produit et responsabilité du delivery",
         "Décisions d’architecture et due diligence technique",
         "Évaluation des prestataires et des équipes"
+      ]
+    },
+    {
+      "h3": "Outstaffing et extension d’équipe",
+      "p": "Des ingénieurs seniors et confirmés qui travaillent dans votre équipe, sur votre board et dans vos stand-ups — LucrumTech répondant du travail qu’ils produisent.",
+      "items": [
+        "Ingénieurs full-stack, cloud et industriels",
+        "Intégrés à votre processus, pas gérés comme un projet à part",
+        "Monter ou réduire sans repasser par un contrat",
+        "Un seul responsable du résultat"
       ]
     }
   ],
@@ -69,5 +74,43 @@
     ],
     "note": "La plupart des missions commencent par une revue courte et payante. À son issue, nous saurons tous les deux si le forfait est le bon choix.",
     "cta": "Réserver un appel stratégique"
+  },
+  "ai": {
+    "eyebrow": "Services d’IA",
+    "h2": "Une démo prouve que ça peut marcher. La production prouve que ça marche.",
+    "lede": "La plupart des projets d’IA meurent entre la démo et le déploiement. On construit quelque chose d’impressionnant, tout le monde s’accorde à dire que c’est l’avenir, et un an plus tard rien ne tourne dans l’entreprise. La technologie était rarement le problème.",
+    "strong": "Cet écart n’est pas un problème de technologie. C’est un problème de responsabilité.",
+    "blocks": [
+      {
+        "h3": "Automatisation par l’IA",
+        "p": "Les étapes manuelles d’un flux : lire des documents, en extraire les données, les déplacer entre systèmes.",
+        "items": [
+          "Analyse de documents et extraction de données à grande échelle",
+          "Transcription d’appels et de réunions en enregistrements structurés",
+          "Génération de rapports à partir d’entrées non structurées",
+          "Routage et tri au sein des flux existants"
+        ]
+      },
+      {
+        "h3": "Transformation par l’IA",
+        "p": "Changer le fonctionnement d’un processus, pas seulement accélérer la version actuelle.",
+        "items": [
+          "Couches de décision au sein des flux opérationnels",
+          "Copilotes intégrés là où le travail se fait réellement",
+          "Analyse prédictive sur les données d’exploitation",
+          "Reconstruire un processus autour de ce que l’IA rend possible"
+        ]
+      },
+      {
+        "h3": "Optimisation par l’IA",
+        "p": "Des processus que vous exploitez déjà, améliorés de façon mesurable.",
+        "items": [
+          "Réglage des coûts et de la latence des systèmes d’IA existants",
+          "Mesure de la précision et harnais d’évaluation",
+          "Remplacer des règles fragiles par des modèles quand c’est rentable",
+          "Mener à terme un pilote resté en plan"
+        ]
+      }
+    ]
   }
 }

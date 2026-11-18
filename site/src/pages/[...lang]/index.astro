@@ -25,12 +25,13 @@ const to = (p: string) => localePath(locale, p);
         ))}
       </div>
     </div>
-    <aside class="crisis-panel">
-      <p class="q">{c.panel.q}</p>
-      <h3>{c.panel.h3}</h3>
-      <p>{c.panel.body}</p>
-      <a class="btn btn-crisis" href={to('/interim')}>{c.panel.cta}</a>
-      <p class="sub">{c.panel.sub}</p>
+    <aside class="doors">
+      {c.doors.map((d) => (
+        <a class="door" href={to(d.to)}>
+          <span class="door-k">{d.k}</span>
+          <span class="door-p">{d.p}</span>
+        </a>
+      ))}
     </aside>
   </div></div>
 

@@ -7,9 +7,9 @@ export function getStaticPaths() {
 }
 
 const { locale } = Astro.props as { locale: Locale };
-const c = (await import(`../../content/${locale}/services.json`)).default;
+const c = (await import(`../../content/${locale}/product.json`)).default;
 ---
-<Layout title={c.title} description={c.description} lang={locale} basePath="/services" alternates={alternatesFor('/services')}>
+<Layout title={c.title} description={c.description} lang={locale} basePath="/product" alternates={alternatesFor('/product')}>
   <section>
     <div class="wrap">
       <p class="eyebrow">{c.eyebrow}</p>
@@ -21,17 +21,28 @@ const c = (await import(`../../content/${locale}/services.json`)).default;
             <h3>{b.h3}</h3>
             <p>{b.p}</p>
             {b.items && <ul>{b.items.map((i) => <li>{i}</li>)}</ul>}
-            {/* The AI block points at /ai rather than repeating it — two pages
-                targeting the same terms would compete for the same ranking. */}
-            {b.link && (
-              <p style="margin:12px 0 0">
-                <a href={localePath(locale, '/ai')} class="strong" style="font-size:16px; text-decoration:underline; text-underline-offset:3px">{b.link}</a>
-              </p>
-            )}
           </div>
         ))}
       </div>
       <p class="sub" style="margin-top:34px">{c.note}</p>
+    </div>
+  </section>
+
+  <section id="ai">
+    <div class="wrap">
+      <p class="eyebrow">{c.ai.eyebrow}</p>
+      <h2>{c.ai.h2}</h2>
+      <p class="lede" style="margin-top:22px">{c.ai.lede}</p>
+      <p class="lede strong">{c.ai.strong}</p>
+      <div class="grid2">
+        {c.ai.blocks.map((b) => (
+          <div class="blk">
+            <h3>{b.h3}</h3>
+            <p>{b.p}</p>
+            <ul>{b.items.map((i) => <li>{i}</li>)}</ul>
+          </div>
+        ))}
+      </div>
     </div>
   </section>
 

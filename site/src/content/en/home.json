@@ -103,5 +103,17 @@
     "orgAfter": ".",
     "cta": "Book a strategy call",
     "meta": "hello@lucrumtech.com · Reply within 24 hours"
-  }
+  },
+  "doors": [
+    {
+      "k": "Build it.",
+      "p": "You need a product built and nobody owns whether it works.",
+      "to": "/product"
+    },
+    {
+      "k": "Fix it.",
+      "p": "Delivery has stalled, or the organisation cannot keep up.",
+      "to": "/interim"
+    }
+  ]
 }

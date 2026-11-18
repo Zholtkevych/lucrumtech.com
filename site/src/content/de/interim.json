@@ -95,5 +95,31 @@
         "body": "Wir kommen, wenn Stellen seit Monaten offen sind oder sich die Eingestellten immer wieder als die Falschen erweisen."
       }
     ]
+  },
+  "organisation": {
+    "eyebrow": "Organisation und Menschen",
+    "h2": "Kein größeres Team. Nicht mehr Prozess. Das richtige System für die nächste Stufe.",
+    "body": "Wir bauen die Organisation hinter dem Geschäft — Struktur, Führung, Menschen und Betriebsmodell. Für Unternehmen, die gerade entstehen, und für Unternehmen, die der Struktur entwachsen sind, die einmal funktioniert hat.",
+    "chain": "Geschäftsmodell → Fähigkeiten → Organisation → Führung → Team → Betriebsmodell → Launch → Skalierung",
+    "blocks": [
+      {
+        "h3": "Organisationsstrategie und -design",
+        "p": "People-Strategie, Organisationsdesign, Personalplanung, Führungsarchitektur, Performance Management, Kultur."
+      },
+      {
+        "h3": "Aufbau und Skalierung von Unternehmen",
+        "p": "Organisationsarchitektur, Teamdesign, kritische Fähigkeiten, Führungsteam, Recruiting-Strategie, Eigenleistung vs. Outsourcing, Skalierungsmodell."
+      },
+      {
+        "h3": "Transformation und Restrukturierung",
+        "p": "Organisations-Audit, Redesign, Betriebsmodell, Rollen und Verantwortlichkeiten, Führungswechsel, Team-Neuaufbau."
+      },
+      {
+        "h3": "Executive Search und Schlüsselpositionen",
+        "p": "C-Level-, VP- und Head-of-Rollen — von Suche und Assessment über Auswahl und Angebot bis zur Integration in den ersten 90 Tagen."
+      }
+    ],
+    "hiringH2": "Eine Besetzung, die im dritten Monat geht, war nie eine Besetzung.",
+    "hiringBody": "Recruiting läuft nach einem definierten Prozess — vom Briefing über das Onboarding bis zur Begleitung durch die Probezeit, im ATS nachverfolgt, mit vereinbarten Reaktionszeiten in jeder Phase. Keine Blackbox, keine Kandidatinnen und Kandidaten, die drei Wochen lang nichts hören."
   }
 }

@@ -67,6 +67,22 @@ const canonicalURL = new URL(cleanPath(Astro.url.pathname), Astro.site);
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
+  {/* Organization schema. No postal address yet — pending the decision on
+      whether the street address goes public; sameAs links the site and the
+      LinkedIn company page as one entity. */}
+  <script type="application/ld+json" is:inline set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "LucrumTech",
+    url: Astro.site?.href,
+    logo: new URL("/brand/logo-mark.svg", Astro.site).href,
+    description,
+    email: "hello@lucrumtech.com",
+    founder: { "@type": "Person", name: "Alex Zholtkevych", sameAs: "https://www.linkedin.com/in/alex-zholtkevych-5366a025/" },
+    sameAs: ["https://www.linkedin.com/company/lucrumtech-your-product-partner/"],
+    contactPoint: { "@type": "ContactPoint", contactType: "sales", email: "hello@lucrumtech.com", availableLanguage: ["en","es","de","fr"] },
+  })} />
+
   <Analytics />
 </head>
 <body>

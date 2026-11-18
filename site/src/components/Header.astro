@@ -16,11 +16,13 @@ const t = UI[locale];
 const path = cleanPath(Astro.url.pathname);
 const isOn = (route: string) => path === localePath(locale, route);
 
+// Three sellable verticals as peers — Product, Interim, and Security when its
+// page exists. Interim is no longer the trailing accent link: as one of three
+// verticals it reads as an equal, not a special case.
 const links = [
   { route: '/', label: t.nav.home },
-  { route: '/services', label: t.nav.services },
-  { route: '/ai', label: t.nav.ai },
-  { route: '/organisation', label: t.nav.organisation },
+  { route: '/product', label: t.nav.product },
+  { route: '/interim', label: t.nav.interim },
   { route: '/work', label: t.nav.work },
   { route: '/about', label: t.nav.about },
   { route: '/contact', label: t.nav.contact },
@@ -35,7 +37,6 @@ const links = [
     {links.map((l) => (
       <a href={localePath(locale, l.route)} class={isOn(l.route) ? 'on' : undefined} aria-current={isOn(l.route) ? 'page' : undefined}>{l.label}</a>
     ))}
-    <a class={`navcrisis${isOn('/interim') ? ' on' : ''}`} href={localePath(locale, '/interim')} aria-current={isOn('/interim') ? 'page' : undefined}>{t.nav.interim}</a>
 
     <div class="navlang" role="group" aria-label={t.language}>
       {LOCALES.map((l) => (

@@ -103,5 +103,17 @@
     "orgAfter": ".",
     "cta": "Strategiegespräch buchen",
     "meta": "hello@lucrumtech.com · Antwort innerhalb von 24 Stunden"
-  }
+  },
+  "doors": [
+    {
+      "k": "Bauen.",
+      "p": "Sie brauchen ein Produkt, und niemand verantwortet, ob es funktioniert.",
+      "to": "/product"
+    },
+    {
+      "k": "Reparieren.",
+      "p": "Die Umsetzung stockt, oder die Organisation kommt nicht mehr mit.",
+      "to": "/interim"
+    }
+  ]
 }

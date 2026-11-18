@@ -1,7 +1,7 @@
 {
-  "title": "Services — LucrumTech",
+  "title": "Product — LucrumTech",
   "description": "Strategy, engineering, AI and technical leadership under one accountable team — not four vendors with four contracts and nobody answering for the result.",
-  "eyebrow": "Services",
+  "eyebrow": "Product",
   "h1": "Everything it takes to own a product — under one accountable team.",
   "lede": "Strategy, engineering, AI and technical leadership. Not four vendors with four contracts and nobody answering for the result.",
   "blocks": [
@@ -26,11 +26,6 @@
       ]
     },
     {
-      "h3": "AI",
-      "p": "Automation, transformation and optimisation — built for production, not demos. We also take stalled pilots the rest of the way.",
-      "link": "How we approach AI →"
-    },
-    {
       "h3": "Technical leadership",
       "p": "Executive-level technology leadership without the full-time overhead.",
       "items": [
@@ -38,6 +33,16 @@
         "Product management and delivery ownership",
         "Architectural decisions and technical due diligence",
         "Vendor and team assessment"
+      ]
+    },
+    {
+      "h3": "Outstaffing and team extension",
+      "p": "Senior and mid-level engineers working inside your team, on your board and in your standups — with LucrumTech accountable for the work they do.",
+      "items": [
+        "Full-stack, cloud and industrial engineers",
+        "Embedded in your process, not run as a side project",
+        "Scale up or down without a new contract each time",
+        "One point of accountability for the output"
       ]
     }
   ],
@@ -69,5 +74,43 @@
     ],
     "note": "Most engagements start with a paid short review. By the end of it we'll both know whether the package is the right call.",
     "cta": "Book a strategy call"
+  },
+  "ai": {
+    "eyebrow": "AI services",
+    "h2": "A demo proves it can work. Production proves it does.",
+    "lede": "Most AI projects die between the demo and the deployment. Something impressive gets built, everyone agrees it's the future, and a year later nothing is running in the business. The technology was rarely the problem.",
+    "strong": "That gap isn't a technology problem. It's an ownership problem.",
+    "blocks": [
+      {
+        "h3": "AI automation",
+        "p": "The manual steps in a workflow: reading documents, extracting data, moving it between systems.",
+        "items": [
+          "Document parsing and data extraction at volume",
+          "Call and meeting transcription into structured records",
+          "Report generation from unstructured inputs",
+          "Routing and triage inside existing workflows"
+        ]
+      },
+      {
+        "h3": "AI transformation",
+        "p": "Changing how a process works, not just making the current version faster.",
+        "items": [
+          "Decision layers inside operational workflows",
+          "Copilots embedded where the work actually happens",
+          "Predictive analytics on operational data",
+          "Rebuilding a process around what AI makes possible"
+        ]
+      },
+      {
+        "h3": "AI optimisation",
+        "p": "Processes you already run, made measurably better.",
+        "items": [
+          "Cost and latency tuning on existing AI systems",
+          "Accuracy measurement and evaluation harnesses",
+          "Replacing brittle rules with models where it pays",
+          "Taking a stalled pilot the rest of the way"
+        ]
+      }
+    ]
   }
 }

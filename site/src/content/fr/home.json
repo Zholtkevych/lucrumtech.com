@@ -103,5 +103,17 @@
     "orgAfter": ".",
     "cta": "Réserver un appel stratégique",
     "meta": "hello@lucrumtech.com · Réponse sous 24 heures"
-  }
+  },
+  "doors": [
+    {
+      "k": "Construire.",
+      "p": "Vous avez un produit à construire et personne ne répond de son fonctionnement.",
+      "to": "/product"
+    },
+    {
+      "k": "Réparer.",
+      "p": "La livraison s’est enlisée, ou l’organisation ne suit plus.",
+      "to": "/interim"
+    }
+  ]
 }

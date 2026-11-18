@@ -95,5 +95,31 @@
         "body": "Entramos cuando hay vacantes abiertas desde hace meses o cuando las personas que se contratan resultan no ser las adecuadas."
       }
     ]
+  },
+  "organisation": {
+    "eyebrow": "Organización y personas",
+    "h2": "No un equipo más grande. No más procesos. El sistema adecuado para la siguiente etapa.",
+    "body": "Construimos la organización que sostiene el negocio: estructura, liderazgo, personas y modelo operativo. Para empresas que se están creando y para empresas que han superado la estructura que un día funcionó.",
+    "chain": "Modelo de negocio → capacidades → organización → liderazgo → equipo → modelo operativo → lanzamiento → escala",
+    "blocks": [
+      {
+        "h3": "Estrategia y diseño organizativo",
+        "p": "Estrategia de personas, diseño organizativo, planificación de plantilla, arquitectura de liderazgo, gestión del desempeño, cultura."
+      },
+      {
+        "h3": "Creación y escalado de negocio",
+        "p": "Arquitectura organizativa, diseño de equipos, capacidades críticas, equipo directivo, estrategia de contratación, interno frente a externo, modelo de escalado."
+      },
+      {
+        "h3": "Transformación y reestructuración",
+        "p": "Auditoría organizativa, rediseño, modelo operativo, roles y responsabilidades, transiciones de liderazgo, reconstrucción de equipos."
+      },
+      {
+        "h3": "Executive search y contrataciones críticas",
+        "p": "Posiciones de C-level, VP y responsables de área: desde la búsqueda y la evaluación hasta la selección, la oferta y la integración a 90 días."
+      }
+    ],
+    "hiringH2": "Una incorporación que se va en el tercer mes nunca fue una incorporación.",
+    "hiringBody": "La contratación sigue un proceso definido: desde la toma de requisitos hasta la incorporación y el seguimiento del periodo de prueba, registrado en ATS y con tiempos de respuesta acordados en cada etapa. Sin cajas negras y sin candidatos que se quedan tres semanas sin noticias."
   }
 }
