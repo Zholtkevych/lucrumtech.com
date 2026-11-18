@@ -39,7 +39,7 @@ nav{display:flex; align-items:center; gap:24px; height:64px}
 .logo{display:flex; align-items:center; gap:9px; color:#1A1D21; font-weight:600; text-decoration:none; font-size:17px; cursor:pointer}
 .mark{flex:0 0 22px; display:flex; align-items:center}
 .navlinks{display:flex; gap:20px; margin-left:auto; flex-wrap:wrap; align-items:center}
-.navlinks a{color:#4E545C; text-decoration:none; font-size:15px; cursor:pointer; padding-bottom:2px; border-bottom:1px solid transparent}
+.navlinks a{color:#4E545C; text-decoration:none; font-size:17px; cursor:pointer; padding-bottom:2px; border-bottom:1px solid transparent}
 .navlinks a:hover{color:#1A1D21}
 .navlinks a.on{color:#1A1D21; border-bottom-color:#A8322A}
 .navcrisis{margin-left:6px; padding-left:22px; border-left:1px solid #E3E3E0; color:#A8322A !important; font-weight:600}
@@ -152,16 +152,18 @@ footer{padding:40px 0; color:var(--t3); font-size:14px}
    layout breakpoint so it never spills out of the fixed-height bar. */
 @media (max-width:1120px){
   .navlinks{gap:13px}
-  .navlinks a{font-size:14px}
+  .navlinks a{font-size:15.5px}
   .navlang{margin-left:4px; padding-left:12px; gap:7px}
   .navlang a{font-size:11.5px; letter-spacing:.05em}
   .navcrisis{margin-left:2px; padding-left:12px}
 }
 
-/* Six links stop fitting on one row at 560px. Rather than let them wrap out of
-   the fixed-height bar (which clipped the first row off-screen), collapse them
-   into a panel below the header. */
-@media (max-width:640px){
+/* Seven links, four language codes and the LinkedIn mark stop fitting on one
+   row below ~860px once the links are at 17px — and in DE/ES/FR sooner than in
+   EN. Rather than let them wrap out of the fixed-height bar (which clipped the
+   first row off-screen), collapse them into a panel below the header. Measured
+   across all four locales; raise this if the links or their size grow again. */
+@media (max-width:900px){
   .navtoggle{display:flex}
   .navlinks{
     display:none; position:absolute; top:100%; left:0; right:0;

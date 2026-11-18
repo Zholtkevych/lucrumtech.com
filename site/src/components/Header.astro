@@ -59,7 +59,7 @@ const links = [
   <style>
     /* Without JS the toggle can't open the panel, so fall back to a wrapping
        nav that grows the header instead of hiding links behind a dead button. */
-    @media (max-width:640px){
+    @media (max-width:900px){
       .navtoggle{display:none !important}
       #navlinks{display:flex !important; position:static !important; flex-direction:row !important;
         flex-wrap:wrap; padding:0 0 12px !important; border:0 !important; box-shadow:none !important}
@@ -87,6 +87,6 @@ const links = [
     btn.addEventListener('click', () => setOpen(!panel.classList.contains('open')));
     panel.addEventListener('click', (e) => { if (e.target.closest('a')) setOpen(false); });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') setOpen(false); });
-    window.addEventListener('resize', () => { if (window.innerWidth > 640) setOpen(false); });
+    window.addEventListener('resize', () => { if (window.innerWidth > 900) setOpen(false); });
   })();
 </script>
