@@ -1,6 +1,6 @@
 {
   "title": "Cybersicherheit und IT-Infrastruktur — LucrumTech",
-  "description": "Unabhängige Sicherheitsbewertung, Penetrationstests, Sicherheitsframeworks und IT-Infrastruktur. Zwei Wochen Assessment zum Festpreis, mit einem priorisierten Risikobericht, der Ihnen gehört.",
+  "description": "Unabhängige Sicherheitsbewertung, Penetrationstests und Vorbereitung auf SOC 2, ISO 27001, PCI DSS und HIPAA. Zwei Wochen Assessment zum Festpreis, mit einem Risikobericht, der Ihnen gehört.",
   "eyebrow": "Sicherheit",
   "h1": "Schützen Sie Ihr Geschäft.",
   "h1Muted": "Sichern Sie Ihre Technologie.",
@@ -11,7 +11,7 @@
     "eyebrow": "Wo es anfängt",
     "h2": "Zwei Wochen Sicherheitsbewertung. Fester Umfang, fester Preis.",
     "body": "Wir prüfen Ihre Infrastruktur, testen, was ein Angreifer erreichen würde, und liefern einen priorisierten Risikobericht: was offen liegt, was es Sie kosten würde und was zuerst behoben gehört. Der Bericht gehört Ihnen — unabhängig davon, ob Sie weitermachen.",
-    "price": "7.200 USD",
+    "price": "9.000 USD",
     "priceNote": "Festpreis. Leistungen über das Assessment hinaus werden mit 90 USD pro Stunde abgerechnet.",
     "cta": "Gespräch vereinbaren"
   },
@@ -23,11 +23,23 @@
       { "h3": "Sicherheitsrichtlinien und -verfahren", "p": "Entwicklung und Einführung von Richtlinien, Standards und operativen Verfahren für Informationssicherheit." },
       { "h3": "Monitoring und Incident Response", "p": "Systeme überwachen, verdächtige Aktivität erkennen und Untersuchung und Reaktion begleiten, wenn etwas passiert." },
       { "h3": "Schutz kritischer Infrastruktur", "p": "Netzwerke, Anwendungen und zentrale Systeme absichern, während das Geschäft weiterläuft." },
-      { "h3": "Informationssicherheits-Systeme", "p": "Sicherheitsdokumentation, technische Umsetzung und Vorbereitung auf die Zertifizierung nach internationalen Standards." },
+      { "h3": "Informationssicherheits-Systeme", "p": "Sicherheitsdokumentation, technische Umsetzung und Vorbereitung auf die Zertifizierung nach SOC 2, ISO 27001, PCI DSS oder HIPAA." },
       { "h3": "Sicherheit von Softwareprodukten", "p": "Datenabfluss verhindern, Anwendungen härten und die Widerstandsfähigkeit von Systemen erhöhen." },
       { "h3": "Infrastruktur-Sicherheitsaudits", "p": "Infrastruktur bewerten, testen, regulatorische Anforderungen prüfen und einen Bericht liefern, mit dem Sie arbeiten können." },
       { "h3": "Cyber-Risikomanagement", "p": "Risiken identifizieren, bewerten und priorisieren — einschließlich der wirtschaftlichen Begründung für Sicherheitsausgaben." }
     ]
+  },
+  "standards": {
+    "eyebrow": "Standards",
+    "h2": "Die Frameworks, nach denen wir arbeiten.",
+    "body": "Kunden, Auditoren und Versicherer stellen dieselbe Frage: An welchem Standard werden Sie gemessen? Unser Team hat Sicherheitsarbeit gegen die vier geliefert, die am häufigsten verlangt werden — und bereitet eine Organisation auf das Audit vor, statt das Zertifikat selbst auszustellen.",
+    "items": [
+      { "h3": "SOC 2", "p": "Kontrolldesign und Nachweise zu den Trust Services Criteria — in der Form, in der ein Auditor sie erwartet." },
+      { "h3": "ISO/IEC 27001", "p": "Ein Managementsystem für Informationssicherheit, das trägt: Geltungsbereich, Risikobehandlung, Richtlinien und die Nachweise dahinter." },
+      { "h3": "PCI DSS", "p": "Umgebungen mit Karteninhaberdaten: Segmentierung, Kontrolllücken und was vor der Prüfung geschlossen sein muss." },
+      { "h3": "HIPAA", "p": "Schutzmaßnahmen für Gesundheitsdaten — über Systeme, Dienstleister und die Menschen hinweg, die damit umgehen." }
+    ],
+    "note": "Für Kunden in der EU bilden wir die Kontrollen zusätzlich auf die Anforderungen der DSGVO ab."
   },
   "infra": {
     "eyebrow": "IT-Infrastruktur",

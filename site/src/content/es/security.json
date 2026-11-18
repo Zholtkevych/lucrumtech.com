@@ -1,6 +1,6 @@
 {
   "title": "Ciberseguridad e infraestructura IT — LucrumTech",
-  "description": "Evaluación de seguridad independiente, pruebas de penetración, marcos de seguridad e infraestructura IT. Dos semanas de evaluación a precio cerrado, con un informe de riesgos priorizado que es tuyo.",
+  "description": "Evaluación de seguridad independiente, pruebas de penetración y preparación para SOC 2, ISO 27001, PCI DSS y HIPAA. Dos semanas de evaluación a precio cerrado, con un informe de riesgos que es tuyo.",
   "eyebrow": "Seguridad",
   "h1": "Protege tu negocio.",
   "h1Muted": "Asegura tu tecnología.",
@@ -11,7 +11,7 @@
     "eyebrow": "Por dónde empezar",
     "h2": "Dos semanas de evaluación de seguridad. Alcance cerrado, precio cerrado.",
     "body": "Evaluamos tu infraestructura, probamos hasta dónde llegaría un atacante y entregamos un informe de riesgos priorizado: qué está expuesto, cuánto te costaría y qué arreglar primero. El informe es tuyo, sigas o no con nosotros.",
-    "price": "7.200 USD",
+    "price": "9.000 USD",
     "priceNote": "Precio cerrado. El trabajo posterior a la evaluación se factura a 90 USD por hora.",
     "cta": "Reserva una llamada"
   },
@@ -23,11 +23,23 @@
       { "h3": "Políticas y procedimientos de seguridad", "p": "Desarrollo e implantación de políticas, estándares y procedimientos operativos de seguridad de la información." },
       { "h3": "Monitorización y respuesta a incidentes", "p": "Vigilar sistemas, detectar actividad sospechosa y acompañar la investigación y la respuesta cuando algo ocurre." },
       { "h3": "Protección de infraestructura crítica", "p": "Asegurar redes, aplicaciones y sistemas esenciales sin parar el negocio." },
-      { "h3": "Sistemas de seguridad de la información", "p": "Documentación de seguridad, implantación técnica y preparación para certificar contra estándares internacionales." },
+      { "h3": "Sistemas de seguridad de la información", "p": "Documentación de seguridad, implantación técnica y preparación para certificar contra SOC 2, ISO 27001, PCI DSS o HIPAA." },
       { "h3": "Seguridad del producto software", "p": "Evitar fugas de datos, endurecer aplicaciones y mejorar la resistencia de los sistemas." },
       { "h3": "Auditorías de seguridad de infraestructura", "p": "Evaluar la infraestructura, probarla, revisar requisitos regulatorios y entregar un informe accionable." },
       { "h3": "Gestión del riesgo de ciberseguridad", "p": "Identificar, evaluar y priorizar riesgos, incluida la justificación económica de lo que se invierte en seguridad." }
     ]
+  },
+  "standards": {
+    "eyebrow": "Estándares",
+    "h2": "Los marcos con los que trabajamos.",
+    "body": "Clientes, auditores y aseguradoras hacen la misma pregunta: ¿contra qué estándar se te mide? Nuestro equipo ha entregado trabajo de seguridad contra los cuatro que más se piden, y prepara a la organización para la auditoría en lugar de emitir el certificado.",
+    "items": [
+      { "h3": "SOC 2", "p": "Diseño de controles y evidencias frente a los trust services criteria, en el estado en que un auditor espera recibirlos." },
+      { "h3": "ISO/IEC 27001", "p": "Un sistema de gestión de seguridad de la información que aguanta: alcance, tratamiento del riesgo, políticas y los registros que las respaldan." },
+      { "h3": "PCI DSS", "p": "Entornos con datos de titulares de tarjeta: segmentación, brechas de control y qué hay que cerrar antes de la evaluación." },
+      { "h3": "HIPAA", "p": "Salvaguardas para la información sanitaria protegida en sistemas, proveedores y las personas que la manejan." }
+    ],
+    "note": "Para clientes en la UE, los controles se mapean también a las obligaciones del RGPD."
   },
   "infra": {
     "eyebrow": "Infraestructura IT",
