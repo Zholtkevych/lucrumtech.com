@@ -213,8 +213,8 @@ footer{padding:40px 0; color:var(--t3); font-size:14px}
 .door-p{display:block; margin-top:8px; color:#C3C8CF; font-size:15.5px; line-height:1.55}
 /* Says where the door goes. The heading is the visitor's situation, this is
    the destination — without it they click without knowing where they land. */
-.door-go{display:block; margin-top:14px; color:#E2756A; font-size:13px; font-weight:600;
-         letter-spacing:.09em; text-transform:uppercase}
+.door-go{display:block; margin-top:16px; color:#E2756A; font-size:19.5px; font-weight:600;
+         letter-spacing:.05em; text-transform:uppercase}
 .door-go::after{content:"\2192"; display:inline-block; margin-left:8px;
                 transition:transform .15s ease}
 .door:hover .door-go{color:#FFFFFF}
