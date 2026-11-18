@@ -202,3 +202,15 @@ footer{padding:40px 0; color:var(--t3); font-size:14px}
 .door-k{display:block; color:#FFFFFF; font-size:20px; font-weight:600; line-height:1.25}
 .door-p{display:block; margin-top:8px; color:#C3C8CF; font-size:15.5px; line-height:1.55}
 .door:hover .door-k{color:var(--accent)}
+
+/* Booking embed. The iframe is injected on click rather than at page load, so
+   Google sets nothing until the visitor opts in. */
+.booking{margin-top:32px; padding:28px; background:var(--s1); border:1px solid var(--line)}
+.booking h2{font-size:23px}
+.booking-frame{margin-top:22px}
+.booking-frame[hidden]{display:none}
+.booking-frame iframe{width:100%; height:620px; border:0; background:#fff}
+@media (max-width:640px){
+  .booking{padding:20px}
+  .booking-frame iframe{height:560px}
+}

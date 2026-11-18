@@ -10,6 +10,8 @@ export function getStaticPaths() {
 const { locale } = Astro.props as { locale: Locale };
 const c = (await import(`../../content/${locale}/contact.json`)).default;
 const f = UI[locale].form;
+// Resolved from the short link calendar.app.google/aWVDuTNC3HfGojWa8
+const BOOKING_EMBED = 'https://calendar.google.com/appointments/schedules/AcZssZ0-mXip_B8YENVs1zG_FLQIz_t4AMGfqgwmKLutEkEKhxnsUXQKN2kdmuAsdCiQIABh6-5858zM?gv=true';
 ---
 <Layout title={c.title} description={c.description} lang={locale} basePath="/contact" alternates={alternatesFor('/contact')}>
   <section>
@@ -20,6 +22,21 @@ const f = UI[locale].form;
           client-side, since the site is static and can't branch per request. */}
       <h1 id="c-h1" data-urgent={c.urgent.h1}>{c.h1}</h1>
       <p class="lede" style="margin-top:24px" id="c-lede" data-urgent={c.urgent.lede}>{c.lede}</p>
+      {/* Click-to-load: the Google iframe is injected only when the visitor
+          asks for it, so no Google cookies are set on page load. An
+          unconsented third-party frame would undercut the consent banner. */}
+      <div class="booking">
+        <h2>{c.booking.h2}</h2>
+        <p class="sub" style="margin-top:10px">{c.booking.note}</p>
+        <p style="margin-top:20px">
+          <button class="btn" id="book-show" type="button" data-src={BOOKING_EMBED}>{c.booking.cta}</button>
+        </p>
+        <div class="booking-frame" id="book-frame" hidden></div>
+      </div>
+
+      <h2 style="margin-top:56px">{c.booking.formH2}</h2>
+      <p class="sub" style="margin-top:10px">{c.booking.formNote}</p>
+
       <form class="form" id="contact-form" method="POST" action="/api/website/send-email" novalidate>
         <label for="f-name">{f.name}</label>
         <input id="f-name" name="name" type="text" placeholder={f.namePlaceholder} autocomplete="name" required>
@@ -53,6 +70,18 @@ const f = UI[locale].form;
     const ok = document.getElementById('f-ok') as HTMLParagraphElement;
     const MISSING = err.dataset.missing!;
     const FAILED = err.dataset.failed!;
+
+    const bookBtn = document.getElementById('book-show') as HTMLButtonElement | null;
+    bookBtn?.addEventListener('click', () => {
+      const host = document.getElementById('book-frame')!;
+      const iframe = document.createElement('iframe');
+      iframe.src = bookBtn.dataset.src!;
+      iframe.title = 'Booking';
+      iframe.loading = 'lazy';
+      host.appendChild(iframe);
+      host.hidden = false;
+      bookBtn.style.display = 'none';
+    });
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();

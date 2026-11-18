@@ -11,5 +11,12 @@
   "urgent": {
     "h1": "Sagen Sie uns, was schiefläuft.",
     "lede": "Je konkreter Sie sind, desto schneller können wir sagen, ob wir helfen können — und ob Sie uns überhaupt brauchen. Wir können innerhalb von 72 Stunden starten."
+  },
+  "booking": {
+    "h2": "Wählen Sie einen passenden Termin.",
+    "note": "Dreißig Minuten. Von Google wird nichts geladen, bevor Sie es auswählen.",
+    "cta": "Verfügbare Zeiten anzeigen",
+    "formH2": "Noch nicht so weit?",
+    "formNote": "Schreiben Sie uns stattdessen — wir antworten innerhalb von 24 Stunden."
   }
 }

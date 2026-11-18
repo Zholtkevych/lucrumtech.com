@@ -11,5 +11,12 @@
   "urgent": {
     "h1": "Dites-nous ce qui ne va pas.",
     "lede": "Plus vous serez précis, plus vite nous pourrons vous dire si nous pouvons aider — et si vous avez seulement besoin de nous. Nous pouvons démarrer sous 72 heures."
+  },
+  "booking": {
+    "h2": "Choisissez un créneau qui vous convient.",
+    "note": "Trente minutes. Rien n’est chargé depuis Google tant que vous ne l’avez pas demandé.",
+    "cta": "Voir les créneaux disponibles",
+    "formH2": "Pas encore prêt à réserver ?",
+    "formNote": "Écrivez-nous plutôt, nous répondons sous 24 heures."
   }
 }
