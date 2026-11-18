@@ -196,15 +196,28 @@ footer{padding:40px 0; color:var(--t3); font-size:14px}
 /* Three-door block: a visitor picks their own situation in a couple of seconds.
    Sits where the single interim panel used to, so the hero grid is unchanged. */
 .doors{display:flex; flex-direction:column; gap:14px}
-.door{display:block; background:var(--crisis-bg); border:1px solid var(--crisis-line);
-      padding:22px 24px; text-decoration:none; transition:border-color .15s ease}
-.door:hover{border-color:var(--accent)}
+/* These are links, and they have to look like it. On the light homepage
+   --crisis-line resolves to the same value as --crisis-bg, so the border was
+   invisible and the only affordance was the cursor. A visible edge, a chevron
+   that moves, and a lift on hover make them read as something to click. */
+.door{display:block; background:var(--crisis-bg); border:1px solid #4A515C;
+      padding:22px 24px; text-decoration:none;
+      transition:border-color .15s ease, background-color .15s ease, transform .15s ease}
+.door:hover{border-color:var(--accent); background:#363B44; transform:translateY(-2px)}
+.door:focus-visible{outline:2px solid var(--accent); outline-offset:3px}
 /* Brand red, dark-surface variant — the same #E2756A the crisis panel used.
    The literal accent (#A8322A) only reaches 2.0:1 on this background; this
    reaches 4.5:1. Hover goes to white so there is still a state change. */
 .door-k{display:block; color:#E2756A; font-size:20px; font-weight:600; line-height:1.25}
+.door-k::after{content:"\2192"; display:inline-block; margin-left:9px; transition:transform .15s ease}
+.door:hover .door-k::after{transform:translateX(5px)}
 .door-p{display:block; margin-top:8px; color:#C3C8CF; font-size:15.5px; line-height:1.55}
 .door:hover .door-k{color:#FFFFFF}
+@media (prefers-reduced-motion:reduce){
+  .door,.door-k::after{transition:none}
+  .door:hover{transform:none}
+  .door:hover .door-k::after{transform:none}
+}
 
 /* Booking embed. The iframe is injected on click rather than at page load, so
    Google sets nothing until the visitor opts in. */
