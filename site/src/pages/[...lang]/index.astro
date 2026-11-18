@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import { localeParams, alternatesFor, localePath, type Locale } from '../../i18n/config';
 import { PROFILES } from '../../lib/profiles';
+import { UI } from '../../i18n/ui';
 
 export function getStaticPaths() {
   return localeParams();
@@ -10,6 +11,15 @@ export function getStaticPaths() {
 const { locale } = Astro.props as { locale: Locale };
 const c = (await import(`../../content/${locale}/home.json`)).default;
 const to = (p: string) => localePath(locale, p);
+
+// Each door goes to one of the three vertical pages. Showing where it lands
+// reuses the nav labels, which are already translated — no new copy.
+const t = UI[locale];
+const DEST: Record<string, string> = {
+  '/product': t.nav.product,
+  '/interim': t.nav.interim,
+  '/security': t.nav.security,
+};
 ---
 <Layout title={c.title} description={c.description} lang={locale} basePath="/" alternates={alternatesFor('/')}>
   <div class="wrap"><div class="split">
@@ -30,6 +40,7 @@ const to = (p: string) => localePath(locale, p);
         <a class="door" href={to(d.to)}>
           <span class="door-k">{d.k}</span>
           <span class="door-p">{d.p}</span>
+          <span class="door-go">{DEST[d.to] ?? d.to}</span>
         </a>
       ))}
     </aside>
