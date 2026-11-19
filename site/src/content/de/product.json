@@ -1,6 +1,6 @@
 {
   "title": "Produkt — LucrumTech",
-  "description": "Strategie, Engineering, KI und technische Führung in einem verantwortlichen Team — nicht vier Dienstleister mit vier Verträgen und niemandem, der für das Ergebnis geradesteht.",
+  "description": "Strategie, Engineering, KI und technische Führung in einem verantwortlichen Team — nicht vier Dienstleister und niemand, der für das Ergebnis geradesteht.",
   "eyebrow": "Produkt",
   "h1": "Alles, was es braucht, um ein Produkt zu verantworten — in einem Team.",
   "lede": "Strategie, Engineering, KI und technische Führung. Nicht vier Dienstleister mit vier Verträgen und niemandem, der für das Ergebnis geradesteht.",
@@ -36,8 +36,8 @@
       ]
     },
     {
-      "h3": "Outstaffing und Team-Erweiterung",
-      "p": "Senior- und Mid-Level-Engineers, die in Ihrem Team arbeiten, auf Ihrem Board und in Ihren Standups — mit LucrumTech in der Verantwortung für das, was sie liefern.",
+      "h3": "Team-Erweiterung",
+      "p": "Senior- und Mid-Level-Engineers, die in Ihrem Team arbeiten, auf Ihrem Board und in Ihren Standups — mit LucrumTech in der Verantwortung für das, was sie liefern — nicht nur für die Bereitstellung der Personen.",
       "items": [
         "Full-Stack-, Cloud- und Industrie-Engineers",
         "Eingebunden in Ihren Prozess, nicht als Nebenprojekt geführt",
@@ -49,7 +49,7 @@
   "note": "Größte Erfahrung: Fertigung und Industrieautomatisierung, Versicherung und FinTech, HealthTech. Ebenfalls ausgeliefert in SaaS, AdTech, Telekommunikation, IoT und Embedded Systems.",
   "pricing": {
     "eyebrow": "Unser Abrechnungsmodell",
-    "h2": "Zwei Arten der Zusammenarbeit. Wir sagen Ihnen, welche Sie brauchen.",
+    "h2": "Zwei Arten der Zusammenarbeit — und ein Einstieg.",
     "blocks": [
       {
         "h3": "Leadership-Beratung",

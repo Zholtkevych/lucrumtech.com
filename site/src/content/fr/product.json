@@ -1,6 +1,6 @@
 {
   "title": "Produit — LucrumTech",
-  "description": "Stratégie, ingénierie, IA et direction technique au sein d’une seule équipe responsable — pas quatre prestataires, quatre contrats et personne qui réponde du résultat.",
+  "description": "Stratégie, ingénierie, IA et direction technique dans une seule équipe responsable — pas quatre prestataires et personne qui réponde du résultat.",
   "eyebrow": "Produit",
   "h1": "Tout ce qu’il faut pour assumer un produit — dans une seule équipe responsable.",
   "lede": "Stratégie, ingénierie, IA et direction technique. Pas quatre prestataires avec quatre contrats et personne qui réponde du résultat.",
@@ -36,8 +36,8 @@
       ]
     },
     {
-      "h3": "Outstaffing et extension d’équipe",
-      "p": "Des ingénieurs seniors et confirmés qui travaillent dans votre équipe, sur votre board et dans vos stand-ups — LucrumTech répondant du travail qu’ils produisent.",
+      "h3": "Extension d’équipe",
+      "p": "Des ingénieurs seniors et confirmés qui travaillent dans votre équipe, sur votre board et dans vos stand-ups — LucrumTech répondant du travail qu’ils produisent, et pas seulement de la mise à disposition des personnes.",
       "items": [
         "Ingénieurs full-stack, cloud et industriels",
         "Intégrés à votre processus, pas gérés comme un projet à part",
@@ -49,7 +49,7 @@
   "note": "Expérience la plus poussée : industrie et automatisation industrielle, assurance et FinTech, HealthTech. Également livré en SaaS, AdTech, télécoms, IoT et systèmes embarqués.",
   "pricing": {
     "eyebrow": "Notre facturation",
-    "h2": "Deux façons de travailler. Nous vous dirons celle qu’il vous faut.",
+    "h2": "Deux façons de travailler — et une façon de commencer.",
     "blocks": [
       {
         "h3": "Conseil de direction",

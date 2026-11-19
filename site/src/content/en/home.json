@@ -23,7 +23,7 @@
     ],
     "subBefore": "Founded by ",
     "subName": "Alex Zholtkevych",
-    "subAfter": " — 25+ years across Big Tech, Telecom, AdTech, FinTech, insurance, HealthTech and industrial systems. BSc Applied Mathematics, MSc Computer Science. 30+ products shipped."
+    "subAfter": " — 25+ years across Big Tech, Telecom, AdTech, FinTech, Insurance, HealthTech and industrial systems. BSc Applied Mathematics, MSc Computer Science. 30+ products shipped."
   },
   "panel": {
     "q": "Broken, stuck, or going enterprise?",
@@ -55,7 +55,7 @@
         "body": "Senior engineers, shipping. One person accountable throughout."
       }
     ],
-    "note": "Two ways to work: leadership advisory billed hourly, or a fixed-price package covering audit, strategy and execution over three to six months — delivery team included. We'll tell you which one your situation needs."
+    "note": "Most engagements start with a two-week teardown at a fixed fee. After it, two ways to work: leadership advisory billed hourly, or a fixed-price package covering audit, strategy and execution over three to six months — delivery team included. We'll tell you which one your situation needs."
   },
   "proof": {
     "eyebrow": "Proof",
@@ -96,7 +96,7 @@
   },
   "own": {
     "eyebrow": "We own it",
-    "h2": "The product you need built. The delivery that stalled. The organisation that can't keep up.",
+    "h2": "The product you need built. The delivery that stalled. The organisation that can't keep up. The system nobody has tried to break.",
     "lede": "Same answer every time: one accountable team, in the room, until it works.",
     "orgBefore": "If the organisation itself is the constraint — structure, leadership, ownership — that's ",
     "orgLink": "the other half of what we do",

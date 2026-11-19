@@ -1,5 +1,5 @@
 {
-  "title": "Referenzen: KI, Industrieautomatisierung, Enterprise-Systeme — LucrumTech",
+  "title": "Referenzen: KI, Automatisierung, Enterprise — LucrumTech",
   "description": "Sechs ausgelieferte Produkte, jedes von uns betreut — KI-Plattformen, Industrieautomatisierung, Enterprise-Systeme und digitale Produkte.",
   "eyebrow": "Referenzen",
   "h1": "Sechs ausgelieferte Produkte. Wir betreuen jedes davon.",
@@ -8,6 +8,7 @@
     "problem": "Das Problem",
     "owned": "Was wir verantwortet haben",
     "changed": "Was sich geändert hat",
+    "alsoShipped": "Außerdem ausgeliefert",
     "whatItIs": "Worum es geht"
   },
   "items": [

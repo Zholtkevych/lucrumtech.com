@@ -1,12 +1,16 @@
 ---
 import privacy from '../data/privacy.json';
+import { localePath } from '../i18n/config';
 
 interface Props {
   lang?: 'en' | 'es' | 'de' | 'fr';
 }
 const { lang = 'en' } = Astro.props;
 const c = privacy[lang].consent;
-const policyHref = lang === 'en' ? '/privacy' : `/privacy/${lang}`;
+// /privacy/<lang> is the pre-restructure scheme and now 301s. Build the
+// canonical URL the rest of the site uses, so the banner's policy link —
+// the one link here that has to work — does not take a redirect hop.
+const policyHref = localePath(lang, '/privacy');
 ---
 <div class="cc" id="cc" hidden>
   <div class="cc-box" role="dialog" aria-modal="false" aria-labelledby="cc-title">

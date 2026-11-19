@@ -77,7 +77,7 @@ const DEST: Record<string, string> = {
           <div class="case"><span class="tag">{k.tag}</span><h3>{k.name}</h3><p>{k.body}</p></div>
         ))}
       </div>
-      <p class="sub" style="margin-top:24px">{c.proof.aiLine}<a href={to('/ai')} class="strong" style="text-decoration:underline; text-underline-offset:3px">{c.proof.aiLink}</a></p>
+      <p class="sub" style="margin-top:24px">{c.proof.aiLine}<a href={`${to('/product')}#ai`} class="strong" style="text-decoration:underline; text-underline-offset:3px">{c.proof.aiLink}</a></p>
       <p style="margin-top:20px"><a class="btn btn-quiet" href={to('/work')}>{c.proof.cta}</a></p>
     </div>
   </section>
@@ -100,7 +100,7 @@ const DEST: Record<string, string> = {
       <p class="eyebrow">{c.own.eyebrow}</p>
       <h2>{c.own.h2}</h2>
       <p class="lede" style="margin-top:22px">{c.own.lede}</p>
-      <p class="lede">{c.own.orgBefore}<a href={to('/organisation')} class="strong" style="cursor:pointer; text-decoration:underline; text-underline-offset:3px">{c.own.orgLink}</a>{c.own.orgAfter}</p>
+      <p class="lede">{c.own.orgBefore}<a href={`${to('/interim')}#organisation`} class="strong" style="cursor:pointer; text-decoration:underline; text-underline-offset:3px">{c.own.orgLink}</a>{c.own.orgAfter}</p>
       <div class="btnrow"><a class="btn" href={to('/contact')}>{c.own.cta}</a></div>
       <p class="meta">{c.own.meta}</p>
     </div>

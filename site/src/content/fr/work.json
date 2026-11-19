@@ -1,5 +1,5 @@
 {
-  "title": "Études de cas : IA, automatisation industrielle, systèmes d’entreprise — LucrumTech",
+  "title": "Études de cas : IA, automatisation, enterprise — LucrumTech",
   "description": "Six produits livrés et maintenus par nos soins — plateformes d’IA, automatisation industrielle, systèmes d’entreprise et produits numériques.",
   "eyebrow": "Réalisations",
   "h1": "Six produits livrés. Nous assurons le support de chacun.",
@@ -8,6 +8,7 @@
     "problem": "Le problème",
     "owned": "Ce que nous avons assumé",
     "changed": "Ce qui a changé",
+    "alsoShipped": "Également livrés",
     "whatItIs": "De quoi il s’agit"
   },
   "items": [

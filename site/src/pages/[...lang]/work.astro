@@ -16,17 +16,37 @@ const c = (await import(`../../content/${locale}/work.json`)).default;
       <h1>{c.h1}</h1>
       <p class="lede" style="margin-top:22px">{c.lede}</p>
 
-      {c.items.map((it) => (
+      {c.items.filter((it) => it.problem).map((it) => (
         <div class="workitem">
           <span class="tag">{it.tag}</span><h3>{it.name}</h3>
-          {it.problem && <div class="row"><b>{c.labels.problem}</b><p>{it.problem}</p></div>}
-          {it.owned && <div class="row"><b>{c.labels.owned}</b><p>{it.owned}</p></div>}
-          {it.changed && <div class="row"><b>{c.labels.changed}</b><p>{it.changed}</p></div>}
-          {it.whatItIs && <div class="row"><b>{c.labels.whatItIs}</b><p>{it.whatItIs}</p></div>}
+          <div class="row"><b>{c.labels.problem}</b><p>{it.problem}</p></div>
+          <div class="row"><b>{c.labels.owned}</b><p>{it.owned}</p></div>
+          <div class="row"><b>{c.labels.changed}</b><p>{it.changed}</p></div>
         </div>
       ))}
+
+      {/* Two of the six are stated in a line rather than worked through. Shown
+          as their own short group, so they read as deliberately brief instead
+          of as case studies missing two thirds of their content. */}
+      <h2 class="alsoshipped">{c.labels.alsoShipped}</h2>
+      <div class="shortlist">
+        {c.items.filter((it) => !it.problem).map((it) => (
+          <div class="shortitem">
+            <span class="tag">{it.tag}</span><h3>{it.name}</h3>
+            <p>{it.whatItIs}</p>
+          </div>
+        ))}
+      </div>
 
       <div class="btnrow"><a class="btn" href={localePath(locale, '/contact')}>{c.cta}</a></div>
     </div>
   </section>
 </Layout>
+
+<style>
+  .alsoshipped{margin-top:56px; padding-top:34px; border-top:1px solid var(--line);
+               font-size:clamp(21px,2.4vw,26px)}
+  .shortlist{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:28px; margin-top:26px}
+  .shortitem h3{margin:6px 0 8px}
+  .shortitem p{font-size:16px; margin:0}
+</style>

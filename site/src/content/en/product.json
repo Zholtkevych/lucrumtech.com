@@ -36,8 +36,8 @@
       ]
     },
     {
-      "h3": "Outstaffing and team extension",
-      "p": "Senior and mid-level engineers working inside your team, on your board and in your standups — with LucrumTech accountable for the work they do.",
+      "h3": "Team extension",
+      "p": "Senior and mid-level engineers working inside your team, on your board and in your standups — with LucrumTech accountable for the work they do, not just for supplying the people.",
       "items": [
         "Full-stack, cloud and industrial engineers",
         "Embedded in your process, not run as a side project",
@@ -49,7 +49,7 @@
   "note": "Deepest experience: manufacturing and industrial automation, insurance and FinTech, HealthTech. Also shipped in SaaS, AdTech, Telecom, IoT and embedded systems.",
   "pricing": {
     "eyebrow": "How we charge",
-    "h2": "Two ways to work. We'll tell you which one you need.",
+    "h2": "Two ways to work — and one way to start.",
     "blocks": [
       {
         "h3": "Leadership advisory",

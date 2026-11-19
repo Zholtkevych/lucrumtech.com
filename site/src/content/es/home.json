@@ -1,5 +1,5 @@
 {
-  "title": "LucrumTech — Equipos de producto que responden por el resultado",
+  "title": "LucrumTech — Equipos que responden por el resultado",
   "description": "Estrategia, arquitectura e ingeniería sénior en un único equipo responsable. Seis productos en IA, automatización industrial y sistemas empresariales.",
   "hero": {
     "kicker": "Propiedad del producto como servicio",
@@ -55,7 +55,7 @@
         "body": "Ingenieros sénior entregando. Una persona responsable de principio a fin."
       }
     ],
-    "note": "Dos formas de trabajar: asesoría de liderazgo facturada por horas, o un paquete a precio cerrado que cubre auditoría, estrategia y ejecución durante tres a seis meses, con el equipo de entrega incluido. Te diremos cuál necesita tu situación."
+    "note": "La mayoría de los proyectos empiezan con una revisión de dos semanas a precio cerrado. Después, dos formas de trabajar: asesoría de liderazgo facturada por horas, o un paquete a precio cerrado que cubre auditoría, estrategia y ejecución durante tres a seis meses, con el equipo de entrega incluido. Te diremos cuál necesita tu situación."
   },
   "proof": {
     "eyebrow": "Pruebas",
@@ -96,7 +96,7 @@
   },
   "own": {
     "eyebrow": "Asumimos la responsabilidad",
-    "h2": "El producto que necesitas construir. La entrega que se ha parado. La organización que no da abasto.",
+    "h2": "El producto que necesitas construir. La entrega que se ha parado. La organización que no da abasto. El sistema que nadie ha intentado romper.",
     "lede": "La misma respuesta siempre: un equipo responsable, presente, hasta que funcione.",
     "orgBefore": "Si la propia organización es la limitación — estructura, liderazgo, responsabilidad — esa es ",
     "orgLink": "la otra mitad de lo que hacemos",
