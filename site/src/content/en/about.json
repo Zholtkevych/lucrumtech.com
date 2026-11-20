@@ -7,10 +7,9 @@
   "lede": "LucrumTech is a product company that takes ownership. Lucrum is Latin — profit, gain. Every decision we make should show up in yours.",
   "people": [
     {
-      "name": "Alex Zholtkevych",
-      "role": "— product, delivery, engineering, operations",
+      "role": "",
       "bio": "25+ years across Big Tech, Telecom, AdTech, FinTech, Insurance, HealthTech and industrial systems. BSc Applied Mathematics, MSc Computer Science. 30+ products shipped.",
-      "linkedin": "alex"
+      "heading": "Product, delivery, engineering and operations"
     },
     {
       "role": "",

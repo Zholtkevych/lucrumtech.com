@@ -78,10 +78,9 @@
     "h2": "Product ownership isn't a company. It's a person.",
     "people": [
       {
-        "name": "Alex Zholtkevych",
-        "role": "— product, delivery, engineering, operations",
+        "role": "",
         "bio": "25+ years across Big Tech, Telecom, AdTech, FinTech, Insurance, HealthTech and industrial systems. BSc Applied Mathematics, MSc Computer Science. 30+ products shipped, from architecture through delivery.",
-        "linkedin": "alex"
+        "heading": "Product, delivery, engineering and operations"
       },
       {
         "role": "",
