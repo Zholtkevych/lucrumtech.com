@@ -11,8 +11,7 @@
     "eyebrow": "Par où commencer",
     "h2": "Deux semaines d’évaluation de sécurité. Périmètre fixe, forfait fixe.",
     "body": "Nous évaluons votre infrastructure, testons jusqu’où irait un attaquant et livrons un rapport de risques priorisé : ce qui est exposé, ce que cela vous coûterait et ce qu’il faut corriger en premier. Le rapport vous appartient, que vous poursuiviez ou non.",
-    "price": "9 000 USD",
-    "priceNote": "Forfait. Les travaux au-delà de l’évaluation sont facturés 90 USD de l’heure.",
+    "priceNote": "Forfait pour l’évaluation. Les travaux au-delà font l’objet d’un devis distinct.",
     "cta": "Réserver un appel"
   },
   "infosec": {

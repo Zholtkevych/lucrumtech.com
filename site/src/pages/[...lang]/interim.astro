@@ -50,7 +50,7 @@ const contact = localePath(locale, '/contact') + '?from=interim';
     <div class="wrap">
       <p class="eyebrow">{c.how.eyebrow}</p>
       <h2>{c.how.h2}</h2>
-      <p class="how-price">{c.how.price}</p>
+      {c.how.price && <p class="how-price">{c.how.price}</p>}
       <p class="sub">{c.how.priceNote}</p>
       <div class="ladder">
         {c.how.steps.map((s) => (

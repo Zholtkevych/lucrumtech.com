@@ -59,7 +59,7 @@
           "Décisions produit et feuille de route",
           "Évaluation de prestataires ou d’équipes"
         ],
-        "rate": "Facturé à l’heure, de 25 à 150 USD selon le profil. Sans engagement ni minimum."
+        "rate": "Facturé à l’heure. Sans engagement ni minimum."
       },
       {
         "h3": "Forfait — trois à six mois",
@@ -70,18 +70,12 @@
           "Exécution — construire, restructurer, recruter",
           "Notre équipe de delivery comprise dans le prix",
           "Une seule équipe responsable du début à la fin"
-        ],
-        "tiers": [
-          { "name": "Ciblé", "price": "22 000–25 000 USD / mois" },
-          { "name": "Standard", "price": "32 000–35 000 USD / mois" },
-          { "name": "Complet", "price": "45 000–50 000 USD / mois" }
         ]
       }
     ],
     "start": {
       "h3": "Vous ne savez pas par où commencer ?",
       "p": "Commencez par une analyse de deux semaines : une évaluation écrite de ce que nous ferions, de ce que cela demande et de ce que cela coûte. Si cela ne vaut pas la peine d’être construit, nous le disons.",
-      "price": "9 000 USD",
       "priceNote": "Forfait. L’évaluation vous appartient dans tous les cas."
     },
     "note": "La plupart des missions commencent là. À l’issue des deux semaines, nous saurons tous les deux si le forfait est le bon choix.",

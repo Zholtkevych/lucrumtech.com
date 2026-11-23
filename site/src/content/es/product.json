@@ -59,7 +59,7 @@
           "Decisiones de producto y hoja de ruta",
           "Evaluación de proveedores o equipos"
         ],
-        "rate": "Facturado por horas, entre 25 y 150 USD la hora según el perfil. Sin compromiso ni mínimo."
+        "rate": "Facturado por horas. Sin compromiso ni mínimo."
       },
       {
         "h3": "Paquete — de tres a seis meses",
@@ -70,18 +70,12 @@
           "Ejecución: construir, reestructurar, contratar",
           "Nuestro equipo de entrega incluido en el precio",
           "Un único equipo responsable de principio a fin"
-        ],
-        "tiers": [
-          { "name": "Enfocado", "price": "22.000–25.000 USD / mes" },
-          { "name": "Estándar", "price": "32.000–35.000 USD / mes" },
-          { "name": "Completo", "price": "45.000–50.000 USD / mes" }
         ]
       }
     ],
     "start": {
       "h3": "¿No sabes por dónde empezar?",
       "p": "Empieza con una revisión de dos semanas: una evaluación escrita de qué haríamos, qué hace falta y cuánto cuesta. Si no merece la pena construirlo, te lo decimos.",
-      "price": "9.000 USD",
       "priceNote": "Precio cerrado. La evaluación es tuya en cualquier caso."
     },
     "note": "La mayoría de los proyectos empiezan ahí. Al terminar las dos semanas, ambos sabremos si el paquete es la opción adecuada.",

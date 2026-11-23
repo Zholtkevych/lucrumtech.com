@@ -26,7 +26,7 @@ const contact = localePath(locale, '/contact');
       <p class="eyebrow">{c.offer.eyebrow}</p>
       <h2>{c.offer.h2}</h2>
       <p class="lede" style="margin-top:22px">{c.offer.body}</p>
-      <p class="offer-price">{c.offer.price}</p>
+      {c.offer.price && <p class="offer-price">{c.offer.price}</p>}
       <p class="sub">{c.offer.priceNote}</p>
       <div class="btnrow"><a class="btn" href={contact}>{c.offer.cta}</a></div>
     </div>

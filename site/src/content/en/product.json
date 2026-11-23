@@ -59,7 +59,7 @@
           "Product and roadmap decisions",
           "Vendor or team assessment"
         ],
-        "rate": "Billed hourly, from USD 25 to USD 150 per hour depending on the role. No commitment, no minimum."
+        "rate": "Billed hourly. No commitment, no minimum."
       },
       {
         "h3": "Package — three to six months",
@@ -70,18 +70,12 @@
           "Execution — build, restructure, hire",
           "Our delivery team included in the price",
           "One accountable team throughout"
-        ],
-        "tiers": [
-          { "name": "Focused", "price": "USD 22,000–25,000 / month" },
-          { "name": "Standard", "price": "USD 32,000–35,000 / month" },
-          { "name": "Full", "price": "USD 45,000–50,000 / month" }
         ]
       }
     ],
     "start": {
       "h3": "Not sure where to begin?",
       "p": "Start with a two-week teardown — a written assessment of what we would do, what it takes and what it costs. If it isn't worth building, we say so.",
-      "price": "USD 9,000",
       "priceNote": "Fixed fee. The assessment is yours either way."
     },
     "note": "Most engagements start there. By the end of the two weeks we'll both know whether the package is the right call.",

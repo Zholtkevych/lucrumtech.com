@@ -11,8 +11,7 @@
     "eyebrow": "Where to start",
     "h2": "A two-week security assessment. Fixed scope, fixed fee.",
     "body": "We assess your infrastructure, test what an attacker would reach, and give you a prioritised risk report — what is exposed, what it would cost you, and what to fix first. The report is yours whether or not you continue with us.",
-    "price": "USD 9,000",
-    "priceNote": "Fixed fee. Engagements beyond the assessment are billed at USD 90 per hour.",
+    "priceNote": "Fixed fee for the assessment. Work beyond it is quoted separately.",
     "cta": "Book a call"
   },
   "infosec": {
