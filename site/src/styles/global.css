@@ -194,7 +194,7 @@ footer{padding:40px 0; color:var(--t3); font-size:14px}
 /* Answers the question the kicker raises — "ownership" reads two ways, and a
    founder hears the wrong one first. Stated before the CTA, not six scrolls
    down. */
-.hero-own{margin-top:18px; max-width:52ch; font-size:17.5px}
+.hero-own{margin-top:20px; font-size:20px; letter-spacing:-0.01em}
 
 .profile-link{color:inherit; text-decoration:underline; text-underline-offset:3px;
               text-decoration-thickness:1px; text-decoration-color:var(--line)}
