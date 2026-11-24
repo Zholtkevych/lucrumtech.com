@@ -18,7 +18,7 @@ export const UI: Record<Locale, {
     nav: { home: 'Home', product: 'Product', interim: 'Interim', security: 'Security', work: 'Work', about: 'About', contact: 'Contact' },
     menu: 'Menu',
     language: 'Language',
-    footer: { copyright: '© 2026 LucrumTech', tagline: 'Product ownership. From idea to revenue.', contactLabel: 'Reply within 24 hours', privacy: 'Privacy' },
+    footer: { copyright: '© 2026 LucrumTech', tagline: 'Your product. Our responsibility.', contactLabel: 'Reply within 24 hours', privacy: 'Privacy' },
     form: {
       name: 'Name', email: 'Email', message: 'Message',
       namePlaceholder: 'Your name', emailPlaceholder: 'you@company.com',
@@ -33,7 +33,7 @@ export const UI: Record<Locale, {
     nav: { home: 'Inicio', product: 'Producto', interim: 'Interim', security: 'Seguridad', work: 'Proyectos', about: 'Acerca de', contact: 'Contacto' },
     menu: 'Menú',
     language: 'Idioma',
-    footer: { copyright: '© 2026 LucrumTech', tagline: 'Responsabilidad de producto. De la idea a los ingresos.', contactLabel: 'Respuesta en menos de 24 horas', privacy: 'Privacidad' },
+    footer: { copyright: '© 2026 LucrumTech', tagline: 'Tu producto. Nuestra responsabilidad.', contactLabel: 'Respuesta en menos de 24 horas', privacy: 'Privacidad' },
     form: {
       name: 'Nombre', email: 'Correo electrónico', message: 'Mensaje',
       namePlaceholder: 'Tu nombre', emailPlaceholder: 'tu@empresa.com',
@@ -48,7 +48,7 @@ export const UI: Record<Locale, {
     nav: { home: 'Start', product: 'Produkt', interim: 'Interim', security: 'Sicherheit', work: 'Referenzen', about: 'Über uns', contact: 'Kontakt' },
     menu: 'Menü',
     language: 'Sprache',
-    footer: { copyright: '© 2026 LucrumTech', tagline: 'Product Ownership. Von der Idee zum Umsatz.', contactLabel: 'Antwort innerhalb von 24 Stunden', privacy: 'Datenschutz' },
+    footer: { copyright: '© 2026 LucrumTech', tagline: 'Ihr Produkt. Unsere Verantwortung.', contactLabel: 'Antwort innerhalb von 24 Stunden', privacy: 'Datenschutz' },
     form: {
       name: 'Name', email: 'E-Mail', message: 'Nachricht',
       namePlaceholder: 'Ihr Name', emailPlaceholder: 'sie@unternehmen.com',
@@ -63,7 +63,7 @@ export const UI: Record<Locale, {
     nav: { home: 'Accueil', product: 'Produit', interim: 'Transition', security: 'Sécurité', work: 'Réalisations', about: 'À propos', contact: 'Contact' },
     menu: 'Menu',
     language: 'Langue',
-    footer: { copyright: '© 2026 LucrumTech', tagline: 'La responsabilité produit. De l’idée au chiffre d’affaires.', contactLabel: 'Réponse sous 24 heures', privacy: 'Confidentialité' },
+    footer: { copyright: '© 2026 LucrumTech', tagline: 'Votre produit. Notre responsabilité.', contactLabel: 'Réponse sous 24 heures', privacy: 'Confidentialité' },
     form: {
       name: 'Nom', email: 'E-mail', message: 'Message',
       namePlaceholder: 'Votre nom', emailPlaceholder: 'vous@entreprise.com',
