@@ -2,10 +2,11 @@
   "title": "LucrumTech — Equipos que responden por el resultado",
   "description": "Estrategia, arquitectura e ingeniería sénior en un único equipo responsable. Seis productos en IA, automatización industrial y sistemas empresariales.",
   "hero": {
-    "kicker": "Propiedad del producto como servicio",
+    "kicker": "Responsabilidad de producto como servicio",
     "h1": "Equipos de producto que responden por el resultado.",
     "h1Muted": "No otro proveedor que entrega código.",
     "lede": "LucrumTech lleva un producto de la idea a los ingresos: estrategia, arquitectura, ingeniería y una persona que responde por que funcione.",
+    "ownership": "El producto, el código y cada documento son tuyos. Nosotros respondemos por el resultado.",
     "cta": "Reserva una llamada estratégica",
     "stats": [
       {
@@ -33,7 +34,7 @@
     "eyebrow": "El problema",
     "h2": "La mayoría de los proyectos tecnológicos no fracasan por la idea.",
     "body": "Los proveedores de outsourcing entregan código. Nadie responde por que el producto funcione, por que la arquitectura aguante la escala ni por que alguien lo quiera. Acabas gestionando al proveedor en lugar de construir el negocio.",
-    "strong": "La propiedad del producto es el rol que falta. Ese es el rol que asumimos."
+    "strong": "La responsabilidad sobre el producto es el rol que falta. Ese es el rol que asumimos."
   },
   "how": {
     "eyebrow": "Cómo funciona",
@@ -75,7 +76,7 @@
   },
   "team": {
     "eyebrow": "Con quién trabajas",
-    "h2": "La propiedad del producto no es una empresa. Es una persona.",
+    "h2": "La responsabilidad sobre el producto no es una empresa. Es una persona.",
     "people": [
       {
         "role": "",

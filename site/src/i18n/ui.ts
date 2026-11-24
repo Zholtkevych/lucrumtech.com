@@ -33,7 +33,7 @@ export const UI: Record<Locale, {
     nav: { home: 'Inicio', product: 'Producto', interim: 'Interim', security: 'Seguridad', work: 'Proyectos', about: 'Acerca de', contact: 'Contacto' },
     menu: 'Menú',
     language: 'Idioma',
-    footer: { copyright: '© 2026 LucrumTech', tagline: 'Propiedad del producto. De la idea a los ingresos.', contactLabel: 'Respuesta en menos de 24 horas', privacy: 'Privacidad' },
+    footer: { copyright: '© 2026 LucrumTech', tagline: 'Responsabilidad de producto. De la idea a los ingresos.', contactLabel: 'Respuesta en menos de 24 horas', privacy: 'Privacidad' },
     form: {
       name: 'Nombre', email: 'Correo electrónico', message: 'Mensaje',
       namePlaceholder: 'Tu nombre', emailPlaceholder: 'tu@empresa.com',
@@ -63,7 +63,7 @@ export const UI: Record<Locale, {
     nav: { home: 'Accueil', product: 'Produit', interim: 'Transition', security: 'Sécurité', work: 'Réalisations', about: 'À propos', contact: 'Contact' },
     menu: 'Menu',
     language: 'Langue',
-    footer: { copyright: '© 2026 LucrumTech', tagline: 'La propriété du produit. De l’idée au chiffre d’affaires.', contactLabel: 'Réponse sous 24 heures', privacy: 'Confidentialité' },
+    footer: { copyright: '© 2026 LucrumTech', tagline: 'La responsabilité produit. De l’idée au chiffre d’affaires.', contactLabel: 'Réponse sous 24 heures', privacy: 'Confidentialité' },
     form: {
       name: 'Nom', email: 'E-mail', message: 'Message',
       namePlaceholder: 'Votre nom', emailPlaceholder: 'vous@entreprise.com',
